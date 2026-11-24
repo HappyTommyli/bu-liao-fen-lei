@@ -1,0 +1,78 @@
+{
+  "cera_by_mean_overlap_a_nonoverlap_s42_f1": [
+    {
+      "probability": 0.95,
+      "consecutive": 2,
+      "stable_seconds": 2.7,
+      "correct": 133,
+      "wrong": 0,
+      "unconfirmed": 21,
+      "median_from_crop": 5.406000000000001
+    },
+    {
+      "probability": 0.95,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 112,
+      "wrong": 1,
+      "unconfirmed": 41,
+      "median_from_crop": 8.110000000000001
+    },
+    {
+      "probability": 0.98,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 105,
+      "wrong": 1,
+      "unconfirmed": 48,
+      "median_from_crop": 8.110000000000001
+    },
+    {
+      "probability": 0.99,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 97,
+      "wrong": 1,
+      "unconfirmed": 56,
+      "median_from_crop": 8.110000000000001
+    }
+  ],
+  "cera_by_mean_overlap_b_overlap_s42_f1": [
+    {
+      "probability": 0.95,
+      "consecutive": 2,
+      "stable_seconds": 2.7,
+      "correct": 128,
+      "wrong": 1,
+      "unconfirmed": 25,
+      "median_from_crop": 5.406000000000001
+    },
+    {
+      "probability": 0.95,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 109,
+      "wrong": 0,
+      "unconfirmed": 45,
+      "median_from_crop": 8.110000000000001
+    },
+    {
+      "probability": 0.98,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 96,
+      "wrong": 0,
+      "unconfirmed": 58,
+      "median_from_crop": 8.110000000000001
+    },
+    {
+      "probability": 0.99,
+      "consecutive": 3,
+      "stable_seconds": 5.4,
+      "correct": 86,
+      "wrong": 0,
+      "unconfirmed": 68,
+      "median_from_crop": 8.110000000000001
+    }
+  ]
+}

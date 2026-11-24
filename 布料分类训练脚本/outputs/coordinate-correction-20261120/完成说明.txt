@@ -1,0 +1,1 @@
+两个原始目录已直接修改244个CSV（各122），对应122个原始CSV内容的两个副本。所有CSV行的motor_x_pulses和motor_target_x_pulses统一+6087，基线位置由-24.348mm改为0mm。其他CSV字段逐行一致，未修改的1229个CSV指纹保持不变。原CSV与metadata完整备份在原始备份目录。metadata仅新增coordinate_correction追溯记录；其余原内容相同。同内容副本平移后的CSV和metadata仍相同。按新固定边界51–140/30–120复查230个normal、14个data_error，缺口原因见表格。旧快照和模型未改；窗口必须重新导入CSV才能看到修正。Excel含修改记录及全部检查，导出缓存计数已核对，无公式错误，两页已渲染检查。

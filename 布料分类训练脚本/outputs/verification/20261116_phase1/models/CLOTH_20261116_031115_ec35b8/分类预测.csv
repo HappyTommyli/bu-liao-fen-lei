@@ -1,0 +1,13 @@
+﻿模型,输入,读出,复验,分区,文件,方向,真实布料,预测布料
+gru,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,out,平纹棉布,平纹棉布
+gru,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,back,平纹棉布,平纹棉布
+gru,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,out,灯芯绒,平纹棉布
+gru,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,back,灯芯绒,灯芯绒
+tcn,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,out,平纹棉布,平纹棉布
+tcn,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,back,平纹棉布,平纹棉布
+tcn,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,out,灯芯绒,平纹棉布
+tcn,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,back,灯芯绒,灯芯绒
+cera,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,out,平纹棉布,灯芯绒
+cera,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv,back,平纹棉布,灯芯绒
+cera,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,out,灯芯绒,灯芯绒
+cera,ΔBy,mean,1,验证,/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv,back,灯芯绒,灯芯绒

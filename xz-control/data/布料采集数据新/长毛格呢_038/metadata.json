@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-18T11:25:16.934140+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17404,
+  "invalid_sample_count": 23,
+  "baseline_B0_uT": {
+    "Bx_uT": 973.501574212894,
+    "By_uT": -105.35644677661169,
+    "Bz_uT": 7321.6943988006005
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM1",
+    "sensor_port": "/dev/ttyACM0",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null,
+      "start_x": 0.0,
+      "start_z": 0.0,
+      "clearance_z": 0.0
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        973.501574212894,
+        -105.35644677661169,
+        7321.6943988006005
+      ],
+      "sigma": [
+        4.983239652264258,
+        4.980577310224119,
+        7.785794058688963
+      ],
+      "samples": 667,
+      "invalid_samples": 0
+    },
+    "capture_session": "ca5c00ed6bd94e959a53204b1bbb8805",
+    "segment": 1,
+    "coordinate_reference": {
+      "name": "人工机械基准",
+      "id": "357e400439814b7cb3347ca95cfde0e6",
+      "method": "manual",
+      "confirmed_at": 1794992416.0146368,
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "valid": true
+    },
+    "capture_start_mm": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "2f9c2d248a444045ab0640a38b34e414",
+      "round": 3,
+      "count": 10
+    }
+  },
+  "files": {
+    "sensor": "长毛格呢_038.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "长毛格呢",
+  "run_name": "长毛格呢_038",
+  "sequence": 38,
+  "coordinate_correction": {
+    "version": "x-translation-v1",
+    "applied_at": "2026-11-20T19:32:45.151186+08:00",
+    "shift_mm": 24.348,
+    "shift_pulses": 6087,
+    "columns": [
+      "motor_x_pulses",
+      "motor_target_x_pulses"
+    ],
+    "reason": "用户确认记录零点错误，将基线−24.348mm整体平移到0mm",
+    "original_csv_sha256": "f73158140efe70586e452aa22d03df90f70cfea09822bfe169f4b55f10bebcb2",
+    "original_metadata_sha256": "cc339a846c6dacb49eb6b979e691ba3e47f39d00a3d1e0ca6501f9a9bb2b2f65",
+    "backup_manifest": "/home/serein/classify-cloth/布料分类训练脚本/outputs/coordinate-correction-20261120/applied.json"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-19T10:50:08.138763+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17402,
+  "invalid_sample_count": 509,
+  "baseline_B0_uT": {
+    "Bx_uT": 967.4280451127823,
+    "By_uT": -108.2224060150376,
+    "Bz_uT": 7364.767440601509
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM1",
+    "sensor_port": "/dev/ttyACM0",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null,
+      "start_x": 0.0,
+      "start_z": 0.0,
+      "clearance_z": 0.0
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        967.4280451127823,
+        -108.2224060150376,
+        7364.767440601509
+      ],
+      "sigma": [
+        5.2837037674082605,
+        5.54043593062109,
+        7.4803342122979215
+      ],
+      "samples": 665,
+      "invalid_samples": 0
+    },
+    "capture_session": "41a3522c4a79400fa0f99238c1a16c72",
+    "segment": 1,
+    "coordinate_reference": {
+      "name": "人工机械基准",
+      "id": "3afca9ca833b468a84967afc2f502571",
+      "method": "manual",
+      "confirmed_at": 1795076578.0651019,
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "valid": true
+    },
+    "capture_start_mm": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "1015986c375a4ee5afda98a8081c470a",
+      "round": 18,
+      "count": 20
+    }
+  },
+  "files": {
+    "sensor": "岩石肌理面料_018.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "岩石肌理面料",
+  "run_name": "岩石肌理面料_018",
+  "sequence": 18
+}

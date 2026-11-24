@@ -1,0 +1,52 @@
+{
+  "cv": {
+    "tcn_by_mean_overlap_a_nonoverlap": {
+      "val_f1_mean": 0.9936015510108241,
+      "val_f1_std": 0.005542754306355392,
+      "val_loss_mean": 0.16297435341200323,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本"
+    },
+    "tcn_by_mean_overlap_b_overlap": {
+      "val_f1_mean": 0.9921502954824895,
+      "val_f1_std": 0.005786052984910932,
+      "val_loss_mean": 0.17279851759435363,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本"
+    }
+  },
+  "contrasts": {
+    "B-A": {
+      "folds": [
+        {
+          "seed": 42,
+          "fold": 0,
+          "difference": -0.0074471451033646385
+        },
+        {
+          "seed": 42,
+          "fold": 1,
+          "difference": 0.0
+        },
+        {
+          "seed": 42,
+          "fold": 2,
+          "difference": -0.003925930772754049
+        },
+        {
+          "seed": 42,
+          "fold": 3,
+          "difference": 0.004116798234445218
+        },
+        {
+          "seed": 42,
+          "fold": 4,
+          "difference": 0.0
+        }
+      ],
+      "mean": -0.001451255528334694
+    }
+  },
+  "final": null,
+  "holdout": null
+}

@@ -1,0 +1,24 @@
+QUALITY {'excluded': 9, 'normal': 280, 'suggest_review': 11}
+DIRECTION {'eligible_median': 0.019484489112227655, 'eligible_p90': 0.052378111425873446, 'eligible_max': 0.08766664976763845, 'all_over10': 6, 'eligible_over10': 0, 'spatial_correlation_median': -0.201685307136113}
+META {'speeds': [6.0], 'x_ppmm': [250.0], 'z_limits': ['(None, None)'], 'dates': ['2026-11-13', '2026-11-14', '2026-11-16'], 'lengths': [5316, 5372]}
+EFFECT {'amplitude': {'between_class_fraction': 0.8873481816717986, 'within_class_fraction': 0.11265181832820137}, 'temporal_std': {'between_class_fraction': 0.9610660036295586, 'within_class_fraction': 0.03893399637044137}, 'variation': {'between_class_fraction': 0.3490565575062352, 'within_class_fraction': 0.6509434424937648}}
+B0RHO -0.7881729114695246
+CLASS 亮丝欧根纱 n 17 median 401.02 range 372.83 406.5 CV 0.038 early/late 374.7 404.85 shift% 7.74 CERA F1 0.667
+CLASS 亮丝粗花呢 n 19 median 463.05 range 425.55 468.38 CV 0.044 early/late 427.35 465.45 shift% 8.53 CERA F1 0.935
+CLASS 仿皮毛一体 n 19 median 652.28 range 578.66 679.65 CV 0.067 early/late 588.08 668.55 shift% 12.81 CERA F1 1.0
+CLASS 加厚1x1罗纹布 n 19 median 408.53 range 401.77 449.25 CV 0.051 early/late 407.32 448.8 shift% 9.69 CERA F1 0.9
+CLASS 印花丝绒 n 20 median 397.46 range 374.74 424.73 CV 0.047 early/late 379.65 415.16 shift% 8.94 CERA F1 0.733
+CLASS 大衣呢 n 20 median 411.53 range 396.71 429.15 CV 0.035 early/late 398.49 426.83 shift% 6.87 CERA F1 0.769
+CLASS 岩石肌理面料 n 20 median 374.4 range 350.77 395.33 CV 0.053 early/late 355.88 394.2 shift% 10.22 CERA F1 0.906
+CLASS 平纹棉布 n 19 median 394.95 range 360.9 398.02 CV 0.046 early/late 363.3 397.28 shift% 8.93 CERA F1 0.862
+CLASS 毛织物面料 n 20 median 409.57 range 381.9 435.15 CV 0.052 early/late 390.08 428.98 shift% 9.5 CERA F1 0.818
+CLASS 珠地覆膜 n 20 median 391.46 range 368.62 412.35 CV 0.045 early/late 375.52 409.48 shift% 8.65 CERA F1 0.607
+CLASS 空气层 n 20 median 406.35 range 386.02 434.7 CV 0.051 early/late 387.6 427.35 shift% 9.76 CERA F1 0.743
+CLASS 织棉提花缎 n 20 median 372.51 range 335.4 394.72 CV 0.061 early/late 352.16 393.34 shift% 11.05 CERA F1 0.921
+CLASS 覆膜帆布 n 19 median 408.11 range 368.85 409.95 CV 0.05 early/late 371.1 409.43 shift% 9.82 CERA F1 0.862
+CLASS 针织复合面料 n 20 median 410.66 range 393.15 429.75 CV 0.041 early/late 394.42 427.72 shift% 8.1 CERA F1 0.727
+CLASS 长毛格呢 n 19 median 414.52 range 394.35 459.3 CV 0.059 early/late 405.67 450.45 shift% 10.46 CERA F1 0.842
+CV gru {'val_f1_mean': 0.38227111145171, 'val_f1_std': 0.04900171476844608, 'val_loss_mean': 1.6842504121441428, 'folds': 5, 'note': '仅开发集；复验不是新增独立样本'} pooled 0.39250078999637644 confusions [{'a': '岩石肌理面料', 'b': '织棉提花缎', 'count': 21, 'a_to_b': 6, 'b_to_a': 15}, {'a': '亮丝欧根纱', 'b': '针织复合面料', 'count': 15, 'a_to_b': 11, 'b_to_a': 4}, {'a': '珠地覆膜', 'b': '针织复合面料', 'count': 15, 'a_to_b': 12, 'b_to_a': 3}, {'a': '珠地覆膜', 'b': '覆膜帆布', 'count': 14, 'a_to_b': 7, 'b_to_a': 7}, {'a': '加厚1x1罗纹布', 'b': '大衣呢', 'count': 13, 'a_to_b': 8, 'b_to_a': 5}]
+CV tcn {'val_f1_mean': 0.8068538999127233, 'val_f1_std': 0.06676890935499782, 'val_loss_mean': 0.8409778419929463, 'folds': 5, 'note': '仅开发集；复验不是新增独立样本'} pooled 0.8089199756215463 confusions [{'a': '毛织物面料', 'b': '长毛格呢', 'count': 14, 'a_to_b': 5, 'b_to_a': 9}, {'a': '亮丝欧根纱', 'b': '珠地覆膜', 'count': 8, 'a_to_b': 4, 'b_to_a': 4}, {'a': '亮丝粗花呢', 'b': '长毛格呢', 'count': 6, 'a_to_b': 0, 'b_to_a': 6}, {'a': '空气层', 'b': '针织复合面料', 'count': 6, 'a_to_b': 0, 'b_to_a': 6}, {'a': '亮丝欧根纱', 'b': '大衣呢', 'count': 5, 'a_to_b': 2, 'b_to_a': 3}]
+CV cera {'val_f1_mean': 0.8185502645502645, 'val_f1_std': 0.033561001419000806, 'val_loss_mean': 0.8003155678043214, 'folds': 5, 'note': '仅开发集；复验不是新增独立样本'} pooled 0.8194824195015199 confusions [{'a': '亮丝欧根纱', 'b': '珠地覆膜', 'count': 8, 'a_to_b': 4, 'b_to_a': 4}, {'a': '大衣呢', 'b': '毛织物面料', 'count': 7, 'a_to_b': 4, 'b_to_a': 3}, {'a': '空气层', 'b': '针织复合面料', 'count': 7, 'a_to_b': 2, 'b_to_a': 5}, {'a': '珠地覆膜', 'b': '空气层', 'count': 5, 'a_to_b': 4, 'b_to_a': 1}, {'a': '亮丝欧根纱', 'b': '印花丝绒', 'count': 4, 'a_to_b': 1, 'b_to_a': 3}]
+AMPLITUDE_CLOSEST [{'a': '加厚1x1罗纹布', 'b': '长毛格呢', 'median_gap': 5.999969482421875, 'standardized_mean_gap': np.float64(0.016587435108530398), 'iqr_overlap': 41.4375}, {'a': '亮丝欧根纱', 'b': '覆膜帆布', 'median_gap': 7.087493896484375, 'standardized_mean_gap': np.float64(0.018197769650453888), 'iqr_overlap': 29.88751220703125}, {'a': '亮丝欧根纱', 'b': '珠地覆膜', 'median_gap': 9.562484741210938, 'standardized_mean_gap': np.float64(0.044462284889787894), 'iqr_overlap': 29.362503051757812}, {'a': '珠地覆膜', 'b': '覆膜帆布', 'median_gap': 16.649978637695312, 'standardized_mean_gap': np.float64(0.05615331873102704), 'iqr_overlap': 33.74064636230469}, {'a': '大衣呢', 'b': '针织复合面料', 'median_gap': 0.862518310546875, 'standardized_mean_gap': np.float64(0.07339983381494525), 'iqr_overlap': 28.209373474121094}]

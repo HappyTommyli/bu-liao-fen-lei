@@ -1,0 +1,18 @@
+{
+  "task": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH4_20261117_170039_86f788",
+  "completed_models": 13,
+  "verified_weights": true,
+  "records": 430,
+  "pending_model": "cera_by_mean_s42_f4",
+  "completed_epoch": 4,
+  "next_epoch": 5,
+  "suspend_time": "2026-11-17T19:23:57+08:00",
+  "gpu_fault_time": "2026-11-17T19:24:11+08:00",
+  "nvidia_xid": [
+    31,
+    154
+  ],
+  "driver_action": "Node Reboot Required",
+  "fresh_cuda_process_failed": true,
+  "resume_request": "/home/serein/classify-cloth/布料分类训练脚本/outputs/requests/resume-86f788.json"
+}

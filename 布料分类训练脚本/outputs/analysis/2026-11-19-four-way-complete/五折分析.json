@@ -1,0 +1,1851 @@
+{
+  "source": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH4_20261119_171027_2dfe99",
+  "config": {
+    "data": {
+      "out_low": 45.0,
+      "out_high": 142.0,
+      "back_low": 16.0,
+      "back_high": 114.0,
+      "fallback_ppmm": 250.0,
+      "fallback_speed": 6.0,
+      "fs": 333.0,
+      "source_fs": 333.0,
+      "max_gap": 0.02,
+      "tail_margin": 0.2,
+      "speed_tolerance": 0.1,
+      "preprocess_version": "abs-v3",
+      "baseline_tolerance": 0.01,
+      "boundary_tolerance": 2.0,
+      "contact_rule": "fixed-x-v1"
+    },
+    "signals": [
+      "by"
+    ],
+    "architectures": [
+      "tcn"
+    ],
+    "readouts": [
+      "mean"
+    ],
+    "preset": "standard",
+    "repetitions": 1,
+    "epochs": 200,
+    "patience": 30,
+    "early_stopping": true,
+    "batch_size": 16,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "split_seed": 42,
+    "threads": 2,
+    "hidden_size": 64,
+    "dropout": 0.1,
+    "scheduler": true,
+    "scheduler_patience": 8,
+    "min_lr": 1e-05,
+    "name": "前20次布料分类",
+    "pipeline": "gpu-standard-v4",
+    "device": "cuda",
+    "precision": "fp32",
+    "workers": 2,
+    "micro_batch": 0,
+    "tcn_spec": {
+      "revision": "configurable-tcn-v1",
+      "channels": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "dropout": 0.1,
+      "pooling": "mean"
+    },
+    "tcn_mode": "four_way",
+    "tcn_window": 900,
+    "grad_clip_norm": 1.0,
+    "scheduler_factor": 0.5
+  },
+  "summaries": [
+    {
+      "id": "full_h64",
+      "name": "完整64",
+      "f1_mean": 0.782063498936564,
+      "f1_std": 0.03120126560271652,
+      "accuracy_mean": 0.7909365503982596,
+      "oof_correct": 416,
+      "oof_total": 526,
+      "oof_accuracy": 0.7908745247148289,
+      "train_accuracy": 0.818960773080466,
+      "best_epoch": [
+        189,
+        200,
+        187,
+        188,
+        189
+      ],
+      "f1gain150_200_mean": 0.030231604531367882,
+      "lr_reduced_folds": 5,
+      "max_stale": 23,
+      "last50_loss_slope_mean": -0.002362720022819674,
+      "val_loss150_mean": 0.9899021048769306,
+      "val_loss200_mean": 0.8786124262113054,
+      "training_minutes": 25.417151422949594,
+      "per_class": [
+        {
+          "label": "亮丝欧根纱",
+          "support": 28,
+          "correct": 19,
+          "recall": 0.6785714285714286
+        },
+        {
+          "label": "亮丝粗花呢",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "仿皮毛一体",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "加厚1x1罗纹布",
+          "support": 30,
+          "correct": 28,
+          "recall": 0.9333333333333333
+        },
+        {
+          "label": "印花丝绒",
+          "support": 32,
+          "correct": 12,
+          "recall": 0.375
+        },
+        {
+          "label": "大衣呢",
+          "support": 32,
+          "correct": 24,
+          "recall": 0.75
+        },
+        {
+          "label": "岩石肌理面料",
+          "support": 32,
+          "correct": 30,
+          "recall": 0.9375
+        },
+        {
+          "label": "平纹棉布",
+          "support": 30,
+          "correct": 26,
+          "recall": 0.8666666666666667
+        },
+        {
+          "label": "格纹针织羊绒",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "桃皮绒",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "毛织物面料",
+          "support": 32,
+          "correct": 24,
+          "recall": 0.75
+        },
+        {
+          "label": "珠地覆膜",
+          "support": 32,
+          "correct": 16,
+          "recall": 0.5
+        },
+        {
+          "label": "空气层",
+          "support": 32,
+          "correct": 28,
+          "recall": 0.875
+        },
+        {
+          "label": "织棉提花缎",
+          "support": 32,
+          "correct": 22,
+          "recall": 0.6875
+        },
+        {
+          "label": "覆膜帆布",
+          "support": 30,
+          "correct": 28,
+          "recall": 0.9333333333333333
+        },
+        {
+          "label": "针织复合面料",
+          "support": 32,
+          "correct": 22,
+          "recall": 0.6875
+        },
+        {
+          "label": "长毛格呢",
+          "support": 30,
+          "correct": 16,
+          "recall": 0.5333333333333333
+        }
+      ],
+      "rows": [
+        {
+          "id": "full_h64",
+          "fold": 1,
+          "epochs": 200,
+          "best_epoch": 189,
+          "f1": 0.7508987400628269,
+          "accuracy": 0.7685185185185185,
+          "train_accuracy": 0.8277511961722488,
+          "best150": 0.7465207650966165,
+          "best180": 0.7473294295093603,
+          "best200": 0.7508987400628269,
+          "f1gain150_200": 0.004377974966210396,
+          "val_loss150": 0.9784501349484479,
+          "val_loss200": 0.9152352589148062,
+          "last50_loss_slope": -0.0016193999421956365,
+          "final_lr": 1.875e-05,
+          "lr_changes": [
+            [
+              153,
+              0.00015
+            ],
+            [
+              171,
+              7.5e-05
+            ],
+            [
+              186,
+              3.75e-05
+            ],
+            [
+              195,
+              1.875e-05
+            ]
+          ],
+          "stale": 23,
+          "max_stale": 23,
+          "training_seconds": 297.8545390049985,
+          "parameters": 105105,
+          "correct": 83,
+          "total": 108,
+          "out": 0.7777777777777778,
+          "back": 0.7592592592592593,
+          "last20_f1mean": 0.7272058634014562
+        },
+        {
+          "id": "full_h64",
+          "fold": 2,
+          "epochs": 200,
+          "best_epoch": 200,
+          "f1": 0.7645506454329984,
+          "accuracy": 0.7641509433962265,
+          "train_accuracy": 0.8357142857142857,
+          "best150": 0.7410452292805233,
+          "best180": 0.7476263932146284,
+          "best200": 0.7645506454329984,
+          "f1gain150_200": 0.023505416152475145,
+          "val_loss150": 1.0770871774205621,
+          "val_loss200": 0.9138497046704562,
+          "last50_loss_slope": -0.0033916890863389597,
+          "final_lr": 7.5e-05,
+          "lr_changes": [
+            [
+              180,
+              0.00015
+            ],
+            [
+              189,
+              7.5e-05
+            ]
+          ],
+          "stale": 3,
+          "max_stale": 18,
+          "training_seconds": 306.1475553210066,
+          "parameters": 105105,
+          "correct": 81,
+          "total": 106,
+          "out": 0.7358490566037735,
+          "back": 0.7924528301886793,
+          "last20_f1mean": 0.7457651114744539
+        },
+        {
+          "id": "full_h64",
+          "fold": 3,
+          "epochs": 200,
+          "best_epoch": 187,
+          "f1": 0.7901556647686679,
+          "accuracy": 0.7980769230769231,
+          "train_accuracy": 0.8151658767772512,
+          "best150": 0.7564701734251906,
+          "best180": 0.784890772434025,
+          "best200": 0.7901556647686679,
+          "f1gain150_200": 0.033685491343477314,
+          "val_loss150": 1.034776284144475,
+          "val_loss200": 0.964094510445228,
+          "last50_loss_slope": -0.002018787504420392,
+          "final_lr": 3.75e-05,
+          "lr_changes": [
+            [
+              165,
+              0.00015
+            ],
+            [
+              181,
+              7.5e-05
+            ],
+            [
+              197,
+              3.75e-05
+            ]
+          ],
+          "stale": 12,
+          "max_stale": 15,
+          "training_seconds": 305.62004349999734,
+          "parameters": 105105,
+          "correct": 83,
+          "total": 104,
+          "out": 0.8076923076923077,
+          "back": 0.7884615384615384,
+          "last20_f1mean": 0.7676829182675112
+        },
+        {
+          "id": "full_h64",
+          "fold": 4,
+          "epochs": 200,
+          "best_epoch": 188,
+          "f1": 0.8317421140950553,
+          "accuracy": 0.839622641509434,
+          "train_accuracy": 0.8142857142857143,
+          "best150": 0.7831475713828654,
+          "best180": 0.8094878977231919,
+          "best200": 0.8317421140950553,
+          "f1gain150_200": 0.04859454271218988,
+          "val_loss150": 0.8983549261992833,
+          "val_loss200": 0.7399821731279481,
+          "last50_loss_slope": -0.0028422652196202717,
+          "final_lr": 7.5e-05,
+          "lr_changes": [
+            [
+              164,
+              0.00015
+            ],
+            [
+              180,
+              7.5e-05
+            ]
+          ],
+          "stale": 6,
+          "max_stale": 13,
+          "training_seconds": 306.1522880279899,
+          "parameters": 105105,
+          "correct": 89,
+          "total": 106,
+          "out": 0.8113207547169812,
+          "back": 0.8679245283018868,
+          "last20_f1mean": 0.7980338697250462
+        },
+        {
+          "id": "full_h64",
+          "fold": 5,
+          "epochs": 200,
+          "best_epoch": 189,
+          "f1": 0.7729703303232714,
+          "accuracy": 0.7843137254901961,
+          "train_accuracy": 0.8018867924528302,
+          "best150": 0.7319757328407848,
+          "best180": 0.7469721455015573,
+          "best200": 0.7729703303232714,
+          "f1gain150_200": 0.04099459748248668,
+          "val_loss150": 0.9608420016718846,
+          "val_loss200": 0.859900483898088,
+          "last50_loss_slope": -0.0019414583615231095,
+          "final_lr": 0.00015,
+          "lr_changes": [
+            [
+              147,
+              0.00015
+            ]
+          ],
+          "stale": 1,
+          "max_stale": 11,
+          "training_seconds": 309.2546595229833,
+          "parameters": 105105,
+          "correct": 80,
+          "total": 102,
+          "out": 0.803921568627451,
+          "back": 0.7647058823529411,
+          "last20_f1mean": 0.7358125489870618
+        }
+      ]
+    },
+    {
+      "id": "full_h128",
+      "name": "完整128",
+      "f1_mean": 0.9123224678961339,
+      "f1_std": 0.01930885084802374,
+      "accuracy_mean": 0.9125645452504498,
+      "oof_correct": 480,
+      "oof_total": 526,
+      "oof_accuracy": 0.9125475285171103,
+      "train_accuracy": 0.9420391425304663,
+      "best_epoch": [
+        185,
+        199,
+        173,
+        189,
+        192
+      ],
+      "f1gain150_200_mean": 0.028776865498774097,
+      "lr_reduced_folds": 3,
+      "max_stale": 11,
+      "last50_loss_slope_mean": -0.0036703970093048812,
+      "val_loss150_mean": 0.605590401705833,
+      "val_loss200_mean": 0.45475150777087914,
+      "training_minutes": 43.68511383613303,
+      "per_class": [
+        {
+          "label": "亮丝欧根纱",
+          "support": 28,
+          "correct": 24,
+          "recall": 0.8571428571428571
+        },
+        {
+          "label": "亮丝粗花呢",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "仿皮毛一体",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "加厚1x1罗纹布",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "印花丝绒",
+          "support": 32,
+          "correct": 22,
+          "recall": 0.6875
+        },
+        {
+          "label": "大衣呢",
+          "support": 32,
+          "correct": 30,
+          "recall": 0.9375
+        },
+        {
+          "label": "岩石肌理面料",
+          "support": 32,
+          "correct": 32,
+          "recall": 1.0
+        },
+        {
+          "label": "平纹棉布",
+          "support": 30,
+          "correct": 26,
+          "recall": 0.8666666666666667
+        },
+        {
+          "label": "格纹针织羊绒",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "桃皮绒",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "毛织物面料",
+          "support": 32,
+          "correct": 27,
+          "recall": 0.84375
+        },
+        {
+          "label": "珠地覆膜",
+          "support": 32,
+          "correct": 29,
+          "recall": 0.90625
+        },
+        {
+          "label": "空气层",
+          "support": 32,
+          "correct": 29,
+          "recall": 0.90625
+        },
+        {
+          "label": "织棉提花缎",
+          "support": 32,
+          "correct": 29,
+          "recall": 0.90625
+        },
+        {
+          "label": "覆膜帆布",
+          "support": 30,
+          "correct": 28,
+          "recall": 0.9333333333333333
+        },
+        {
+          "label": "针织复合面料",
+          "support": 32,
+          "correct": 28,
+          "recall": 0.875
+        },
+        {
+          "label": "长毛格呢",
+          "support": 30,
+          "correct": 25,
+          "recall": 0.8333333333333334
+        }
+      ],
+      "rows": [
+        {
+          "id": "full_h128",
+          "fold": 1,
+          "epochs": 200,
+          "best_epoch": 185,
+          "f1": 0.8983190795929823,
+          "accuracy": 0.8981481481481481,
+          "train_accuracy": 0.9449760765550239,
+          "best150": 0.8822038687955643,
+          "best180": 0.890949478797776,
+          "best200": 0.8983190795929823,
+          "f1gain150_200": 0.016115210797417956,
+          "val_loss150": 0.5400736155333342,
+          "val_loss200": 0.48261177429446467,
+          "last50_loss_slope": -0.0037321435320738366,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 3,
+          "max_stale": 8,
+          "training_seconds": 518.2294118489972,
+          "parameters": 414993,
+          "correct": 97,
+          "total": 108,
+          "out": 0.8888888888888888,
+          "back": 0.9074074074074074,
+          "last20_f1mean": 0.8738284909863401
+        },
+        {
+          "id": "full_h128",
+          "fold": 2,
+          "epochs": 200,
+          "best_epoch": 199,
+          "f1": 0.9300973536267654,
+          "accuracy": 0.9339622641509434,
+          "train_accuracy": 0.9523809523809523,
+          "best150": 0.8632672978693741,
+          "best180": 0.8956682302703063,
+          "best200": 0.9300973536267654,
+          "f1gain150_200": 0.06683005575739132,
+          "val_loss150": 0.7130060420846039,
+          "val_loss200": 0.5311588251365805,
+          "last50_loss_slope": -0.004002472877329639,
+          "final_lr": 0.00015,
+          "lr_changes": [
+            [
+              168,
+              0.00015
+            ]
+          ],
+          "stale": 5,
+          "max_stale": 11,
+          "training_seconds": 522.7641352709898,
+          "parameters": 414993,
+          "correct": 99,
+          "total": 106,
+          "out": 0.9056603773584906,
+          "back": 0.9622641509433962,
+          "last20_f1mean": 0.9007036027621986
+        },
+        {
+          "id": "full_h128",
+          "fold": 3,
+          "epochs": 200,
+          "best_epoch": 173,
+          "f1": 0.8856014986045946,
+          "accuracy": 0.8846153846153846,
+          "train_accuracy": 0.9218009478672986,
+          "best150": 0.87284954467617,
+          "best180": 0.8856014986045946,
+          "best200": 0.8856014986045946,
+          "f1gain150_200": 0.012751953928424542,
+          "val_loss150": 0.7477507407848651,
+          "val_loss200": 0.6114874596779163,
+          "last50_loss_slope": -0.0022669463961152384,
+          "final_lr": 7.5e-05,
+          "lr_changes": [
+            [
+              124,
+              0.00015
+            ],
+            [
+              195,
+              7.5e-05
+            ]
+          ],
+          "stale": 0,
+          "max_stale": 9,
+          "training_seconds": 525.5037533589857,
+          "parameters": 414993,
+          "correct": 92,
+          "total": 104,
+          "out": 0.8461538461538461,
+          "back": 0.9230769230769231,
+          "last20_f1mean": 0.8557052914911228
+        },
+        {
+          "id": "full_h128",
+          "fold": 4,
+          "epochs": 200,
+          "best_epoch": 189,
+          "f1": 0.9228133064046378,
+          "accuracy": 0.9245283018867925,
+          "train_accuracy": 0.95,
+          "best150": 0.9034522752789007,
+          "best180": 0.9135872383550402,
+          "best200": 0.9228133064046378,
+          "f1gain150_200": 0.01936103112573706,
+          "val_loss150": 0.5078381097541665,
+          "val_loss200": 0.34332012455418426,
+          "last50_loss_slope": -0.0038158033276962976,
+          "final_lr": 0.00015,
+          "lr_changes": [
+            [
+              168,
+              0.00015
+            ]
+          ],
+          "stale": 1,
+          "max_stale": 10,
+          "training_seconds": 526.0188380639975,
+          "parameters": 414993,
+          "correct": 98,
+          "total": 106,
+          "out": 0.8867924528301887,
+          "back": 0.9622641509433962,
+          "last20_f1mean": 0.9132270095391568
+        },
+        {
+          "id": "full_h128",
+          "fold": 5,
+          "epochs": 200,
+          "best_epoch": 192,
+          "f1": 0.9247811012516896,
+          "accuracy": 0.9215686274509803,
+          "train_accuracy": 0.9410377358490566,
+          "best150": 0.89595502536679,
+          "best180": 0.9147989265636324,
+          "best200": 0.9247811012516896,
+          "f1gain150_200": 0.028826075884899605,
+          "val_loss150": 0.5192835003721947,
+          "val_loss200": 0.30517935519124945,
+          "last50_loss_slope": -0.0045346189133093975,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 0,
+          "max_stale": 8,
+          "training_seconds": 528.5906916250115,
+          "parameters": 414993,
+          "correct": 94,
+          "total": 102,
+          "out": 0.8823529411764706,
+          "back": 0.9607843137254902,
+          "last20_f1mean": 0.895000460900115
+        }
+      ]
+    },
+    {
+      "id": "w900_h64",
+      "name": "窗口900＋64",
+      "f1_mean": 0.7315707461346407,
+      "f1_std": 0.025667311978855717,
+      "accuracy_mean": 0.7431415236631663,
+      "oof_correct": 391,
+      "oof_total": 526,
+      "oof_accuracy": 0.7433460076045627,
+      "train_accuracy": 0.7700884389075816,
+      "best_epoch": [
+        199,
+        199,
+        200,
+        192,
+        176
+      ],
+      "f1gain150_200_mean": 0.09297306273182163,
+      "lr_reduced_folds": 2,
+      "max_stale": 11,
+      "last50_loss_slope_mean": -0.0029083771064338675,
+      "val_loss150_mean": 1.3423077737103608,
+      "val_loss200_mean": 1.198341796563423,
+      "training_minutes": 30.398026889383072,
+      "per_class": [
+        {
+          "label": "亮丝欧根纱",
+          "support": 28,
+          "correct": 16,
+          "recall": 0.5714285714285714
+        },
+        {
+          "label": "亮丝粗花呢",
+          "support": 30,
+          "correct": 29,
+          "recall": 0.9666666666666667
+        },
+        {
+          "label": "仿皮毛一体",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "加厚1x1罗纹布",
+          "support": 30,
+          "correct": 26,
+          "recall": 0.8666666666666667
+        },
+        {
+          "label": "印花丝绒",
+          "support": 32,
+          "correct": 12,
+          "recall": 0.375
+        },
+        {
+          "label": "大衣呢",
+          "support": 32,
+          "correct": 19,
+          "recall": 0.59375
+        },
+        {
+          "label": "岩石肌理面料",
+          "support": 32,
+          "correct": 29,
+          "recall": 0.90625
+        },
+        {
+          "label": "平纹棉布",
+          "support": 30,
+          "correct": 26,
+          "recall": 0.8666666666666667
+        },
+        {
+          "label": "格纹针织羊绒",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "桃皮绒",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "毛织物面料",
+          "support": 32,
+          "correct": 19,
+          "recall": 0.59375
+        },
+        {
+          "label": "珠地覆膜",
+          "support": 32,
+          "correct": 21,
+          "recall": 0.65625
+        },
+        {
+          "label": "空气层",
+          "support": 32,
+          "correct": 29,
+          "recall": 0.90625
+        },
+        {
+          "label": "织棉提花缎",
+          "support": 32,
+          "correct": 18,
+          "recall": 0.5625
+        },
+        {
+          "label": "覆膜帆布",
+          "support": 30,
+          "correct": 27,
+          "recall": 0.9
+        },
+        {
+          "label": "针织复合面料",
+          "support": 32,
+          "correct": 21,
+          "recall": 0.65625
+        },
+        {
+          "label": "长毛格呢",
+          "support": 30,
+          "correct": 8,
+          "recall": 0.26666666666666666
+        }
+      ],
+      "rows": [
+        {
+          "id": "w900_h64",
+          "fold": 1,
+          "epochs": 200,
+          "best_epoch": 199,
+          "f1": 0.7516013398366339,
+          "accuracy": 0.75,
+          "train_accuracy": 0.8086124401913876,
+          "best150": 0.6204896314757907,
+          "best180": 0.6760182885569882,
+          "best200": 0.7516013398366339,
+          "f1gain150_200": 0.13111170836084318,
+          "val_loss150": 1.3309251290780526,
+          "val_loss200": 1.2046324676937528,
+          "last50_loss_slope": -0.003467477294550791,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 2,
+          "max_stale": 7,
+          "training_seconds": 359.64343409999856,
+          "parameters": 105105,
+          "correct": 81,
+          "total": 108,
+          "out": 0.7222222222222222,
+          "back": 0.7777777777777778,
+          "last20_f1mean": 0.6611864341283291
+        },
+        {
+          "id": "w900_h64",
+          "fold": 2,
+          "epochs": 200,
+          "best_epoch": 199,
+          "f1": 0.7180205415499534,
+          "accuracy": 0.7358490566037735,
+          "train_accuracy": 0.7714285714285715,
+          "best150": 0.5932530752599956,
+          "best180": 0.6542673245732797,
+          "best200": 0.7180205415499534,
+          "f1gain150_200": 0.12476746628995783,
+          "val_loss150": 1.4136055100638911,
+          "val_loss200": 1.2376045640909448,
+          "last50_loss_slope": -0.002991949335581409,
+          "final_lr": 0.00015,
+          "lr_changes": [
+            [
+              185,
+              0.00015
+            ]
+          ],
+          "stale": 1,
+          "max_stale": 11,
+          "training_seconds": 361.44020898400413,
+          "parameters": 105105,
+          "correct": 78,
+          "total": 106,
+          "out": 0.7358490566037735,
+          "back": 0.7358490566037735,
+          "last20_f1mean": 0.6186980177191433
+        },
+        {
+          "id": "w900_h64",
+          "fold": 3,
+          "epochs": 200,
+          "best_epoch": 200,
+          "f1": 0.699922119800416,
+          "accuracy": 0.6923076923076923,
+          "train_accuracy": 0.7393364928909952,
+          "best150": 0.6459487880540512,
+          "best180": 0.6882645132645132,
+          "best200": 0.699922119800416,
+          "f1gain150_200": 0.05397333174636476,
+          "val_loss150": 1.3103094100952148,
+          "val_loss200": 1.1926582134686983,
+          "last50_loss_slope": -0.003213688724203245,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 2,
+          "max_stale": 7,
+          "training_seconds": 371.92018014698624,
+          "parameters": 105105,
+          "correct": 72,
+          "total": 104,
+          "out": 0.6346153846153846,
+          "back": 0.75,
+          "last20_f1mean": 0.6393980461239177
+        },
+        {
+          "id": "w900_h64",
+          "fold": 4,
+          "epochs": 200,
+          "best_epoch": 192,
+          "f1": 0.7632867132867132,
+          "accuracy": 0.7924528301886793,
+          "train_accuracy": 0.7928571428571428,
+          "best150": 0.6670538227631653,
+          "best180": 0.7088619761630143,
+          "best200": 0.7632867132867132,
+          "f1gain150_200": 0.09623289052354789,
+          "val_loss150": 1.2750341037534318,
+          "val_loss200": 1.0994635078142274,
+          "last50_loss_slope": -0.0030841009784639706,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 0,
+          "max_stale": 6,
+          "training_seconds": 365.5912888129915,
+          "parameters": 105105,
+          "correct": 84,
+          "total": 106,
+          "out": 0.7735849056603774,
+          "back": 0.8113207547169812,
+          "last20_f1mean": 0.6912149628988548
+        },
+        {
+          "id": "w900_h64",
+          "fold": 5,
+          "epochs": 200,
+          "best_epoch": 176,
+          "f1": 0.725023016199487,
+          "accuracy": 0.7450980392156863,
+          "train_accuracy": 0.7382075471698113,
+          "best150": 0.6662430994610925,
+          "best180": 0.725023016199487,
+          "best200": 0.725023016199487,
+          "f1gain150_200": 0.058779916738394444,
+          "val_loss150": 1.3816647155612123,
+          "val_loss200": 1.2573502297494925,
+          "last50_loss_slope": -0.001784669199369923,
+          "final_lr": 0.00015,
+          "lr_changes": [
+            [
+              145,
+              0.00015
+            ]
+          ],
+          "stale": 0,
+          "max_stale": 9,
+          "training_seconds": 365.28650131900395,
+          "parameters": 105105,
+          "correct": 76,
+          "total": 102,
+          "out": 0.7647058823529411,
+          "back": 0.7254901960784313,
+          "last20_f1mean": 0.6496381488106584
+        }
+      ]
+    },
+    {
+      "id": "w900_h128",
+      "name": "窗口900＋128",
+      "f1_mean": 0.9291102476915626,
+      "f1_std": 0.02575292450910828,
+      "accuracy_mean": 0.9297312893872272,
+      "oof_correct": 489,
+      "oof_total": 526,
+      "oof_accuracy": 0.9296577946768061,
+      "train_accuracy": 0.946295496470033,
+      "best_epoch": [
+        191,
+        196,
+        197,
+        199,
+        185
+      ],
+      "f1gain150_200_mean": 0.05928078457490225,
+      "lr_reduced_folds": 0,
+      "max_stale": 7,
+      "last50_loss_slope_mean": -0.004357316644253017,
+      "val_loss150_mean": 0.8485847055448564,
+      "val_loss200_mean": 0.6397981795220782,
+      "training_minutes": 48.31165981261661,
+      "per_class": [
+        {
+          "label": "亮丝欧根纱",
+          "support": 28,
+          "correct": 26,
+          "recall": 0.9285714285714286
+        },
+        {
+          "label": "亮丝粗花呢",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "仿皮毛一体",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "加厚1x1罗纹布",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "印花丝绒",
+          "support": 32,
+          "correct": 18,
+          "recall": 0.5625
+        },
+        {
+          "label": "大衣呢",
+          "support": 32,
+          "correct": 28,
+          "recall": 0.875
+        },
+        {
+          "label": "岩石肌理面料",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "平纹棉布",
+          "support": 30,
+          "correct": 28,
+          "recall": 0.9333333333333333
+        },
+        {
+          "label": "格纹针织羊绒",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "桃皮绒",
+          "support": 30,
+          "correct": 30,
+          "recall": 1.0
+        },
+        {
+          "label": "毛织物面料",
+          "support": 32,
+          "correct": 30,
+          "recall": 0.9375
+        },
+        {
+          "label": "珠地覆膜",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "空气层",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "织棉提花缎",
+          "support": 32,
+          "correct": 31,
+          "recall": 0.96875
+        },
+        {
+          "label": "覆膜帆布",
+          "support": 30,
+          "correct": 29,
+          "recall": 0.9666666666666667
+        },
+        {
+          "label": "针织复合面料",
+          "support": 32,
+          "correct": 30,
+          "recall": 0.9375
+        },
+        {
+          "label": "长毛格呢",
+          "support": 30,
+          "correct": 25,
+          "recall": 0.8333333333333334
+        }
+      ],
+      "rows": [
+        {
+          "id": "w900_h128",
+          "fold": 1,
+          "epochs": 200,
+          "best_epoch": 191,
+          "f1": 0.9084213172448466,
+          "accuracy": 0.9074074074074074,
+          "train_accuracy": 0.9425837320574163,
+          "best150": 0.8740951090432059,
+          "best180": 0.8991105491970544,
+          "best200": 0.9084213172448466,
+          "f1gain150_200": 0.034326208201640784,
+          "val_loss150": 0.8644215310061419,
+          "val_loss200": 0.6723311653843632,
+          "last50_loss_slope": -0.003910460777404843,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 0,
+          "max_stale": 7,
+          "training_seconds": 575.3215377270071,
+          "parameters": 414993,
+          "correct": 98,
+          "total": 108,
+          "out": 0.9074074074074074,
+          "back": 0.9074074074074074,
+          "last20_f1mean": 0.8758620621168426
+        },
+        {
+          "id": "w900_h128",
+          "fold": 2,
+          "epochs": 200,
+          "best_epoch": 196,
+          "f1": 0.9321375279852788,
+          "accuracy": 0.9339622641509434,
+          "train_accuracy": 0.9595238095238096,
+          "best150": 0.8667892660972246,
+          "best180": 0.9048525004407357,
+          "best200": 0.9321375279852788,
+          "f1gain150_200": 0.0653482618880542,
+          "val_loss150": 0.875754140458017,
+          "val_loss200": 0.6399398524806185,
+          "last50_loss_slope": -0.004920300938820698,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 0,
+          "max_stale": 6,
+          "training_seconds": 578.5416418460045,
+          "parameters": 414993,
+          "correct": 99,
+          "total": 106,
+          "out": 0.9056603773584906,
+          "back": 0.9622641509433962,
+          "last20_f1mean": 0.8940293227533711
+        },
+        {
+          "id": "w900_h128",
+          "fold": 3,
+          "epochs": 200,
+          "best_epoch": 197,
+          "f1": 0.8995540407305114,
+          "accuracy": 0.9038461538461539,
+          "train_accuracy": 0.9502369668246445,
+          "best150": 0.8587791293673646,
+          "best180": 0.8850198820787056,
+          "best200": 0.8995540407305114,
+          "f1gain150_200": 0.040774911363146815,
+          "val_loss150": 0.8354458350401658,
+          "val_loss200": 0.6393627753624549,
+          "last50_loss_slope": -0.0042477838990210345,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 4,
+          "max_stale": 4,
+          "training_seconds": 581.8468025469938,
+          "parameters": 414993,
+          "correct": 94,
+          "total": 104,
+          "out": 0.8846153846153846,
+          "back": 0.9230769230769231,
+          "last20_f1mean": 0.8696027218901012
+        },
+        {
+          "id": "w900_h128",
+          "fold": 4,
+          "epochs": 200,
+          "best_epoch": 199,
+          "f1": 0.963380410439234,
+          "accuracy": 0.9622641509433962,
+          "train_accuracy": 0.9380952380952381,
+          "best150": 0.8919185389773625,
+          "best180": 0.9520819050230815,
+          "best200": 0.963380410439234,
+          "f1gain150_200": 0.07146187146187144,
+          "val_loss150": 0.8307981041242491,
+          "val_loss200": 0.5957089055259273,
+          "last50_loss_slope": -0.0047244086897725085,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 0,
+          "max_stale": 7,
+          "training_seconds": 580.8759275830034,
+          "parameters": 414993,
+          "correct": 102,
+          "total": 106,
+          "out": 0.9245283018867925,
+          "back": 1.0,
+          "last20_f1mean": 0.9265107928757539
+        },
+        {
+          "id": "w900_h128",
+          "fold": 5,
+          "epochs": 200,
+          "best_epoch": 185,
+          "f1": 0.942057942057942,
+          "accuracy": 0.9411764705882353,
+          "train_accuracy": 0.9410377358490566,
+          "best150": 0.857565272098144,
+          "best180": 0.9140467375761493,
+          "best200": 0.942057942057942,
+          "f1gain150_200": 0.08449266995979798,
+          "val_loss150": 0.8365039170957079,
+          "val_loss200": 0.651648198857027,
+          "last50_loss_slope": -0.003983628916246004,
+          "final_lr": 0.0003,
+          "lr_changes": [],
+          "stale": 4,
+          "max_stale": 5,
+          "training_seconds": 582.1136790539877,
+          "parameters": 414993,
+          "correct": 96,
+          "total": 102,
+          "out": 0.9215686274509803,
+          "back": 0.9607843137254902,
+          "last20_f1mean": 0.8956496369936545
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "full_h64",
+      "fold": 1,
+      "epochs": 200,
+      "best_epoch": 189,
+      "f1": 0.7508987400628269,
+      "accuracy": 0.7685185185185185,
+      "train_accuracy": 0.8277511961722488,
+      "best150": 0.7465207650966165,
+      "best180": 0.7473294295093603,
+      "best200": 0.7508987400628269,
+      "f1gain150_200": 0.004377974966210396,
+      "val_loss150": 0.9784501349484479,
+      "val_loss200": 0.9152352589148062,
+      "last50_loss_slope": -0.0016193999421956365,
+      "final_lr": 1.875e-05,
+      "lr_changes": [
+        [
+          153,
+          0.00015
+        ],
+        [
+          171,
+          7.5e-05
+        ],
+        [
+          186,
+          3.75e-05
+        ],
+        [
+          195,
+          1.875e-05
+        ]
+      ],
+      "stale": 23,
+      "max_stale": 23,
+      "training_seconds": 297.8545390049985,
+      "parameters": 105105,
+      "correct": 83,
+      "total": 108,
+      "out": 0.7777777777777778,
+      "back": 0.7592592592592593,
+      "last20_f1mean": 0.7272058634014562
+    },
+    {
+      "id": "full_h64",
+      "fold": 2,
+      "epochs": 200,
+      "best_epoch": 200,
+      "f1": 0.7645506454329984,
+      "accuracy": 0.7641509433962265,
+      "train_accuracy": 0.8357142857142857,
+      "best150": 0.7410452292805233,
+      "best180": 0.7476263932146284,
+      "best200": 0.7645506454329984,
+      "f1gain150_200": 0.023505416152475145,
+      "val_loss150": 1.0770871774205621,
+      "val_loss200": 0.9138497046704562,
+      "last50_loss_slope": -0.0033916890863389597,
+      "final_lr": 7.5e-05,
+      "lr_changes": [
+        [
+          180,
+          0.00015
+        ],
+        [
+          189,
+          7.5e-05
+        ]
+      ],
+      "stale": 3,
+      "max_stale": 18,
+      "training_seconds": 306.1475553210066,
+      "parameters": 105105,
+      "correct": 81,
+      "total": 106,
+      "out": 0.7358490566037735,
+      "back": 0.7924528301886793,
+      "last20_f1mean": 0.7457651114744539
+    },
+    {
+      "id": "full_h64",
+      "fold": 3,
+      "epochs": 200,
+      "best_epoch": 187,
+      "f1": 0.7901556647686679,
+      "accuracy": 0.7980769230769231,
+      "train_accuracy": 0.8151658767772512,
+      "best150": 0.7564701734251906,
+      "best180": 0.784890772434025,
+      "best200": 0.7901556647686679,
+      "f1gain150_200": 0.033685491343477314,
+      "val_loss150": 1.034776284144475,
+      "val_loss200": 0.964094510445228,
+      "last50_loss_slope": -0.002018787504420392,
+      "final_lr": 3.75e-05,
+      "lr_changes": [
+        [
+          165,
+          0.00015
+        ],
+        [
+          181,
+          7.5e-05
+        ],
+        [
+          197,
+          3.75e-05
+        ]
+      ],
+      "stale": 12,
+      "max_stale": 15,
+      "training_seconds": 305.62004349999734,
+      "parameters": 105105,
+      "correct": 83,
+      "total": 104,
+      "out": 0.8076923076923077,
+      "back": 0.7884615384615384,
+      "last20_f1mean": 0.7676829182675112
+    },
+    {
+      "id": "full_h64",
+      "fold": 4,
+      "epochs": 200,
+      "best_epoch": 188,
+      "f1": 0.8317421140950553,
+      "accuracy": 0.839622641509434,
+      "train_accuracy": 0.8142857142857143,
+      "best150": 0.7831475713828654,
+      "best180": 0.8094878977231919,
+      "best200": 0.8317421140950553,
+      "f1gain150_200": 0.04859454271218988,
+      "val_loss150": 0.8983549261992833,
+      "val_loss200": 0.7399821731279481,
+      "last50_loss_slope": -0.0028422652196202717,
+      "final_lr": 7.5e-05,
+      "lr_changes": [
+        [
+          164,
+          0.00015
+        ],
+        [
+          180,
+          7.5e-05
+        ]
+      ],
+      "stale": 6,
+      "max_stale": 13,
+      "training_seconds": 306.1522880279899,
+      "parameters": 105105,
+      "correct": 89,
+      "total": 106,
+      "out": 0.8113207547169812,
+      "back": 0.8679245283018868,
+      "last20_f1mean": 0.7980338697250462
+    },
+    {
+      "id": "full_h64",
+      "fold": 5,
+      "epochs": 200,
+      "best_epoch": 189,
+      "f1": 0.7729703303232714,
+      "accuracy": 0.7843137254901961,
+      "train_accuracy": 0.8018867924528302,
+      "best150": 0.7319757328407848,
+      "best180": 0.7469721455015573,
+      "best200": 0.7729703303232714,
+      "f1gain150_200": 0.04099459748248668,
+      "val_loss150": 0.9608420016718846,
+      "val_loss200": 0.859900483898088,
+      "last50_loss_slope": -0.0019414583615231095,
+      "final_lr": 0.00015,
+      "lr_changes": [
+        [
+          147,
+          0.00015
+        ]
+      ],
+      "stale": 1,
+      "max_stale": 11,
+      "training_seconds": 309.2546595229833,
+      "parameters": 105105,
+      "correct": 80,
+      "total": 102,
+      "out": 0.803921568627451,
+      "back": 0.7647058823529411,
+      "last20_f1mean": 0.7358125489870618
+    },
+    {
+      "id": "full_h128",
+      "fold": 1,
+      "epochs": 200,
+      "best_epoch": 185,
+      "f1": 0.8983190795929823,
+      "accuracy": 0.8981481481481481,
+      "train_accuracy": 0.9449760765550239,
+      "best150": 0.8822038687955643,
+      "best180": 0.890949478797776,
+      "best200": 0.8983190795929823,
+      "f1gain150_200": 0.016115210797417956,
+      "val_loss150": 0.5400736155333342,
+      "val_loss200": 0.48261177429446467,
+      "last50_loss_slope": -0.0037321435320738366,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 3,
+      "max_stale": 8,
+      "training_seconds": 518.2294118489972,
+      "parameters": 414993,
+      "correct": 97,
+      "total": 108,
+      "out": 0.8888888888888888,
+      "back": 0.9074074074074074,
+      "last20_f1mean": 0.8738284909863401
+    },
+    {
+      "id": "full_h128",
+      "fold": 2,
+      "epochs": 200,
+      "best_epoch": 199,
+      "f1": 0.9300973536267654,
+      "accuracy": 0.9339622641509434,
+      "train_accuracy": 0.9523809523809523,
+      "best150": 0.8632672978693741,
+      "best180": 0.8956682302703063,
+      "best200": 0.9300973536267654,
+      "f1gain150_200": 0.06683005575739132,
+      "val_loss150": 0.7130060420846039,
+      "val_loss200": 0.5311588251365805,
+      "last50_loss_slope": -0.004002472877329639,
+      "final_lr": 0.00015,
+      "lr_changes": [
+        [
+          168,
+          0.00015
+        ]
+      ],
+      "stale": 5,
+      "max_stale": 11,
+      "training_seconds": 522.7641352709898,
+      "parameters": 414993,
+      "correct": 99,
+      "total": 106,
+      "out": 0.9056603773584906,
+      "back": 0.9622641509433962,
+      "last20_f1mean": 0.9007036027621986
+    },
+    {
+      "id": "full_h128",
+      "fold": 3,
+      "epochs": 200,
+      "best_epoch": 173,
+      "f1": 0.8856014986045946,
+      "accuracy": 0.8846153846153846,
+      "train_accuracy": 0.9218009478672986,
+      "best150": 0.87284954467617,
+      "best180": 0.8856014986045946,
+      "best200": 0.8856014986045946,
+      "f1gain150_200": 0.012751953928424542,
+      "val_loss150": 0.7477507407848651,
+      "val_loss200": 0.6114874596779163,
+      "last50_loss_slope": -0.0022669463961152384,
+      "final_lr": 7.5e-05,
+      "lr_changes": [
+        [
+          124,
+          0.00015
+        ],
+        [
+          195,
+          7.5e-05
+        ]
+      ],
+      "stale": 0,
+      "max_stale": 9,
+      "training_seconds": 525.5037533589857,
+      "parameters": 414993,
+      "correct": 92,
+      "total": 104,
+      "out": 0.8461538461538461,
+      "back": 0.9230769230769231,
+      "last20_f1mean": 0.8557052914911228
+    },
+    {
+      "id": "full_h128",
+      "fold": 4,
+      "epochs": 200,
+      "best_epoch": 189,
+      "f1": 0.9228133064046378,
+      "accuracy": 0.9245283018867925,
+      "train_accuracy": 0.95,
+      "best150": 0.9034522752789007,
+      "best180": 0.9135872383550402,
+      "best200": 0.9228133064046378,
+      "f1gain150_200": 0.01936103112573706,
+      "val_loss150": 0.5078381097541665,
+      "val_loss200": 0.34332012455418426,
+      "last50_loss_slope": -0.0038158033276962976,
+      "final_lr": 0.00015,
+      "lr_changes": [
+        [
+          168,
+          0.00015
+        ]
+      ],
+      "stale": 1,
+      "max_stale": 10,
+      "training_seconds": 526.0188380639975,
+      "parameters": 414993,
+      "correct": 98,
+      "total": 106,
+      "out": 0.8867924528301887,
+      "back": 0.9622641509433962,
+      "last20_f1mean": 0.9132270095391568
+    },
+    {
+      "id": "full_h128",
+      "fold": 5,
+      "epochs": 200,
+      "best_epoch": 192,
+      "f1": 0.9247811012516896,
+      "accuracy": 0.9215686274509803,
+      "train_accuracy": 0.9410377358490566,
+      "best150": 0.89595502536679,
+      "best180": 0.9147989265636324,
+      "best200": 0.9247811012516896,
+      "f1gain150_200": 0.028826075884899605,
+      "val_loss150": 0.5192835003721947,
+      "val_loss200": 0.30517935519124945,
+      "last50_loss_slope": -0.0045346189133093975,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 0,
+      "max_stale": 8,
+      "training_seconds": 528.5906916250115,
+      "parameters": 414993,
+      "correct": 94,
+      "total": 102,
+      "out": 0.8823529411764706,
+      "back": 0.9607843137254902,
+      "last20_f1mean": 0.895000460900115
+    },
+    {
+      "id": "w900_h64",
+      "fold": 1,
+      "epochs": 200,
+      "best_epoch": 199,
+      "f1": 0.7516013398366339,
+      "accuracy": 0.75,
+      "train_accuracy": 0.8086124401913876,
+      "best150": 0.6204896314757907,
+      "best180": 0.6760182885569882,
+      "best200": 0.7516013398366339,
+      "f1gain150_200": 0.13111170836084318,
+      "val_loss150": 1.3309251290780526,
+      "val_loss200": 1.2046324676937528,
+      "last50_loss_slope": -0.003467477294550791,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 2,
+      "max_stale": 7,
+      "training_seconds": 359.64343409999856,
+      "parameters": 105105,
+      "correct": 81,
+      "total": 108,
+      "out": 0.7222222222222222,
+      "back": 0.7777777777777778,
+      "last20_f1mean": 0.6611864341283291
+    },
+    {
+      "id": "w900_h64",
+      "fold": 2,
+      "epochs": 200,
+      "best_epoch": 199,
+      "f1": 0.7180205415499534,
+      "accuracy": 0.7358490566037735,
+      "train_accuracy": 0.7714285714285715,
+      "best150": 0.5932530752599956,
+      "best180": 0.6542673245732797,
+      "best200": 0.7180205415499534,
+      "f1gain150_200": 0.12476746628995783,
+      "val_loss150": 1.4136055100638911,
+      "val_loss200": 1.2376045640909448,
+      "last50_loss_slope": -0.002991949335581409,
+      "final_lr": 0.00015,
+      "lr_changes": [
+        [
+          185,
+          0.00015
+        ]
+      ],
+      "stale": 1,
+      "max_stale": 11,
+      "training_seconds": 361.44020898400413,
+      "parameters": 105105,
+      "correct": 78,
+      "total": 106,
+      "out": 0.7358490566037735,
+      "back": 0.7358490566037735,
+      "last20_f1mean": 0.6186980177191433
+    },
+    {
+      "id": "w900_h64",
+      "fold": 3,
+      "epochs": 200,
+      "best_epoch": 200,
+      "f1": 0.699922119800416,
+      "accuracy": 0.6923076923076923,
+      "train_accuracy": 0.7393364928909952,
+      "best150": 0.6459487880540512,
+      "best180": 0.6882645132645132,
+      "best200": 0.699922119800416,
+      "f1gain150_200": 0.05397333174636476,
+      "val_loss150": 1.3103094100952148,
+      "val_loss200": 1.1926582134686983,
+      "last50_loss_slope": -0.003213688724203245,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 2,
+      "max_stale": 7,
+      "training_seconds": 371.92018014698624,
+      "parameters": 105105,
+      "correct": 72,
+      "total": 104,
+      "out": 0.6346153846153846,
+      "back": 0.75,
+      "last20_f1mean": 0.6393980461239177
+    },
+    {
+      "id": "w900_h64",
+      "fold": 4,
+      "epochs": 200,
+      "best_epoch": 192,
+      "f1": 0.7632867132867132,
+      "accuracy": 0.7924528301886793,
+      "train_accuracy": 0.7928571428571428,
+      "best150": 0.6670538227631653,
+      "best180": 0.7088619761630143,
+      "best200": 0.7632867132867132,
+      "f1gain150_200": 0.09623289052354789,
+      "val_loss150": 1.2750341037534318,
+      "val_loss200": 1.0994635078142274,
+      "last50_loss_slope": -0.0030841009784639706,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 0,
+      "max_stale": 6,
+      "training_seconds": 365.5912888129915,
+      "parameters": 105105,
+      "correct": 84,
+      "total": 106,
+      "out": 0.7735849056603774,
+      "back": 0.8113207547169812,
+      "last20_f1mean": 0.6912149628988548
+    },
+    {
+      "id": "w900_h64",
+      "fold": 5,
+      "epochs": 200,
+      "best_epoch": 176,
+      "f1": 0.725023016199487,
+      "accuracy": 0.7450980392156863,
+      "train_accuracy": 0.7382075471698113,
+      "best150": 0.6662430994610925,
+      "best180": 0.725023016199487,
+      "best200": 0.725023016199487,
+      "f1gain150_200": 0.058779916738394444,
+      "val_loss150": 1.3816647155612123,
+      "val_loss200": 1.2573502297494925,
+      "last50_loss_slope": -0.001784669199369923,
+      "final_lr": 0.00015,
+      "lr_changes": [
+        [
+          145,
+          0.00015
+        ]
+      ],
+      "stale": 0,
+      "max_stale": 9,
+      "training_seconds": 365.28650131900395,
+      "parameters": 105105,
+      "correct": 76,
+      "total": 102,
+      "out": 0.7647058823529411,
+      "back": 0.7254901960784313,
+      "last20_f1mean": 0.6496381488106584
+    },
+    {
+      "id": "w900_h128",
+      "fold": 1,
+      "epochs": 200,
+      "best_epoch": 191,
+      "f1": 0.9084213172448466,
+      "accuracy": 0.9074074074074074,
+      "train_accuracy": 0.9425837320574163,
+      "best150": 0.8740951090432059,
+      "best180": 0.8991105491970544,
+      "best200": 0.9084213172448466,
+      "f1gain150_200": 0.034326208201640784,
+      "val_loss150": 0.8644215310061419,
+      "val_loss200": 0.6723311653843632,
+      "last50_loss_slope": -0.003910460777404843,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 0,
+      "max_stale": 7,
+      "training_seconds": 575.3215377270071,
+      "parameters": 414993,
+      "correct": 98,
+      "total": 108,
+      "out": 0.9074074074074074,
+      "back": 0.9074074074074074,
+      "last20_f1mean": 0.8758620621168426
+    },
+    {
+      "id": "w900_h128",
+      "fold": 2,
+      "epochs": 200,
+      "best_epoch": 196,
+      "f1": 0.9321375279852788,
+      "accuracy": 0.9339622641509434,
+      "train_accuracy": 0.9595238095238096,
+      "best150": 0.8667892660972246,
+      "best180": 0.9048525004407357,
+      "best200": 0.9321375279852788,
+      "f1gain150_200": 0.0653482618880542,
+      "val_loss150": 0.875754140458017,
+      "val_loss200": 0.6399398524806185,
+      "last50_loss_slope": -0.004920300938820698,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 0,
+      "max_stale": 6,
+      "training_seconds": 578.5416418460045,
+      "parameters": 414993,
+      "correct": 99,
+      "total": 106,
+      "out": 0.9056603773584906,
+      "back": 0.9622641509433962,
+      "last20_f1mean": 0.8940293227533711
+    },
+    {
+      "id": "w900_h128",
+      "fold": 3,
+      "epochs": 200,
+      "best_epoch": 197,
+      "f1": 0.8995540407305114,
+      "accuracy": 0.9038461538461539,
+      "train_accuracy": 0.9502369668246445,
+      "best150": 0.8587791293673646,
+      "best180": 0.8850198820787056,
+      "best200": 0.8995540407305114,
+      "f1gain150_200": 0.040774911363146815,
+      "val_loss150": 0.8354458350401658,
+      "val_loss200": 0.6393627753624549,
+      "last50_loss_slope": -0.0042477838990210345,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 4,
+      "max_stale": 4,
+      "training_seconds": 581.8468025469938,
+      "parameters": 414993,
+      "correct": 94,
+      "total": 104,
+      "out": 0.8846153846153846,
+      "back": 0.9230769230769231,
+      "last20_f1mean": 0.8696027218901012
+    },
+    {
+      "id": "w900_h128",
+      "fold": 4,
+      "epochs": 200,
+      "best_epoch": 199,
+      "f1": 0.963380410439234,
+      "accuracy": 0.9622641509433962,
+      "train_accuracy": 0.9380952380952381,
+      "best150": 0.8919185389773625,
+      "best180": 0.9520819050230815,
+      "best200": 0.963380410439234,
+      "f1gain150_200": 0.07146187146187144,
+      "val_loss150": 0.8307981041242491,
+      "val_loss200": 0.5957089055259273,
+      "last50_loss_slope": -0.0047244086897725085,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 0,
+      "max_stale": 7,
+      "training_seconds": 580.8759275830034,
+      "parameters": 414993,
+      "correct": 102,
+      "total": 106,
+      "out": 0.9245283018867925,
+      "back": 1.0,
+      "last20_f1mean": 0.9265107928757539
+    },
+    {
+      "id": "w900_h128",
+      "fold": 5,
+      "epochs": 200,
+      "best_epoch": 185,
+      "f1": 0.942057942057942,
+      "accuracy": 0.9411764705882353,
+      "train_accuracy": 0.9410377358490566,
+      "best150": 0.857565272098144,
+      "best180": 0.9140467375761493,
+      "best200": 0.942057942057942,
+      "f1gain150_200": 0.08449266995979798,
+      "val_loss150": 0.8365039170957079,
+      "val_loss200": 0.651648198857027,
+      "last50_loss_slope": -0.003983628916246004,
+      "final_lr": 0.0003,
+      "lr_changes": [],
+      "stale": 4,
+      "max_stale": 5,
+      "training_seconds": 582.1136790539877,
+      "parameters": 414993,
+      "correct": 96,
+      "total": 102,
+      "out": 0.9215686274509803,
+      "back": 0.9607843137254902,
+      "last20_f1mean": 0.8956496369936545
+    }
+  ]
+}

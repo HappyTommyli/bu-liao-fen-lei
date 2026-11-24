@@ -1,0 +1,346 @@
+{
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+  "source_sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7",
+  "scope": "One preselected record: 空气层_001. Descriptive comparison, not an independence or classification test.",
+  "methods": {
+    "stats": "Recorded-valid samples only; population standard deviation; no denoising.",
+    "sensitivity": "Also recompute after trimming 1 s from each end of each leg.",
+    "position_alignment": "1 mm bins using latest software pulse count; median per bin; correlation over 10–145 mm.",
+    "spectrum": "Middle segment, interpolate at 333.333 Hz, Welch 1024 samples/50% overlap, constant detrend. Bz suspect."
+  },
+  "legs": [
+    {
+      "direction": "去程（+X）",
+      "stage": "step_003",
+      "rows": 8697,
+      "valid_rows": 8695,
+      "invalid_rows": 2,
+      "duration_s": 26.14,
+      "mean_sampling_rate_hz": 332.67023718439174,
+      "max_timestamp_gap_ms": 7.000000000005002,
+      "axes": {
+        "x": {
+          "full": {
+            "n": 8695,
+            "mean": -9.641620915468659,
+            "std": 16.485302436701243,
+            "median": -9.922748,
+            "q05": -39.022748,
+            "q95": 19.927252
+          },
+          "trim_1s_each_end": {
+            "n": 8029,
+            "mean": -11.462746754514885,
+            "std": 15.405132310193917,
+            "median": -11.422748,
+            "q05": -39.622748,
+            "q95": 10.327252
+          }
+        },
+        "y": {
+          "full": {
+            "n": 8695,
+            "mean": 295.1320119988499,
+            "std": 160.58850275326515,
+            "median": 382.268694,
+            "q05": 0.218694,
+            "q95": 404.918694
+          },
+          "trim_1s_each_end": {
+            "n": 8029,
+            "mean": 319.05842497521485,
+            "std": 142.9971749117223,
+            "median": 383.768694,
+            "q05": 2.318694,
+            "q95": 406.268694
+          }
+        },
+        "z": {
+          "full": {
+            "n": 8695,
+            "mean": -11570.17750665555,
+            "std": 6532.98378416314,
+            "median": -15229.976766,
+            "q05": -15357.486566,
+            "q95": 30.059234
+          },
+          "trim_1s_each_end": {
+            "n": 8029,
+            "mean": -12531.080160196037,
+            "std": 5845.124831099932,
+            "median": -15232.396766,
+            "q05": -15368.787966,
+            "q95": 19.653234
+          }
+        }
+      }
+    },
+    {
+      "direction": "回程（−X）",
+      "stage": "step_004",
+      "rows": 8700,
+      "valid_rows": 8700,
+      "invalid_rows": 0,
+      "duration_s": 26.149000000000004,
+      "mean_sampling_rate_hz": 332.6704654097671,
+      "max_timestamp_gap_ms": 7.0010000000024775,
+      "axes": {
+        "x": {
+          "full": {
+            "n": 8700,
+            "mean": 54.5290968275862,
+            "std": 23.006942899842457,
+            "median": 63.727252,
+            "q05": 8.227252,
+            "q95": 79.477252
+          },
+          "trim_1s_each_end": {
+            "n": 8032,
+            "mean": 57.82146888247012,
+            "std": 20.572098865389606,
+            "median": 64.927252,
+            "q05": 14.827252,
+            "q95": 79.777252
+          }
+        },
+        "y": {
+          "full": {
+            "n": 8700,
+            "mean": -295.6599266896552,
+            "std": 164.0146934539316,
+            "median": -384.981306,
+            "q05": -408.531306,
+            "q95": 13.118694
+          },
+          "trim_1s_each_end": {
+            "n": 8032,
+            "mean": -320.0569658605578,
+            "std": 146.18574508795365,
+            "median": -386.781306,
+            "q05": -409.431306,
+            "q95": 12.068694
+          }
+        },
+        "z": {
+          "full": {
+            "n": 8700,
+            "mean": -67.20498875862067,
+            "std": 240.06399448857414,
+            "median": -76.178766,
+            "q05": -107.396766,
+            "q95": 27.881234
+          },
+          "trim_1s_each_end": {
+            "n": 8032,
+            "mean": -72.5737734701195,
+            "std": 248.9306997667253,
+            "median": -77.872766,
+            "q05": -108.122766,
+            "q95": 24.009234
+          }
+        }
+      }
+    }
+  ],
+  "comparison": {
+    "x": {
+      "mean_difference_return_minus_outward_uT": 64.17071774305487,
+      "std_ratio_return_over_outward": 1.3956033253367606,
+      "position_binned_median_pearson_r": -0.7151898383736883,
+      "spectral_rms_1_to_100_hz_uT": [
+        3.6466642949052317,
+        3.786974265732305
+      ],
+      "spectral_band_fractions_1_5_20_100": [
+        [
+          0.07610778018197878,
+          0.16167394526078221,
+          0.7548834672776754
+        ],
+        [
+          0.1214596460140533,
+          0.1797574206253453,
+          0.6910745526196913
+        ]
+      ]
+    },
+    "y": {
+      "mean_difference_return_minus_outward_uT": -590.7919386885051,
+      "std_ratio_return_over_outward": 1.0213352179136423,
+      "position_binned_median_pearson_r": -0.25449284038009773,
+      "spectral_rms_1_to_100_hz_uT": [
+        5.805844328822298,
+        6.57986510520466
+      ],
+      "spectral_band_fractions_1_5_20_100": [
+        [
+          0.5300849371683948,
+          0.1410603612539796,
+          0.3187068754560888
+        ],
+        [
+          0.544002739939739,
+          0.1754886071530064,
+          0.25862153853845005
+        ]
+      ]
+    },
+    "z": {
+      "mean_difference_return_minus_outward_uT": 11502.97251789693,
+      "std_ratio_return_over_outward": 0.03674645497674778,
+      "position_binned_median_pearson_r": 0.17128459799516088,
+      "spectral_rms_1_to_100_hz_uT": [
+        672.2088263522112,
+        13.68884417367168
+      ],
+      "spectral_band_fractions_1_5_20_100": [
+        [
+          0.7530928704244179,
+          0.18295774129756953,
+          0.04628201188669623
+        ],
+        [
+          0.13696310896343444,
+          0.1871391870651555,
+          0.6647624182150991
+        ]
+      ]
+    }
+  },
+  "bz_diagnostic": {
+    "raw_Bz_min_uT": -7929.372,
+    "raw_Bz_max_uT": 7928.888,
+    "hypothetical_signed16_boundary_uT": 7929.856,
+    "hypothetical_wrap_period_uT": 15859.712,
+    "jumps_over_10000uT": 14,
+    "jumps": [
+      {
+        "seq": 1502,
+        "stage": "step_003",
+        "time_s": 4.511,
+        "before_uT": 7920.66,
+        "after_uT": -7916.304,
+        "jump_uT": -15836.964,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 1508,
+        "stage": "step_003",
+        "time_s": 4.529,
+        "before_uT": -7917.998,
+        "after_uT": 7927.678,
+        "jump_uT": 15845.676,
+        "sample_valid": "0"
+      },
+      {
+        "seq": 1509,
+        "stage": "step_003",
+        "time_s": 4.532,
+        "before_uT": 7927.678,
+        "after_uT": -7918.482,
+        "jump_uT": -15846.16,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8092,
+        "stage": "step_003",
+        "time_s": 24.321,
+        "before_uT": -7825.312,
+        "after_uT": 7799.176,
+        "jump_uT": 15624.488000000001,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8097,
+        "stage": "step_003",
+        "time_s": 24.336,
+        "before_uT": 7925.5,
+        "after_uT": -7746.904,
+        "jump_uT": -15672.404,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8100,
+        "stage": "step_003",
+        "time_s": 24.345,
+        "before_uT": -7904.446,
+        "after_uT": 7814.664,
+        "jump_uT": 15719.11,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8105,
+        "stage": "step_003",
+        "time_s": 24.36,
+        "before_uT": 7890.894,
+        "after_uT": -7848.544,
+        "jump_uT": -15739.438,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8108,
+        "stage": "step_003",
+        "time_s": 24.369,
+        "before_uT": -7903.962,
+        "after_uT": 7823.376,
+        "jump_uT": 15727.338,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8113,
+        "stage": "step_003",
+        "time_s": 24.384,
+        "before_uT": 7849.028,
+        "after_uT": -7922.838,
+        "jump_uT": -15771.866,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8115,
+        "stage": "step_003",
+        "time_s": 24.39,
+        "before_uT": -7887.506,
+        "after_uT": 7925.742,
+        "jump_uT": 15813.248,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 8122,
+        "stage": "step_003",
+        "time_s": 24.411,
+        "before_uT": 7904.204,
+        "after_uT": -7917.03,
+        "jump_uT": -15821.234,
+        "sample_valid": "0"
+      },
+      {
+        "seq": 8123,
+        "stage": "step_003",
+        "time_s": 24.414,
+        "before_uT": -7917.03,
+        "after_uT": 7898.396,
+        "jump_uT": 15815.426,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 16643,
+        "stage": "step_004",
+        "time_s": 50.026,
+        "before_uT": 7861.854,
+        "after_uT": -7915.578,
+        "jump_uT": -15777.432,
+        "sample_valid": "1"
+      },
+      {
+        "seq": 16645,
+        "stage": "step_004",
+        "time_s": 50.032,
+        "before_uT": -7883.876,
+        "after_uT": 7879.036,
+        "jump_uT": 15762.912,
+        "sample_valid": "1"
+      }
+    ],
+    "interpretation": "Suspected signed-16-bit range wrap, conditional on the firmware and library settings. Not corrected."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-16T08:40:25.865208+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17404,
+  "invalid_sample_count": 7,
+  "baseline_B0_uT": {
+    "Bx_uT": 976.8663418290863,
+    "By_uT": -103.81731634182918,
+    "Bz_uT": 7396.875127436275
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM0",
+    "sensor_port": "/dev/ttyACM1",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        976.8663418290863,
+        -103.81731634182918,
+        7396.875127436275
+      ],
+      "sigma": [
+        5.053762959525199,
+        5.136578776152083,
+        7.391955948859324
+      ],
+      "samples": 667,
+      "invalid_samples": 0
+    },
+    "capture_session": "60a480bf89bc49dfb2f1f3444a716553",
+    "segment": 1,
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "6e4d94570d1d4146b6f960cfd3cdd9a6",
+      "round": 2,
+      "count": 10
+    }
+  },
+  "files": {
+    "sensor": "空气层_012.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "空气层",
+  "run_name": "空气层_012",
+  "sequence": 12
+}

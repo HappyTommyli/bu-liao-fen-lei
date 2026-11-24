@@ -1,0 +1,126 @@
+--- /home/serein/classify-cloth/mlx_c3_monitor.ino
++++ /home/serein/classify-cloth/xz-control/firmware/mlx_c3_monitor/mlx_c3_monitor.ino
+@@ -1,6 +1,6 @@
+ // 触觉毛笔 · MLX90393 monitor 兼容固件（XIAO ESP32-C3）
+ // ------------------------------------------------------------------
+-// XIAO ESP32-C3 固件，按 ESP32-S3 方案固定使用 GPIO1/GPIO2 I2C。
++// XIAO ESP32-C3 固件；优先使用本机实测 GPIO3/GPIO4，保留原引脚候选。
+ // FQBN: esp32:esp32:XIAO_ESP32C3。
+ //
+ // 目的: 让 FYP 的 monitor（docs/monitor.md, src/brushbot/monitor/）能直接用。
+@@ -11,19 +11,22 @@
+ //          GND      --------------- GND
+ //          SDA      --------------- GPIO1
+ //          SCL      --------------- GPIO2
+-//   启动时先测 GPIO1/GPIO2；再测反接的 GPIO2/GPIO1，便于确认是否接反。
++//   本机接线 SDA=GPIO3、SCL=GPIO4；优先探测该组合，其余组合作为备用。
+ //
+ // 输出 (115200 8N1): 每样本一行 CSV + 每 ~1s 一行 '#' 状态(监控端忽略)
+ //   t_us,Bx_uT,By_uT,Bz_uT
+ //   # rate=333.3Hz max|B|=... uT SDA=1 SCL=2 addr=0x0C
+ // 依赖: Adafruit MLX90393 库 (2.0.5)
+-// 编译烧录:
+-//   arduino-cli compile -u -p /dev/ttyACM0 \
+-//     --fqbn esp32:esp32:XIAO_ESP32C3 /home/ethan/esp32-brush-test/mlx_c3_monitor
++// 新增：REBOOT\n -> 确认 -> ESP.restart()；启动后保持原 READY 与四列数据。
++// 仅编译（不烧录；路径替换为本 sketch 目录）:
++//   arduino-cli compile --fqbn esp32:esp32:XIAO_ESP32C3 <mlx_c3_monitor目录>
+ // ------------------------------------------------------------------
+ 
+ #include <Wire.h>
+ #include "Adafruit_MLX90393.h"
++#include "serial_commands.h"
++
++SerialCommandParser serialCommands;
+ 
+ // ---- 串口/采样 ----
+ static const uint32_t SERIAL_BAUD = 115200;   // monitor 串口源默认 115200
+@@ -35,14 +38,14 @@
+ static const int WARMUP_SAMPLES = 20;
+ static const int TARE_SAMPLES = 100;
+ 
+-// ---- I2C 引脚：先按 ESP32-S3 方案，再覆盖 XIAO C3 排针 ----
++// ---- I2C 引脚：优先本机已确认接线，再尝试原候选 ----
+ // 首选 GPIO1/GPIO2（及反接）验证 S3 风格接线；XIAO C3 排针没有 GPIO1，
+ // 因此继续检查 D0/D1、D2/D1、D4/D5 对应的 GPIO 组合。
+ struct PinPair { uint8_t sda, scl; };
+ static const PinPair PAIRS[] = {
+-  {1, 2}, {2, 1},  // S3-style GPIO1/GPIO2
++  {3, 4}, {4, 3},  // Prefer the confirmed wiring; avoid unrelated pin probes on reboot.
++  {1, 2}, {2, 1},  // Original S3-style GPIO1/GPIO2 fallback
+   {2, 3}, {3, 2},  // XIAO C3 D0/D1
+-  {4, 3}, {3, 4},  // XIAO C3 D2/D1
+   {6, 7}, {7, 6}   // XIAO C3 D4/D5
+ };
+ static const size_t N_PAIRS = sizeof(PAIRS) / sizeof(PAIRS[0]);
+@@ -66,6 +69,19 @@
+ unsigned long lastSampleUs = 0;
+ unsigned long lastStatusMs = 0, windowCount = 0;
+ float maxMag = 0;
++
++// REBOOT is handled on the acquisition board; magnetic CSV stays unchanged.
++void handleSerialCommands() {
++  for (unsigned count = 0; count < 64 && Serial.available(); ++count) {
++    if (serialCommands.feed(static_cast<char>(Serial.read()))) {
++      Serial.println("# fw=mlx_c3 reboot requested");
++      Serial.flush();
++      delay(200);
++      ESP.restart();
++      return;
++    }
++  }
++}
+ 
+ // ---- 引脚探测 / 地址识别 ----
+ uint8_t scanBus() {
+@@ -127,12 +143,14 @@
+   Serial.println("CALIBRATING...");
+   float x, y, z;
+   for (int i = 0; i < WARMUP_SAMPLES; i++) {
++    handleSerialCommands();
+     if (readFrame(x, y, z)) delay(5);
+   }
+   // 取 B0 打印参考（monitor 端会自己取, 这里仅给命令行观察用）
+   long collected = 0;
+   double sx = 0, sy = 0, sz = 0;
+   while (collected < TARE_SAMPLES) {
++    handleSerialCommands();
+     if (readFrame(x, y, z)) { sx += x; sy += y; sz += z; collected++; }
+   }
+   Serial.print("# tare B0 = (");
+@@ -146,15 +164,17 @@
+ void setup() {
+   Serial.begin(SERIAL_BAUD);
+   uint32_t t0 = millis();
+-  while (!Serial && (millis() - t0 < 4000)) { delay(10); }
++  while (!Serial && (millis() - t0 < 4000)) { handleSerialCommands(); delay(10); }
+   delay(300);
+ 
+   Serial.println();
+   Serial.println("# ================================================");
+   Serial.println("# MLX90393 monitor-compat @ XIAO ESP32-C3 (S3-style GPIO1/GPIO2)");
++  Serial.println("# fw=mlx_c3 build=reboot-v2 target=XIAO_ESP32C3");
+   Serial.println("# ================================================");
+ 
+   for (size_t i = 0; i < N_PAIRS && mlxAddr == 0; i++) {
++    handleSerialCommands();
+     uint8_t addr = 0;
+     if (probePair(PAIRS[i], addr)) {
+       Serial.print("# FOUND @ SDA=");
+@@ -172,7 +192,7 @@
+   }
+   if (mlxAddr == 0) {
+     Serial.println("# ERROR: 未找到传感器。检查 VCC=3.3V / GND / SDA-SCL 接线。");
+-    while (true) { delay(1000); }
++    while (true) { handleSerialCommands(); delay(1000); }
+   }
+ 
+   warmupAndTare();
+@@ -180,6 +200,7 @@
+ }
+ 
+ void loop() {
++  handleSerialCommands();
+   // 定时采样（333Hz 等间隔）
+   unsigned long now = micros();
+   if (now - lastSampleUs < SAMPLE_INTERVAL_US) return;

@@ -1,0 +1,28 @@
+{
+  "fqbn": "esp32:esp32:XIAO_ESP32C3",
+  "arduino_cli": "1.6.0",
+  "esp32_core": "2.0.17",
+  "mlx90393_library": "2.0.5",
+  "original_source": {
+    "path": "/home/serein/classify-cloth/mlx_c3_monitor.ino",
+    "sha256": "f7d4fb1e85642cf83510a672f341c82dc49ecbf0926f81c25363d3b9109407c7"
+  },
+  "source_sha256": {
+    "mlx_c3_monitor.ino": "b5f0e983a18718149333c380b529cd33e280544f61f63ea660f3c7b658d8aa36",
+    "serial_commands.h": "896dc353131301d06becde97be5ac1c48a2bdf573c058c8322069e80c81f786c"
+  },
+  "artifacts_sha256": {
+    "mlx_c3_monitor.ino.bootloader.bin": "30d47ab1f344cfa69f6b2f718ffa72fc7baea6db047eaabefea162db29e6821c",
+    "mlx_c3_monitor.ino.bin": "8d427dcf2abd5d03559b375f66631e647a25dcd90a1bf0809a387bce9096a3d8",
+    "boot_app0.bin": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+    "mlx_c3_monitor.ino.partitions.bin": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+  },
+  "target_compile": "passed",
+  "flashed": true,
+  "firmware_build": "reboot-v2",
+  "actual_chip": "ESP32-C3",
+  "usb_serial": "34:85:18:03:98:04",
+  "flash_report": "/home/serein/classify-cloth/xz-control/data/firmware_backups/20261113_153347_c3/flash_report.json",
+  "hardware_verification": "/home/serein/classify-cloth/xz-control/data/firmware_backups/20261113_153347_c3/reboot_verification.json",
+  "consecutive_reboot_cycles_passed": 3
+}

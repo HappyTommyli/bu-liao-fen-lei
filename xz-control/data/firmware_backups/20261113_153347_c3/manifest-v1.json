@@ -1,0 +1,22 @@
+{
+  "fqbn": "esp32:esp32:XIAO_ESP32C3",
+  "arduino_cli": "1.6.0",
+  "esp32_core": "2.0.17",
+  "mlx90393_library": "2.0.5",
+  "original_source": {
+    "path": "/home/serein/classify-cloth/mlx_c3_monitor.ino",
+    "sha256": "f7d4fb1e85642cf83510a672f341c82dc49ecbf0926f81c25363d3b9109407c7"
+  },
+  "source_sha256": {
+    "mlx_c3_monitor.ino": "f3b4228830f8aeff37664b69de037ecb6eafdb6c6ae0fed04bb78250e6e600bb",
+    "serial_commands.h": "896dc353131301d06becde97be5ac1c48a2bdf573c058c8322069e80c81f786c"
+  },
+  "artifacts_sha256": {
+    "mlx_c3_monitor.ino.bootloader.bin": "30d47ab1f344cfa69f6b2f718ffa72fc7baea6db047eaabefea162db29e6821c",
+    "mlx_c3_monitor.ino.bin": "02bfec5fb3cf5f0a9e412f82b39b439f48c087352cb7f2e93ef45f3909b57648",
+    "boot_app0.bin": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+    "mlx_c3_monitor.ino.partitions.bin": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+  },
+  "target_compile": "passed",
+  "flashed": false
+}

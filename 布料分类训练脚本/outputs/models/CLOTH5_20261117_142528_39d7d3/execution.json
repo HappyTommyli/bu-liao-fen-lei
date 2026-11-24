@@ -1,0 +1,49 @@
+{
+  "config": {
+    "data": {
+      "out_low": 45.0,
+      "out_high": 142.0,
+      "back_low": 16.0,
+      "back_high": 114.0,
+      "fallback_ppmm": 250.0,
+      "fallback_speed": 6.0,
+      "fs": 333.0,
+      "source_fs": 333.0,
+      "max_gap": 0.02,
+      "tail_margin": 0.2,
+      "speed_tolerance": 0.1,
+      "preprocess_version": "abs-v3",
+      "baseline_tolerance": 0.01,
+      "boundary_tolerance": 2.0
+    },
+    "signals": [
+      "by"
+    ],
+    "architectures": [
+      "gru",
+      "tcn",
+      "cera"
+    ],
+    "readouts": [
+      "mean"
+    ],
+    "preset": "custom",
+    "repetitions": 1,
+    "epochs": 200,
+    "patience": 30,
+    "early_stopping": false,
+    "batch_size": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "split_seed": 42,
+    "threads": 2,
+    "hidden_size": 64,
+    "dropout": 0.1,
+    "scheduler": true,
+    "scheduler_patience": 8,
+    "min_lr": 1e-05,
+    "name": ""
+  },
+  "dataset_sha256": "4554e7afa87df9e6c49be3fc787194e039de36b92ad65af7ee724756837e0f22"
+}

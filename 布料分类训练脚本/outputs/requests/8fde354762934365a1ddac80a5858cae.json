@@ -1,0 +1,9 @@
+{
+  "models": [
+    "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH4_20261118_043041_a4aed4/final/model.pt"
+  ],
+  "paths": [
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据"
+  ],
+  "destination": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH4_20261118_043041_a4aed4/recognition/识别_20261118_140742_2c55.json"
+}

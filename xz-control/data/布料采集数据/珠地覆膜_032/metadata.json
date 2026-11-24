@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-17T08:24:53.965209+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17405,
+  "invalid_sample_count": 2,
+  "baseline_B0_uT": {
+    "Bx_uT": 953.8173423423428,
+    "By_uT": -105.29887387387402,
+    "Bz_uT": 7568.4144654654665
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM0",
+    "sensor_port": "/dev/ttyACM1",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        953.8173423423428,
+        -105.29887387387402,
+        7568.4144654654665
+      ],
+      "sigma": [
+        5.2072760650782595,
+        4.77149107829181,
+        7.47298086981621
+      ],
+      "samples": 666,
+      "invalid_samples": 0
+    },
+    "capture_session": "6c61f66be596431b8dbf5e61c8ce5048",
+    "segment": 1,
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "0c1e4234969542dc95a902512402f019",
+      "round": 12,
+      "count": 15
+    }
+  },
+  "files": {
+    "sensor": "珠地覆膜_032.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "珠地覆膜",
+  "run_name": "珠地覆膜_032",
+  "sequence": 32
+}

@@ -1,0 +1,8 @@
+{
+  "torch": "2.14.1+cpu",
+  "cuda_build": null,
+  "cuda_available": false,
+  "gpu": null,
+  "cudnn": null,
+  "python": "3.10.12"
+}

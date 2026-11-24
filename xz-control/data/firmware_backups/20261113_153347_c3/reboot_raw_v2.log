@@ -1,0 +1,77 @@
+2779794,962.250,-64.650,7655.186
+# fw=mlx_c3 reboot requested
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40381cc8
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5810,len:0x438
+load:0x403cc710,len:0x90c
+load:0x403ce710,len:0x2624
+entry 0x403cc710
+
+# ================================================
+# MLX90393 monitor-compat @ XIAO ESP32-C3 (S3-style GPIO1/GPIO2)
+# fw=mlx_c3 build=reboot-v2 target=XIAO_ESP32C3
+# ================================================
+# [probe] SDA=3 SCL=4:
+# +0x0C
+# FOUND @ SDA=3 SCL=4 addr=0x0C
+CALIBRATING...
+# tare B0 = (957.4, -67.4, 7648.1) uT (monitor 端自带基线)
+READY
+# now streaming: t_us,Bx_uT,By_uT,Bz_uT  @115200  (for monitor)
+741274,955.200,-72.450,7655.186
+2788274,955.650,-68.850,7656.396
+# fw=mlx_c3 reboot requested
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40381cc8
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5810,len:0x438
+load:0x403cc710,len:0x90c
+load:0x403ce710,len:0x2624
+entry 0x403cc710
+
+# ================================================
+# MLX90393 monitor-compat @ XIAO ESP32-C3 (S3-style GPIO1/GPIO2)
+# fw=mlx_c3 build=reboot-v2 target=XIAO_ESP32C3
+# ================================================
+# [probe] SDA=3 SCL=4:
+# +0x0C
+# FOUND @ SDA=3 SCL=4 addr=0x0C
+CALIBRATING...
+# tare B0 = (956.2, -67.5, 7647.1) uT (monitor 端自带基线)
+READY
+# now streaming: t_us,Bx_uT,By_uT,Bz_uT  @115200  (for monitor)
+741274,957.300,-72.900,7654.702
+744274,956.700,-58.950,7646.474
+2791274,960.600,-62.100,7636.068
+# fw=mlx_c3 reboot requested
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40381cc8
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5810,len:0x438
+load:0x403cc710,len:0x90c
+load:0x403ce710,len:0x2624
+entry 0x403cc710
+
+# ================================================
+# MLX90393 monitor-compat @ XIAO ESP32-C3 (S3-style GPIO1/GPIO2)
+# fw=mlx_c3 build=reboot-v2 target=XIAO_ESP32C3
+# ================================================
+# [probe] SDA=3 SCL=4:
+# +0x0C
+# FOUND @ SDA=3 SCL=4 addr=0x0C
+CALIBRATING...
+# tare B0 = (957.1, -67.2, 7646.8) uT (monitor 端自带基线)
+READY
+# now streaming: t_us,Bx_uT,By_uT,Bz_uT  @115200  (for monitor)
+741274,962.100,-65.250,7657.122
+744274,951.600,-62.400,7648.652

@@ -1,0 +1,7 @@
+{
+  "task": "/home/serein/classify-cloth/布料分类训练脚本/outputs/verification/20261116_phase1/models/CLOTH_20261116_031115_ec35b8",
+  "usable_csv": 171,
+  "selected_csv": 20,
+  "checks": "三主干真实完整长度、源CSV哈希不变、测试未运行",
+  "purpose": "one_epoch_workflow_only"
+}

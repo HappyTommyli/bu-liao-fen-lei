@@ -1,0 +1,6 @@
+检查 100 / 596
+检查 200 / 596
+检查 300 / 596
+检查 400 / 596
+检查 500 / 596
+{"statuses": {"suggest_review": 1, "normal": 412, "data_error": 182, "excluded": 1}, "errors": {"step_003未覆盖完整裁剪范围": 122, "step_003缺口超过20ms": 60}, "old_error_now_loaded": 13, "old_loaded_now_error": 0}

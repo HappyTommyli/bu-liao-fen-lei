@@ -1,0 +1,30 @@
+[
+  {
+    "candidate": "full_h64",
+    "micro_batch": 16,
+    "peak_memory_bytes": 546835456,
+    "seconds": 0.4408540780000294,
+    "parameters": 104975
+  },
+  {
+    "candidate": "full_h128",
+    "micro_batch": 16,
+    "peak_memory_bytes": 1067804160,
+    "seconds": 0.09039328500011834,
+    "parameters": 414735
+  },
+  {
+    "candidate": "w900_h64",
+    "micro_batch": 16,
+    "peak_memory_bytes": 152731136,
+    "seconds": 0.017868866000071648,
+    "parameters": 104975
+  },
+  {
+    "candidate": "w900_h128",
+    "micro_batch": 16,
+    "peak_memory_bytes": 240288256,
+    "seconds": 0.02251183199996376,
+    "parameters": 414735
+  }
+]

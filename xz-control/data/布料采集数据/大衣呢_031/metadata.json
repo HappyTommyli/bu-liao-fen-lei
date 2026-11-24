@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-17T07:19:12.783509+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17401,
+  "invalid_sample_count": 7,
+  "baseline_B0_uT": {
+    "Bx_uT": 953.5633082706767,
+    "By_uT": -103.83947368421055,
+    "Bz_uT": 7561.822763909775
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM0",
+    "sensor_port": "/dev/ttyACM1",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        953.5633082706767,
+        -103.83947368421055,
+        7561.822763909775
+      ],
+      "sigma": [
+        5.296533086798916,
+        5.1100441143703685,
+        8.00493393753262
+      ],
+      "samples": 665,
+      "invalid_samples": 0
+    },
+    "capture_session": "50751a31e32a4d28be8c18c31d97fc6c",
+    "segment": 1,
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "f9e5865d7634418cb6d4b8983659afcc",
+      "round": 11,
+      "count": 15
+    }
+  },
+  "files": {
+    "sensor": "大衣呢_031.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "大衣呢",
+  "run_name": "大衣呢_031",
+  "sequence": 31
+}

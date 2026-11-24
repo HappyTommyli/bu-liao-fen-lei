@@ -1,0 +1,2129 @@
+{
+  "requested": [
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_001/亮丝欧根纱_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_002/亮丝欧根纱_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_003/亮丝欧根纱_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_004/亮丝欧根纱_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_005/亮丝欧根纱_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_006/亮丝欧根纱_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_007/亮丝欧根纱_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_008/亮丝欧根纱_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_009/亮丝欧根纱_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_010/亮丝欧根纱_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_011/亮丝欧根纱_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_012/亮丝欧根纱_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_013/亮丝欧根纱_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_014/亮丝欧根纱_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_015/亮丝欧根纱_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_016/亮丝欧根纱_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_017/亮丝欧根纱_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_018/亮丝欧根纱_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_019/亮丝欧根纱_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_020/亮丝欧根纱_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_001/亮丝粗花呢_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_002/亮丝粗花呢_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_003/亮丝粗花呢_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_004/亮丝粗花呢_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_005/亮丝粗花呢_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_006/亮丝粗花呢_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_007/亮丝粗花呢_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_008/亮丝粗花呢_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_009/亮丝粗花呢_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_010/亮丝粗花呢_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_011/亮丝粗花呢_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_012/亮丝粗花呢_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_013/亮丝粗花呢_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_014/亮丝粗花呢_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_015/亮丝粗花呢_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_016/亮丝粗花呢_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_017/亮丝粗花呢_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_018/亮丝粗花呢_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_019/亮丝粗花呢_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_020/亮丝粗花呢_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_001/仿皮毛一体_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_002/仿皮毛一体_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_003/仿皮毛一体_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_004/仿皮毛一体_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_005/仿皮毛一体_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_006/仿皮毛一体_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_007/仿皮毛一体_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_008/仿皮毛一体_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_009/仿皮毛一体_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_010/仿皮毛一体_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_011/仿皮毛一体_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_012/仿皮毛一体_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_013/仿皮毛一体_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_014/仿皮毛一体_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_015/仿皮毛一体_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_016/仿皮毛一体_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_017/仿皮毛一体_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_018/仿皮毛一体_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_019/仿皮毛一体_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_020/仿皮毛一体_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_001/加厚1x1罗纹布_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_002/加厚1x1罗纹布_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_003/加厚1x1罗纹布_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_004/加厚1x1罗纹布_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_005/加厚1x1罗纹布_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_006/加厚1x1罗纹布_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_007/加厚1x1罗纹布_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_008/加厚1x1罗纹布_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_009/加厚1x1罗纹布_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_010/加厚1x1罗纹布_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_011/加厚1x1罗纹布_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_012/加厚1x1罗纹布_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_013/加厚1x1罗纹布_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_014/加厚1x1罗纹布_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_015/加厚1x1罗纹布_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_016/加厚1x1罗纹布_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_017/加厚1x1罗纹布_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_018/加厚1x1罗纹布_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_019/加厚1x1罗纹布_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_020/加厚1x1罗纹布_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_001/印花丝绒_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_002/印花丝绒_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_003/印花丝绒_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_004/印花丝绒_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_005/印花丝绒_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_006/印花丝绒_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_007/印花丝绒_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_008/印花丝绒_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_009/印花丝绒_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_010/印花丝绒_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_011/印花丝绒_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_012/印花丝绒_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_013/印花丝绒_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_014/印花丝绒_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_015/印花丝绒_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_016/印花丝绒_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_017/印花丝绒_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_018/印花丝绒_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_019/印花丝绒_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_020/印花丝绒_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_001/大衣呢_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_002/大衣呢_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_003/大衣呢_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_004/大衣呢_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_005/大衣呢_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_006/大衣呢_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_007/大衣呢_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_008/大衣呢_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_009/大衣呢_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_010/大衣呢_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_011/大衣呢_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_012/大衣呢_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_013/大衣呢_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_014/大衣呢_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_015/大衣呢_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_016/大衣呢_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_017/大衣呢_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_018/大衣呢_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_019/大衣呢_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_020/大衣呢_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_006/岩石肌理面料_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_007/岩石肌理面料_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_008/岩石肌理面料_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_009/岩石肌理面料_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_010/岩石肌理面料_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_011/岩石肌理面料_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_012/岩石肌理面料_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_013/岩石肌理面料_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_014/岩石肌理面料_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_015/岩石肌理面料_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_016/岩石肌理面料_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_017/岩石肌理面料_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_018/岩石肌理面料_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_019/岩石肌理面料_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_020/岩石肌理面料_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_003/平纹棉布_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_004/平纹棉布_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_005/平纹棉布_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_006/平纹棉布_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_007/平纹棉布_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_008/平纹棉布_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_009/平纹棉布_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_011/平纹棉布_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_012/平纹棉布_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_013/平纹棉布_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_014/平纹棉布_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_015/平纹棉布_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_016/平纹棉布_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_017/平纹棉布_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_018/平纹棉布_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_019/平纹棉布_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_020/平纹棉布_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_001/毛织物面料_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_002/毛织物面料_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_003/毛织物面料_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_004/毛织物面料_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_005/毛织物面料_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_006/毛织物面料_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_007/毛织物面料_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_008/毛织物面料_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_009/毛织物面料_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_010/毛织物面料_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_011/毛织物面料_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_012/毛织物面料_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_013/毛织物面料_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_014/毛织物面料_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_015/毛织物面料_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_016/毛织物面料_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_017/毛织物面料_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_018/毛织物面料_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_019/毛织物面料_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_020/毛织物面料_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_001/珠地覆膜_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_002/珠地覆膜_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_003/珠地覆膜_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_004/珠地覆膜_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_005/珠地覆膜_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_006/珠地覆膜_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_007/珠地覆膜_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_008/珠地覆膜_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_009/珠地覆膜_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_010/珠地覆膜_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_011/珠地覆膜_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_012/珠地覆膜_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_013/珠地覆膜_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_014/珠地覆膜_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_015/珠地覆膜_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_016/珠地覆膜_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_017/珠地覆膜_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_018/珠地覆膜_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_019/珠地覆膜_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_020/珠地覆膜_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_011/空气层_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_012/空气层_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_013/空气层_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_014/空气层_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_015/空气层_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_016/空气层_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_017/空气层_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_018/空气层_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_019/空气层_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_020/空气层_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_001/织棉提花缎_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_003/织棉提花缎_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_004/织棉提花缎_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_005/织棉提花缎_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_007/织棉提花缎_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_008/织棉提花缎_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_009/织棉提花缎_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_010/织棉提花缎_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_011/织棉提花缎_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_012/织棉提花缎_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_013/织棉提花缎_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_014/织棉提花缎_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_015/织棉提花缎_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_016/织棉提花缎_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_017/织棉提花缎_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_018/织棉提花缎_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_019/织棉提花缎_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_020/织棉提花缎_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_001/覆膜帆布_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_002/覆膜帆布_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_003/覆膜帆布_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_004/覆膜帆布_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_005/覆膜帆布_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_006/覆膜帆布_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_007/覆膜帆布_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_008/覆膜帆布_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_009/覆膜帆布_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_010/覆膜帆布_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_011/覆膜帆布_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_012/覆膜帆布_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_013/覆膜帆布_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_014/覆膜帆布_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_015/覆膜帆布_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_016/覆膜帆布_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_017/覆膜帆布_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_018/覆膜帆布_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_019/覆膜帆布_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_020/覆膜帆布_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_001/针织复合面料_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_002/针织复合面料_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_003/针织复合面料_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_004/针织复合面料_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_005/针织复合面料_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_006/针织复合面料_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_007/针织复合面料_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_008/针织复合面料_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_009/针织复合面料_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_010/针织复合面料_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_011/针织复合面料_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_012/针织复合面料_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_013/针织复合面料_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_014/针织复合面料_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_015/针织复合面料_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_016/针织复合面料_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_017/针织复合面料_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_018/针织复合面料_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_019/针织复合面料_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_020/针织复合面料_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_001/长毛格呢_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_002/长毛格呢_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_003/长毛格呢_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_004/长毛格呢_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_005/长毛格呢_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_006/长毛格呢_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_007/长毛格呢_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_008/长毛格呢_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_009/长毛格呢_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_010/长毛格呢_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_011/长毛格呢_011.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_012/长毛格呢_012.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_013/长毛格呢_013.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_014/长毛格呢_014.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_015/长毛格呢_015.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_016/长毛格呢_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_017/长毛格呢_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_018/长毛格呢_018.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_019/长毛格呢_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_020/长毛格呢_020.csv"
+  ],
+  "table_rows": 300,
+  "record_count": 300,
+  "errors": [],
+  "labels": {
+    "亮丝欧根纱": 20,
+    "亮丝粗花呢": 20,
+    "仿皮毛一体": 20,
+    "加厚1x1罗纹布": 20,
+    "印花丝绒": 20,
+    "大衣呢": 20,
+    "岩石肌理面料": 20,
+    "平纹棉布": 20,
+    "毛织物面料": 20,
+    "珠地覆膜": 20,
+    "空气层": 20,
+    "织棉提花缎": 20,
+    "覆膜帆布": 20,
+    "针织复合面料": 20,
+    "长毛格呢": 20
+  },
+  "eligible": 291,
+  "busy": false,
+  "status": "审查完成 · 可训练291 · 300条记录均保留显示",
+  "records": [
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_001/亮丝欧根纱_001.csv",
+      "label": "亮丝欧根纱",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_002/亮丝欧根纱_002.csv",
+      "label": "亮丝欧根纱",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_003/亮丝欧根纱_003.csv",
+      "label": "亮丝欧根纱",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_004/亮丝欧根纱_004.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_005/亮丝欧根纱_005.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_006/亮丝欧根纱_006.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_007/亮丝欧根纱_007.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_008/亮丝欧根纱_008.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_009/亮丝欧根纱_009.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_010/亮丝欧根纱_010.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_011/亮丝欧根纱_011.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_012/亮丝欧根纱_012.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_013/亮丝欧根纱_013.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_014/亮丝欧根纱_014.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_015/亮丝欧根纱_015.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_016/亮丝欧根纱_016.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_017/亮丝欧根纱_017.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_018/亮丝欧根纱_018.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_019/亮丝欧根纱_019.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_020/亮丝欧根纱_020.csv",
+      "label": "亮丝欧根纱",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_001/亮丝粗花呢_001.csv",
+      "label": "亮丝粗花呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_002/亮丝粗花呢_002.csv",
+      "label": "亮丝粗花呢",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_003/亮丝粗花呢_003.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_004/亮丝粗花呢_004.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_005/亮丝粗花呢_005.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_006/亮丝粗花呢_006.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_007/亮丝粗花呢_007.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_008/亮丝粗花呢_008.csv",
+      "label": "亮丝粗花呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_009/亮丝粗花呢_009.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_010/亮丝粗花呢_010.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_011/亮丝粗花呢_011.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_012/亮丝粗花呢_012.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_013/亮丝粗花呢_013.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_014/亮丝粗花呢_014.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_015/亮丝粗花呢_015.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_016/亮丝粗花呢_016.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_017/亮丝粗花呢_017.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_018/亮丝粗花呢_018.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_019/亮丝粗花呢_019.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_020/亮丝粗花呢_020.csv",
+      "label": "亮丝粗花呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_001/仿皮毛一体_001.csv",
+      "label": "仿皮毛一体",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_002/仿皮毛一体_002.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_003/仿皮毛一体_003.csv",
+      "label": "仿皮毛一体",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_004/仿皮毛一体_004.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_005/仿皮毛一体_005.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_006/仿皮毛一体_006.csv",
+      "label": "仿皮毛一体",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_007/仿皮毛一体_007.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_008/仿皮毛一体_008.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_009/仿皮毛一体_009.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_010/仿皮毛一体_010.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_011/仿皮毛一体_011.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_012/仿皮毛一体_012.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_013/仿皮毛一体_013.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_014/仿皮毛一体_014.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_015/仿皮毛一体_015.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_016/仿皮毛一体_016.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_017/仿皮毛一体_017.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_018/仿皮毛一体_018.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_019/仿皮毛一体_019.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_020/仿皮毛一体_020.csv",
+      "label": "仿皮毛一体",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_001/加厚1x1罗纹布_001.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_002/加厚1x1罗纹布_002.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_003/加厚1x1罗纹布_003.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_004/加厚1x1罗纹布_004.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_005/加厚1x1罗纹布_005.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_006/加厚1x1罗纹布_006.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_007/加厚1x1罗纹布_007.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_008/加厚1x1罗纹布_008.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_009/加厚1x1罗纹布_009.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_010/加厚1x1罗纹布_010.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_011/加厚1x1罗纹布_011.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_012/加厚1x1罗纹布_012.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_013/加厚1x1罗纹布_013.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_014/加厚1x1罗纹布_014.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_015/加厚1x1罗纹布_015.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_016/加厚1x1罗纹布_016.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_017/加厚1x1罗纹布_017.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_018/加厚1x1罗纹布_018.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_019/加厚1x1罗纹布_019.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_020/加厚1x1罗纹布_020.csv",
+      "label": "加厚1x1罗纹布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_001/印花丝绒_001.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_002/印花丝绒_002.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_003/印花丝绒_003.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_004/印花丝绒_004.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_005/印花丝绒_005.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_006/印花丝绒_006.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_007/印花丝绒_007.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_008/印花丝绒_008.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_009/印花丝绒_009.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_010/印花丝绒_010.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_011/印花丝绒_011.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_012/印花丝绒_012.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_013/印花丝绒_013.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_014/印花丝绒_014.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_015/印花丝绒_015.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_016/印花丝绒_016.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_017/印花丝绒_017.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_018/印花丝绒_018.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_019/印花丝绒_019.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_020/印花丝绒_020.csv",
+      "label": "印花丝绒",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_001/大衣呢_001.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_002/大衣呢_002.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_003/大衣呢_003.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_004/大衣呢_004.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_005/大衣呢_005.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_006/大衣呢_006.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_007/大衣呢_007.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_008/大衣呢_008.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_009/大衣呢_009.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_010/大衣呢_010.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_011/大衣呢_011.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_012/大衣呢_012.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_013/大衣呢_013.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_014/大衣呢_014.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_015/大衣呢_015.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_016/大衣呢_016.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_017/大衣呢_017.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_018/大衣呢_018.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_019/大衣呢_019.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_020/大衣呢_020.csv",
+      "label": "大衣呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_006/岩石肌理面料_006.csv",
+      "label": "岩石肌理面料",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_007/岩石肌理面料_007.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_008/岩石肌理面料_008.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_009/岩石肌理面料_009.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_010/岩石肌理面料_010.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_011/岩石肌理面料_011.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_012/岩石肌理面料_012.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_013/岩石肌理面料_013.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_014/岩石肌理面料_014.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_015/岩石肌理面料_015.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_016/岩石肌理面料_016.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_017/岩石肌理面料_017.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_018/岩石肌理面料_018.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_019/岩石肌理面料_019.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_020/岩石肌理面料_020.csv",
+      "label": "岩石肌理面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv",
+      "label": "平纹棉布",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_003/平纹棉布_003.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_004/平纹棉布_004.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_005/平纹棉布_005.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_006/平纹棉布_006.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_007/平纹棉布_007.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_008/平纹棉布_008.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_009/平纹棉布_009.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_011/平纹棉布_011.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_012/平纹棉布_012.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_013/平纹棉布_013.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_014/平纹棉布_014.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_015/平纹棉布_015.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_016/平纹棉布_016.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_017/平纹棉布_017.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_018/平纹棉布_018.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_019/平纹棉布_019.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_020/平纹棉布_020.csv",
+      "label": "平纹棉布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_001/毛织物面料_001.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_002/毛织物面料_002.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_003/毛织物面料_003.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_004/毛织物面料_004.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_005/毛织物面料_005.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_006/毛织物面料_006.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_007/毛织物面料_007.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_008/毛织物面料_008.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_009/毛织物面料_009.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_010/毛织物面料_010.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_011/毛织物面料_011.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_012/毛织物面料_012.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_013/毛织物面料_013.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_014/毛织物面料_014.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_015/毛织物面料_015.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_016/毛织物面料_016.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_017/毛织物面料_017.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_018/毛织物面料_018.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_019/毛织物面料_019.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_020/毛织物面料_020.csv",
+      "label": "毛织物面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_001/珠地覆膜_001.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_002/珠地覆膜_002.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_003/珠地覆膜_003.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_004/珠地覆膜_004.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_005/珠地覆膜_005.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_006/珠地覆膜_006.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_007/珠地覆膜_007.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_008/珠地覆膜_008.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_009/珠地覆膜_009.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_010/珠地覆膜_010.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_011/珠地覆膜_011.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_012/珠地覆膜_012.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_013/珠地覆膜_013.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_014/珠地覆膜_014.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_015/珠地覆膜_015.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_016/珠地覆膜_016.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_017/珠地覆膜_017.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_018/珠地覆膜_018.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_019/珠地覆膜_019.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_020/珠地覆膜_020.csv",
+      "label": "珠地覆膜",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_011/空气层_011.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_012/空气层_012.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_013/空气层_013.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_014/空气层_014.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_015/空气层_015.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_016/空气层_016.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_017/空气层_017.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_018/空气层_018.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_019/空气层_019.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_020/空气层_020.csv",
+      "label": "空气层",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_001/织棉提花缎_001.csv",
+      "label": "织棉提花缎",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_003/织棉提花缎_003.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_004/织棉提花缎_004.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_005/织棉提花缎_005.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_007/织棉提花缎_007.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_008/织棉提花缎_008.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_009/织棉提花缎_009.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_010/织棉提花缎_010.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_011/织棉提花缎_011.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_012/织棉提花缎_012.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_013/织棉提花缎_013.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_014/织棉提花缎_014.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_015/织棉提花缎_015.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_016/织棉提花缎_016.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_017/织棉提花缎_017.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_018/织棉提花缎_018.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_019/织棉提花缎_019.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_020/织棉提花缎_020.csv",
+      "label": "织棉提花缎",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_001/覆膜帆布_001.csv",
+      "label": "覆膜帆布",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_002/覆膜帆布_002.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_003/覆膜帆布_003.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_004/覆膜帆布_004.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_005/覆膜帆布_005.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_006/覆膜帆布_006.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_007/覆膜帆布_007.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_008/覆膜帆布_008.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_009/覆膜帆布_009.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_010/覆膜帆布_010.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_011/覆膜帆布_011.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_012/覆膜帆布_012.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_013/覆膜帆布_013.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_014/覆膜帆布_014.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_015/覆膜帆布_015.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_016/覆膜帆布_016.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_017/覆膜帆布_017.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_018/覆膜帆布_018.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_019/覆膜帆布_019.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_020/覆膜帆布_020.csv",
+      "label": "覆膜帆布",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_001/针织复合面料_001.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_002/针织复合面料_002.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_003/针织复合面料_003.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_004/针织复合面料_004.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_005/针织复合面料_005.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_006/针织复合面料_006.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_007/针织复合面料_007.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_008/针织复合面料_008.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_009/针织复合面料_009.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_010/针织复合面料_010.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_011/针织复合面料_011.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_012/针织复合面料_012.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_013/针织复合面料_013.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_014/针织复合面料_014.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_015/针织复合面料_015.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_016/针织复合面料_016.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_017/针织复合面料_017.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_018/针织复合面料_018.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_019/针织复合面料_019.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_020/针织复合面料_020.csv",
+      "label": "针织复合面料",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_001/长毛格呢_001.csv",
+      "label": "长毛格呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_002/长毛格呢_002.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_003/长毛格呢_003.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_004/长毛格呢_004.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_005/长毛格呢_005.csv",
+      "label": "长毛格呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_006/长毛格呢_006.csv",
+      "label": "长毛格呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_007/长毛格呢_007.csv",
+      "label": "长毛格呢",
+      "quality": "suggest_review",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_008/长毛格呢_008.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_009/长毛格呢_009.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_010/长毛格呢_010.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_011/长毛格呢_011.csv",
+      "label": "长毛格呢",
+      "quality": "excluded",
+      "eligible": false
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_012/长毛格呢_012.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_013/长毛格呢_013.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_014/长毛格呢_014.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_015/长毛格呢_015.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_016/长毛格呢_016.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_017/长毛格呢_017.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_018/长毛格呢_018.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_019/长毛格呢_019.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_020/长毛格呢_020.csv",
+      "label": "长毛格呢",
+      "quality": "normal",
+      "eligible": true
+    }
+  ]
+}

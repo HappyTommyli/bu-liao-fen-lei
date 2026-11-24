@@ -1,0 +1,131 @@
+{
+  "format": "cloth-admission-annotations-v1",
+  "records": [
+    {
+      "sample_name": "亮丝欧根纱_001",
+      "sha256": "7bbac078c9799d117467f1417f2e917898b61fed6f8a4bc1abf4d9b38cd620b7",
+      "metadata_sha256": "229713fa5ebe47e66858b2cbfa3e1c61fdd713b5f5759b02d9736ce758478ae2",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "亮丝欧根纱_002",
+      "sha256": "a169fef404ca7d41b2b4e759b649a19cd6c8c2f44f170fa87564d1f9f4bfc8f0",
+      "metadata_sha256": "dfdbaa8aee3155dc7d8f3c660f3b8a987e1a0b57456bb1d432ae62db6760af51",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "亮丝欧根纱_003",
+      "sha256": "f0168794fe6dd5bbb403999133b0960ea87cd2666fb57baeeb47868625f6b98c",
+      "metadata_sha256": "8bd0eb6c49db7516c705d5f1fcb00dc11d6001b890c90eb2d0c75f8ad1099db3",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "亮丝粗花呢_002",
+      "sha256": "c4979fadfc880b6ba584e56a235ef303e070e8c1d7818095bf47741d60b9d5ad",
+      "metadata_sha256": "0e2da22638505729378640e04ca050a8fbf9372dc1f3e483d5de5407cb628f43",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "仿皮毛一体_001",
+      "sha256": "5c92ed1697089ed589af8e91c580b52a5b75b458ee20478223d21f1569801dbf",
+      "metadata_sha256": "c94fa79080c35ba06269003b04f112699e9c75cb47e6f4e1859f1a8716383931",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "平纹棉布_001",
+      "sha256": "cac492a3d9bb44ba0d1ccddc981796243df700dd1ccd98d3b005a8167324a700",
+      "metadata_sha256": "352d2481409e8fadc92124a3b6d01a909b5e72e0eaead3ab1dac63f124a58241",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "覆膜帆布_001",
+      "sha256": "97ef9491bbe8a99e920058884e880182970e04cfbee6fd15a44a48a1786ad1d0",
+      "metadata_sha256": "07d3ffdeecdcde50e880a384ed8940423a861f2bcb273f4b1a835519d33e2367",
+      "decision": "excluded",
+      "reason": "用户确认本实验排除，建议复采"
+    },
+    {
+      "sample_name": "亮丝粗花呢_001",
+      "sha256": "e4344bd09f9679b9db235ed23aaf310ead6e5f57a4f5bbe91e70b4fccb27d06e",
+      "metadata_sha256": "ac2ccf8fdea548b00d058f3e2d6ad326cb9beb0f620167374212526a841b7909",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "亮丝粗花呢_008",
+      "sha256": "bdb012d34e236096427cb71cb31ea61f0261f942a04808742057c1d34233e150",
+      "metadata_sha256": "d133306160f7c6e3bb253ceaa6b33b169344b261fcf1e1aff8ed9a5cf56ecae7",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "仿皮毛一体_003",
+      "sha256": "f4994c8e95ac69effd4851ac3e0a931db6ed96d8ddd18dfd9abc602f4081ebe2",
+      "metadata_sha256": "08ed580e1f748889210cc81a3005369b8e5adbd4163dfd09443a88306f455255",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "仿皮毛一体_006",
+      "sha256": "96be63253d636f2c8d6646e24f9207d4a1975aac88e092baa2a17cbe5aa84935",
+      "metadata_sha256": "d631477239506ae72ff9036b4e138e7e9042398e4f81fb54d5a4dbe5235b3cb4",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "加厚1x1罗纹布_001",
+      "sha256": "3594cc4c178383f1b104110f5d535df4d3acdbace4098262a5d0dccfc5af093b",
+      "metadata_sha256": "4a5777279e58481737fea70fe48eb7bba752f03f62e1b4a3611851c89a7cc24d",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "岩石肌理面料_006",
+      "sha256": "d354125f3d002eb9312a9223853a90395db3b34a3ec646101ef30537c70ef8f2",
+      "metadata_sha256": "ed69ed2c92c83a34d7614de965fd38abcb606be28701b2f9473114426ab32e3f",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "织棉提花缎_001",
+      "sha256": "44469d045ad566f5da2c40607067aefd6ef999a266b59aebf769798b926ba4c6",
+      "metadata_sha256": "9005478f5d86e05342e65b2e40398a30e51b5d87e6845c5ee723d23ffbd61ad3",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "长毛格呢_001",
+      "sha256": "c0c7f5a695e07888f5cc5d1ef6c1fa1c194bfba01e73bb018ef2f0e243b7434a",
+      "metadata_sha256": "e9d96e8278af0d04a8f3cd980a18a0a2220c2e472dbaa90f5c0b116f9724e061",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "长毛格呢_005",
+      "sha256": "298222ab51eff51826416d3dd75f251dc29d8cc9d797cbf18ed36b1b874b8abf",
+      "metadata_sha256": "5cd9b38bae55624a3212236bfffda153f3e3c97695008ef34bd4f1ea968433a2",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "长毛格呢_006",
+      "sha256": "f03a7e216820f78f07804e14d059e4b1aa172541566d80ded30e68a10cd6ca3e",
+      "metadata_sha256": "5e3193770be36dcbb3c9277d1d32fd9763d704f4ce712b5dd2471f2fb294739a",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    },
+    {
+      "sample_name": "长毛格呢_007",
+      "sha256": "f77c2147c2532e770bbf4e606eb5e7970e8c7817a18203873aa6cab9b2bb9362",
+      "metadata_sha256": "8242fa5b6b6fd9b3eec223d8facd51bac7b7c96e179e748e712bf46c35db18ca",
+      "decision": "suggest_review",
+      "reason": "历史11次边界复核记录"
+    }
+  ]
+}

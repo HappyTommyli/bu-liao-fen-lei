@@ -1,0 +1,94 @@
+{
+  "device": {
+    "torch": "2.14.1+cu130",
+    "cuda_build": "13.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "cudnn": 92400,
+    "python": "3.10.12"
+  },
+  "checks": {
+    "fp32": {
+      "exact_resume": true,
+      "device": "cuda:0",
+      "workers": 2
+    },
+    "amp_fp16": {
+      "exact_resume": true,
+      "device": "cuda:0",
+      "workers": 2
+    },
+    "amp_bf16": {
+      "exact_resume": true,
+      "device": "cuda:0",
+      "workers": 2
+    }
+  },
+  "formal_training": false,
+  "real_lengths": [
+    5316,
+    5372,
+    5316,
+    5372,
+    5316,
+    5372,
+    5316,
+    5372
+  ],
+  "real_smoke": {
+    "gru": {
+      "runtime": {
+        "device": "cuda",
+        "precision": "fp32",
+        "torch": "2.14.1+cu130",
+        "cuda_build": "13.0",
+        "cuda_available": true,
+        "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "cudnn": 92400,
+        "python": "3.10.12",
+        "threads": 2,
+        "deterministic": true,
+        "micro_batch": 16
+      },
+      "epochs": 1,
+      "peak_allocated_MB": 296.89088,
+      "seconds": 0.3596118299999489
+    },
+    "tcn": {
+      "runtime": {
+        "device": "cuda",
+        "precision": "fp32",
+        "torch": "2.14.1+cu130",
+        "cuda_build": "13.0",
+        "cuda_available": true,
+        "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "cudnn": 92400,
+        "python": "3.10.12",
+        "threads": 2,
+        "deterministic": true,
+        "micro_batch": 16
+      },
+      "epochs": 1,
+      "peak_allocated_MB": 573.17888,
+      "seconds": 0.2854111420000436
+    },
+    "cera": {
+      "runtime": {
+        "device": "cuda",
+        "precision": "fp32",
+        "torch": "2.14.1+cu130",
+        "cuda_build": "13.0",
+        "cuda_available": true,
+        "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "cudnn": 92400,
+        "python": "3.10.12",
+        "threads": 2,
+        "deterministic": true,
+        "micro_batch": 16
+      },
+      "epochs": 1,
+      "peak_allocated_MB": 1481.276928,
+      "seconds": 0.5161231199999747
+    }
+  }
+}

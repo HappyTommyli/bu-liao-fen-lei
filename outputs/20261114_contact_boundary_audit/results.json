@@ -1,0 +1,1688 @@
+{
+  "method": "Exploratory boundary proposal, no classification or segmentation accuracy claimed.",
+  "assumptions": [
+    "First and last 1 s of each leg are airborne, per user description.",
+    "Bz unwrapping is diagnostic only, conditioned on 65536*0.242 uT period; original data are unchanged.",
+    "All threshold rules are shared across labels; no material name used in candidate detection."
+  ],
+  "candidate_rule": "Median 51 samples (~0.15 s), close gaps <=~0.2 s, retain longest interval >=5 s. XY threshold=air median+max(6*MAD_sigma,50uT). Diagnostic unwrapped Z first removes a linear endpoint baseline; threshold=air median+max(6*MAD_sigma,30uT).",
+  "limitation": "No hardware contact trigger or manual ground-truth intervals. A candidate can contain contact transition, and is not yet a steady-training segment.",
+  "summary": [
+    {
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "count": 5,
+      "middle_dBz_range_uT": [
+        -15310.137,
+        -15306.899
+      ],
+      "raw_large_threshold_candidates": 5,
+      "diagnostic_z_candidates": 5,
+      "xy_candidates": 5
+    },
+    {
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "count": 5,
+      "middle_dBz_range_uT": [
+        -98.689,
+        -91.783
+      ],
+      "raw_large_threshold_candidates": 0,
+      "diagnostic_z_candidates": 5,
+      "xy_candidates": 5
+    },
+    {
+      "label": "空气层",
+      "direction": "去程",
+      "count": 10,
+      "middle_dBz_range_uT": [
+        -15229.251,
+        -15222.379
+      ],
+      "raw_large_threshold_candidates": 10,
+      "diagnostic_z_candidates": 10,
+      "xy_candidates": 10
+    },
+    {
+      "label": "空气层",
+      "direction": "回程",
+      "count": 10,
+      "middle_dBz_range_uT": [
+        -81.987,
+        -61.684
+      ],
+      "raw_large_threshold_candidates": 0,
+      "diagnostic_z_candidates": 10,
+      "xy_candidates": 10
+    },
+    {
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "count": 10,
+      "middle_dBz_range_uT": [
+        -15320.275,
+        -15309.096
+      ],
+      "raw_large_threshold_candidates": 10,
+      "diagnostic_z_candidates": 10,
+      "xy_candidates": 10
+    },
+    {
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "count": 10,
+      "middle_dBz_range_uT": [
+        -121.344,
+        -98.428
+      ],
+      "raw_large_threshold_candidates": 0,
+      "diagnostic_z_candidates": 10,
+      "xy_candidates": 10
+    }
+  ],
+  "records": [
+    {
+      "run": "岩石肌理面料_001",
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+      "rows": 8697,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7603.519,
+      "raw_Bz_median_middle_uT": -7706.732,
+      "raw_Bz_median_air_end_uT": 7630.502,
+      "dBz_median_middle_uT": -15310.136894,
+      "dBy_median_middle_uT": 344.065142,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.932,
+        "end_s": 24.315,
+        "duration_s": 19.383000000000003
+      },
+      "diagnostic_z_threshold_uT": 34.96100000000115,
+      "diagnostic_z_candidate": {
+        "start_s": 4.059,
+        "end_s": 24.456,
+        "duration_s": 20.397
+      },
+      "xy_threshold_uT": 96.48773830128572,
+      "xy_candidate": {
+        "start_s": 4.134,
+        "end_s": 24.408,
+        "duration_s": 20.274
+      }
+    },
+    {
+      "run": "岩石肌理面料_001",
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+      "rows": 8701,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7628.929,
+      "raw_Bz_median_middle_uT": 7509.26,
+      "raw_Bz_median_air_end_uT": 7601.946,
+      "dBz_median_middle_uT": -94.144894,
+      "dBy_median_middle_uT": -361.084858,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.80206723527135,
+      "diagnostic_z_candidate": {
+        "start_s": 3.408,
+        "end_s": 23.961000000000002,
+        "duration_s": 20.553
+      },
+      "xy_threshold_uT": 85.72927057888671,
+      "xy_candidate": {
+        "start_s": 3.5580000000000003,
+        "end_s": 23.952,
+        "duration_s": 20.394000000000002
+      }
+    },
+    {
+      "run": "岩石肌理面料_002",
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+      "rows": 8698,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7602.914,
+      "raw_Bz_median_middle_uT": -7703.586,
+      "raw_Bz_median_air_end_uT": 7631.954,
+      "dBz_median_middle_uT": -15306.89861,
+      "dBy_median_middle_uT": 349.386937,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.923,
+        "end_s": 24.309,
+        "duration_s": 19.386000000000003
+      },
+      "diagnostic_z_threshold_uT": 34.275333333338494,
+      "diagnostic_z_candidate": {
+        "start_s": 4.032,
+        "end_s": 24.453,
+        "duration_s": 20.421
+      },
+      "xy_threshold_uT": 113.08376123086774,
+      "xy_candidate": {
+        "start_s": 4.167,
+        "end_s": 24.399,
+        "duration_s": 20.232
+      }
+    },
+    {
+      "run": "岩石肌理面料_002",
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7629.776,
+      "raw_Bz_median_middle_uT": 7507.566,
+      "raw_Bz_median_air_end_uT": 7598.074,
+      "dBz_median_middle_uT": -95.74661,
+      "dBy_median_middle_uT": -358.613063,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.25809621229973,
+      "diagnostic_z_candidate": {
+        "start_s": 3.402,
+        "end_s": 23.973,
+        "duration_s": 20.570999999999998
+      },
+      "xy_threshold_uT": 81.12749872679177,
+      "xy_candidate": {
+        "start_s": 3.5580000000000003,
+        "end_s": 23.958000000000002,
+        "duration_s": 20.400000000000002
+      }
+    },
+    {
+      "run": "岩石肌理面料_003",
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7598.558,
+      "raw_Bz_median_middle_uT": -7711.088,
+      "raw_Bz_median_air_end_uT": 7625.541,
+      "dBz_median_middle_uT": -15310.083126,
+      "dBy_median_middle_uT": 347.79482,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.923,
+        "end_s": 24.306,
+        "duration_s": 19.383000000000003
+      },
+      "diagnostic_z_threshold_uT": 34.83691150536015,
+      "diagnostic_z_candidate": {
+        "start_s": 4.029,
+        "end_s": 24.453,
+        "duration_s": 20.424
+      },
+      "xy_threshold_uT": 118.13363984113076,
+      "xy_candidate": {
+        "start_s": 4.182,
+        "end_s": 24.39,
+        "duration_s": 20.208
+      }
+    },
+    {
+      "run": "岩石肌理面料_003",
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+      "rows": 8701,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7623.847,
+      "raw_Bz_median_middle_uT": 7500.306,
+      "raw_Bz_median_air_end_uT": 7591.419,
+      "dBz_median_middle_uT": -98.689126,
+      "dBy_median_middle_uT": -359.00518,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.234999999997854,
+      "diagnostic_z_candidate": {
+        "start_s": 3.426,
+        "end_s": 23.967,
+        "duration_s": 20.540999999999997
+      },
+      "xy_threshold_uT": 101.00214568202568,
+      "xy_candidate": {
+        "start_s": 3.618,
+        "end_s": 23.94,
+        "duration_s": 20.322000000000003
+      }
+    },
+    {
+      "run": "岩石肌理面料_004",
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+      "rows": 8698,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7589.362,
+      "raw_Bz_median_middle_uT": -7717.622,
+      "raw_Bz_median_air_end_uT": 7620.58,
+      "dBz_median_middle_uT": -15308.742945,
+      "dBy_median_middle_uT": 347.644003,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.962,
+        "end_s": 24.3,
+        "duration_s": 19.338
+      },
+      "diagnostic_z_threshold_uT": 34.33845615905557,
+      "diagnostic_z_candidate": {
+        "start_s": 4.029,
+        "end_s": 24.45,
+        "duration_s": 20.421
+      },
+      "xy_threshold_uT": 121.23624600685375,
+      "xy_candidate": {
+        "start_s": 4.197,
+        "end_s": 24.384,
+        "duration_s": 20.187
+      }
+    },
+    {
+      "run": "岩石肌理面料_004",
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7620.096,
+      "raw_Bz_median_middle_uT": 7499.338,
+      "raw_Bz_median_air_end_uT": 7593.718,
+      "dBz_median_middle_uT": -91.782945,
+      "dBy_median_middle_uT": -359.905997,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.35549584897535,
+      "diagnostic_z_candidate": {
+        "start_s": 3.396,
+        "end_s": 23.964000000000002,
+        "duration_s": 20.568
+      },
+      "xy_threshold_uT": 100.33338736449451,
+      "xy_candidate": {
+        "start_s": 3.618,
+        "end_s": 23.937,
+        "duration_s": 20.319000000000003
+      }
+    },
+    {
+      "run": "岩石肌理面料_005",
+      "label": "岩石肌理面料",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7594.444,
+      "raw_Bz_median_middle_uT": -7713.508,
+      "raw_Bz_median_air_end_uT": 7622.758,
+      "dBz_median_middle_uT": -15307.295402,
+      "dBy_median_middle_uT": 346.768243,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.944,
+        "end_s": 24.303,
+        "duration_s": 19.359
+      },
+      "diagnostic_z_threshold_uT": 34.553996333338546,
+      "diagnostic_z_candidate": {
+        "start_s": 4.032,
+        "end_s": 24.462,
+        "duration_s": 20.43
+      },
+      "xy_threshold_uT": 115.0695014734261,
+      "xy_candidate": {
+        "start_s": 4.188,
+        "end_s": 24.39,
+        "duration_s": 20.202
+      }
+    },
+    {
+      "run": "岩石肌理面料_005",
+      "label": "岩石肌理面料",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7622.758,
+      "raw_Bz_median_middle_uT": 7502.0,
+      "raw_Bz_median_air_end_uT": 7595.17,
+      "dBz_median_middle_uT": -91.787402,
+      "dBy_median_middle_uT": -358.981757,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.48392426241935,
+      "diagnostic_z_candidate": {
+        "start_s": 3.396,
+        "end_s": 23.964000000000002,
+        "duration_s": 20.568
+      },
+      "xy_threshold_uT": 100.49487800545464,
+      "xy_candidate": {
+        "start_s": 3.6,
+        "end_s": 23.931,
+        "duration_s": 20.331
+      }
+    },
+    {
+      "run": "空气层_001",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+      "rows": 8697,
+      "invalid_samples": 2,
+      "raw_Bz_median_air_start_uT": 7775.944,
+      "raw_Bz_median_middle_uT": -7453.358,
+      "raw_Bz_median_air_end_uT": 7803.774,
+      "dBz_median_middle_uT": -15229.250766,
+      "dBy_median_middle_uT": 385.118694,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.4670000000000005,
+        "end_s": 24.3,
+        "duration_s": 19.833
+      },
+      "diagnostic_z_threshold_uT": 34.310057639523166,
+      "diagnostic_z_candidate": {
+        "start_s": 4.05,
+        "end_s": 24.417,
+        "duration_s": 20.367
+      },
+      "xy_threshold_uT": 119.01597070127569,
+      "xy_candidate": {
+        "start_s": 4.194,
+        "end_s": 24.345,
+        "duration_s": 20.151
+      }
+    },
+    {
+      "run": "空气层_001",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7803.29,
+      "raw_Bz_median_middle_uT": 7693.906,
+      "raw_Bz_median_air_end_uT": 7743.153,
+      "dBz_median_middle_uT": -81.986766,
+      "dBy_median_middle_uT": -392.631306,
+      "jumps_gt10000uT": 2,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.001410529689565,
+      "diagnostic_z_candidate": {
+        "start_s": 3.423,
+        "end_s": 23.97,
+        "duration_s": 20.546999999999997
+      },
+      "xy_threshold_uT": 71.35728021315865,
+      "xy_candidate": {
+        "start_s": 3.525,
+        "end_s": 23.973,
+        "duration_s": 20.448
+      }
+    },
+    {
+      "run": "空气层_002",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7746.904,
+      "raw_Bz_median_middle_uT": -7484.092,
+      "raw_Bz_median_air_end_uT": 7770.015,
+      "dBz_median_middle_uT": -15228.650378,
+      "dBy_median_middle_uT": 387.487556,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.509,
+        "end_s": 24.3,
+        "duration_s": 19.791
+      },
+      "diagnostic_z_threshold_uT": 34.597999999999956,
+      "diagnostic_z_candidate": {
+        "start_s": 4.047,
+        "end_s": 24.429000000000002,
+        "duration_s": 20.382
+      },
+      "xy_threshold_uT": 123.22574322990624,
+      "xy_candidate": {
+        "start_s": 4.197,
+        "end_s": 24.357,
+        "duration_s": 20.16
+      }
+    },
+    {
+      "run": "空气层_002",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+      "rows": 8700,
+      "invalid_samples": 1,
+      "raw_Bz_median_air_start_uT": 7767.353,
+      "raw_Bz_median_middle_uT": 7663.414,
+      "raw_Bz_median_air_end_uT": 7716.049,
+      "dBz_median_middle_uT": -81.144378,
+      "dBy_median_middle_uT": -387.712444,
+      "jumps_gt10000uT": 2,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.23500000000058,
+      "diagnostic_z_candidate": {
+        "start_s": 3.414,
+        "end_s": 23.949,
+        "duration_s": 20.535
+      },
+      "xy_threshold_uT": 106.59485170154588,
+      "xy_candidate": {
+        "start_s": 3.648,
+        "end_s": 23.907,
+        "duration_s": 20.259
+      }
+    },
+    {
+      "run": "空气层_003",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+      "rows": 8696,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7707.458,
+      "raw_Bz_median_middle_uT": -7508.534,
+      "raw_Bz_median_air_end_uT": 7751.986,
+      "dBz_median_middle_uT": -15223.722556,
+      "dBy_median_middle_uT": 387.163288,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.563,
+        "end_s": 24.282,
+        "duration_s": 19.719
+      },
+      "diagnostic_z_threshold_uT": 34.99360716370302,
+      "diagnostic_z_candidate": {
+        "start_s": 4.023,
+        "end_s": 24.417,
+        "duration_s": 20.394000000000002
+      },
+      "xy_threshold_uT": 94.12903074700837,
+      "xy_candidate": {
+        "start_s": 4.098,
+        "end_s": 24.363,
+        "duration_s": 20.265
+      }
+    },
+    {
+      "run": "空气层_003",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+      "rows": 8700,
+      "invalid_samples": 1,
+      "raw_Bz_median_air_start_uT": 7750.776,
+      "raw_Bz_median_middle_uT": 7647.442,
+      "raw_Bz_median_air_end_uT": 7699.23,
+      "dBz_median_middle_uT": -67.746556,
+      "dBy_median_middle_uT": -386.686712,
+      "jumps_gt10000uT": 2,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.356000000002496,
+      "diagnostic_z_candidate": {
+        "start_s": 3.414,
+        "end_s": 23.961000000000002,
+        "duration_s": 20.547
+      },
+      "xy_threshold_uT": 104.57927540830835,
+      "xy_candidate": {
+        "start_s": 3.648,
+        "end_s": 23.913,
+        "duration_s": 20.265
+      }
+    },
+    {
+      "run": "空气层_004",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7701.408,
+      "raw_Bz_median_middle_uT": -7528.136,
+      "raw_Bz_median_air_end_uT": 7738.434,
+      "dBz_median_middle_uT": -15228.905802,
+      "dBy_median_middle_uT": 378.017091,
+      "jumps_gt10000uT": 16,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.611,
+        "end_s": 24.306,
+        "duration_s": 19.695
+      },
+      "diagnostic_z_threshold_uT": 35.00024233263139,
+      "diagnostic_z_candidate": {
+        "start_s": 4.041,
+        "end_s": 24.432000000000002,
+        "duration_s": 20.391000000000002
+      },
+      "xy_threshold_uT": 111.44716875393308,
+      "xy_candidate": {
+        "start_s": 4.17,
+        "end_s": 24.375,
+        "duration_s": 20.205
+      }
+    },
+    {
+      "run": "空气层_004",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+      "rows": 8700,
+      "invalid_samples": 1,
+      "raw_Bz_median_air_start_uT": 7738.192,
+      "raw_Bz_median_middle_uT": 7636.068,
+      "raw_Bz_median_air_end_uT": 7693.059,
+      "dBz_median_middle_uT": -64.701802,
+      "dBy_median_middle_uT": -391.632909,
+      "jumps_gt10000uT": 2,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.488631037589585,
+      "diagnostic_z_candidate": {
+        "start_s": 3.387,
+        "end_s": 23.958000000000002,
+        "duration_s": 20.571
+      },
+      "xy_threshold_uT": 82.92163753843907,
+      "xy_candidate": {
+        "start_s": 3.555,
+        "end_s": 23.943,
+        "duration_s": 20.388
+      }
+    },
+    {
+      "run": "空气层_005",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+      "rows": 8698,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7693.3009999999995,
+      "raw_Bz_median_middle_uT": -7532.734,
+      "raw_Bz_median_air_end_uT": 7727.665,
+      "dBz_median_middle_uT": -15225.842417,
+      "dBy_median_middle_uT": 381.265541,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.659,
+        "end_s": 24.309,
+        "duration_s": 19.650000000000002
+      },
+      "diagnostic_z_threshold_uT": 34.42226156394008,
+      "diagnostic_z_candidate": {
+        "start_s": 4.047,
+        "end_s": 24.444,
+        "duration_s": 20.397
+      },
+      "xy_threshold_uT": 120.13420276532898,
+      "xy_candidate": {
+        "start_s": 4.194,
+        "end_s": 24.369,
+        "duration_s": 20.175
+      }
+    },
+    {
+      "run": "空气层_005",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7724.64,
+      "raw_Bz_median_middle_uT": 7619.37,
+      "raw_Bz_median_air_end_uT": 7676.724,
+      "dBz_median_middle_uT": -73.738417,
+      "dBy_median_middle_uT": -386.434459,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.353995719803606,
+      "diagnostic_z_candidate": {
+        "start_s": 3.4170000000000003,
+        "end_s": 23.931,
+        "duration_s": 20.514
+      },
+      "xy_threshold_uT": 88.86934433118243,
+      "xy_candidate": {
+        "start_s": 3.576,
+        "end_s": 23.928,
+        "duration_s": 20.352
+      }
+    },
+    {
+      "run": "空气层_006",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7676.119,
+      "raw_Bz_median_middle_uT": -7552.336,
+      "raw_Bz_median_air_end_uT": 7709.757,
+      "dBz_median_middle_uT": -15229.135943,
+      "dBy_median_middle_uT": 380.010811,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.7010000000000005,
+        "end_s": 24.288,
+        "duration_s": 19.587
+      },
+      "diagnostic_z_threshold_uT": 34.63447832740803,
+      "diagnostic_z_candidate": {
+        "start_s": 4.038,
+        "end_s": 24.432000000000002,
+        "duration_s": 20.394000000000002
+      },
+      "xy_threshold_uT": 112.95632054795121,
+      "xy_candidate": {
+        "start_s": 4.1610000000000005,
+        "end_s": 24.363,
+        "duration_s": 20.201999999999998
+      }
+    },
+    {
+      "run": "空气层_006",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7708.668,
+      "raw_Bz_median_middle_uT": 7611.142,
+      "raw_Bz_median_air_end_uT": 7663.414,
+      "dBz_median_middle_uT": -65.657943,
+      "dBy_median_middle_uT": -390.089189,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.83749927957433,
+      "diagnostic_z_candidate": {
+        "start_s": 3.402,
+        "end_s": 23.949,
+        "duration_s": 20.547
+      },
+      "xy_threshold_uT": 100.4677699953614,
+      "xy_candidate": {
+        "start_s": 3.618,
+        "end_s": 23.91,
+        "duration_s": 20.292
+      }
+    },
+    {
+      "run": "空气层_007",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+      "rows": 8697,
+      "invalid_samples": 1,
+      "raw_Bz_median_air_start_uT": 7665.108,
+      "raw_Bz_median_middle_uT": -7562.5,
+      "raw_Bz_median_air_end_uT": 7696.205,
+      "dBz_median_middle_uT": -15226.941955,
+      "dBy_median_middle_uT": 377.466216,
+      "jumps_gt10000uT": 8,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.731,
+        "end_s": 24.297,
+        "duration_s": 19.566000000000003
+      },
+      "diagnostic_z_threshold_uT": 34.840000000000146,
+      "diagnostic_z_candidate": {
+        "start_s": 4.041,
+        "end_s": 24.453,
+        "duration_s": 20.412
+      },
+      "xy_threshold_uT": 109.03272031755182,
+      "xy_candidate": {
+        "start_s": 4.164,
+        "end_s": 24.369,
+        "duration_s": 20.205
+      }
+    },
+    {
+      "run": "空气层_007",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7696.326,
+      "raw_Bz_median_middle_uT": 7600.494,
+      "raw_Bz_median_air_end_uT": 7653.492,
+      "dBz_median_middle_uT": -63.947955,
+      "dBy_median_middle_uT": -392.633784,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.315424586021436,
+      "diagnostic_z_candidate": {
+        "start_s": 3.411,
+        "end_s": 23.964000000000002,
+        "duration_s": 20.553
+      },
+      "xy_threshold_uT": 85.72414893322878,
+      "xy_candidate": {
+        "start_s": 3.552,
+        "end_s": 23.952,
+        "duration_s": 20.400000000000002
+      }
+    },
+    {
+      "run": "空气层_008",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+      "rows": 8697,
+      "invalid_samples": 6,
+      "raw_Bz_median_air_start_uT": 7653.492,
+      "raw_Bz_median_middle_uT": -7575.568,
+      "raw_Bz_median_air_end_uT": 7683.742,
+      "dBz_median_middle_uT": -15229.061088,
+      "dBy_median_middle_uT": 380.331184,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.779,
+        "end_s": 24.282,
+        "duration_s": 19.503
+      },
+      "diagnostic_z_threshold_uT": 34.59799999999905,
+      "diagnostic_z_candidate": {
+        "start_s": 4.0200000000000005,
+        "end_s": 24.435000000000002,
+        "duration_s": 20.415000000000003
+      },
+      "xy_threshold_uT": 125.85067967615954,
+      "xy_candidate": {
+        "start_s": 4.191,
+        "end_s": 24.342,
+        "duration_s": 20.151
+      }
+    },
+    {
+      "run": "空气层_008",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7682.29,
+      "raw_Bz_median_middle_uT": 7589.604,
+      "raw_Bz_median_air_end_uT": 7639.8189999999995,
+      "dBz_median_middle_uT": -63.889088,
+      "dBy_median_middle_uT": -394.868816,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.62810084301327,
+      "diagnostic_z_candidate": {
+        "start_s": 3.414,
+        "end_s": 23.964000000000002,
+        "duration_s": 20.55
+      },
+      "xy_threshold_uT": 104.47107586404495,
+      "xy_candidate": {
+        "start_s": 3.633,
+        "end_s": 23.925,
+        "duration_s": 20.292
+      }
+    },
+    {
+      "run": "空气层_009",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+      "rows": 8698,
+      "invalid_samples": 3,
+      "raw_Bz_median_air_start_uT": 7640.666,
+      "raw_Bz_median_middle_uT": -7590.572,
+      "raw_Bz_median_air_end_uT": 7673.578,
+      "dBz_median_middle_uT": -15228.793655,
+      "dBy_median_middle_uT": 382.798874,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.827,
+        "end_s": 24.288,
+        "duration_s": 19.461
+      },
+      "diagnostic_z_threshold_uT": 34.67866666665941,
+      "diagnostic_z_candidate": {
+        "start_s": 4.065,
+        "end_s": 24.426000000000002,
+        "duration_s": 20.361
+      },
+      "xy_threshold_uT": 122.78164732420302,
+      "xy_candidate": {
+        "start_s": 4.182,
+        "end_s": 24.354,
+        "duration_s": 20.171999999999997
+      }
+    },
+    {
+      "run": "空气层_009",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+      "rows": 8699,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7671.884,
+      "raw_Bz_median_middle_uT": 7576.294,
+      "raw_Bz_median_air_end_uT": 7635.826,
+      "dBz_median_middle_uT": -61.927655,
+      "dBy_median_middle_uT": -388.051126,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.80390611784969,
+      "diagnostic_z_candidate": {
+        "start_s": 3.4050000000000002,
+        "end_s": 23.937,
+        "duration_s": 20.532
+      },
+      "xy_threshold_uT": 105.75270728181195,
+      "xy_candidate": {
+        "start_s": 3.648,
+        "end_s": 23.91,
+        "duration_s": 20.262
+      }
+    },
+    {
+      "run": "空气层_010",
+      "label": "空气层",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+      "rows": 8698,
+      "invalid_samples": 4,
+      "raw_Bz_median_air_start_uT": 7635.342,
+      "raw_Bz_median_middle_uT": -7586.7,
+      "raw_Bz_median_air_end_uT": 7671.642,
+      "dBz_median_middle_uT": -15222.378838,
+      "dBy_median_middle_uT": 386.95473,
+      "jumps_gt10000uT": 10,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.827,
+        "end_s": 24.3,
+        "duration_s": 19.473
+      },
+      "diagnostic_z_threshold_uT": 34.976666023665985,
+      "diagnostic_z_candidate": {
+        "start_s": 4.053,
+        "end_s": 24.435000000000002,
+        "duration_s": 20.382
+      },
+      "xy_threshold_uT": 114.46972512679103,
+      "xy_candidate": {
+        "start_s": 4.167,
+        "end_s": 24.366,
+        "duration_s": 20.198999999999998
+      }
+    },
+    {
+      "run": "空气层_010",
+      "label": "空气层",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7668.859,
+      "raw_Bz_median_middle_uT": 7573.995,
+      "raw_Bz_median_air_end_uT": 7629.534,
+      "dBz_median_middle_uT": -61.683837999999994,
+      "dBy_median_middle_uT": -391.69527,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.15433333332112,
+      "diagnostic_z_candidate": {
+        "start_s": 3.396,
+        "end_s": 23.961000000000002,
+        "duration_s": 20.565
+      },
+      "xy_threshold_uT": 89.22118067826233,
+      "xy_candidate": {
+        "start_s": 3.579,
+        "end_s": 23.94,
+        "duration_s": 20.361
+      }
+    },
+    {
+      "run": "织棉提花缎_001",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_001/织棉提花缎_001.csv",
+      "rows": 8696,
+      "invalid_samples": 9,
+      "raw_Bz_median_air_start_uT": 7653.613,
+      "raw_Bz_median_middle_uT": -7666.076,
+      "raw_Bz_median_air_end_uT": 7681.201,
+      "dBz_median_middle_uT": -15320.274771,
+      "dBy_median_middle_uT": 331.290855,
+      "jumps_gt10000uT": 16,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.764,
+        "end_s": 24.267,
+        "duration_s": 19.503
+      },
+      "diagnostic_z_threshold_uT": 34.359678502371025,
+      "diagnostic_z_candidate": {
+        "start_s": 4.029,
+        "end_s": 24.399,
+        "duration_s": 20.37
+      },
+      "xy_threshold_uT": 112.44056856710539,
+      "xy_candidate": {
+        "start_s": 4.173,
+        "end_s": 24.333000000000002,
+        "duration_s": 20.160000000000004
+      }
+    },
+    {
+      "run": "织棉提花缎_001",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_001/织棉提花缎_001.csv",
+      "rows": 8701,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7679.265,
+      "raw_Bz_median_middle_uT": 7532.855,
+      "raw_Bz_median_air_end_uT": 7644.78,
+      "dBz_median_middle_uT": -121.343771,
+      "dBy_median_middle_uT": -339.209145,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.5817329070569,
+      "diagnostic_z_candidate": {
+        "start_s": 3.414,
+        "end_s": 23.961000000000002,
+        "duration_s": 20.547
+      },
+      "xy_threshold_uT": 70.55915608254195,
+      "xy_candidate": {
+        "start_s": 3.504,
+        "end_s": 23.982,
+        "duration_s": 20.477999999999998
+      }
+    },
+    {
+      "run": "织棉提花缎_002",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+      "rows": 8697,
+      "invalid_samples": 1,
+      "raw_Bz_median_air_start_uT": 7646.716,
+      "raw_Bz_median_middle_uT": -7670.916,
+      "raw_Bz_median_air_end_uT": 7671.884,
+      "dBz_median_middle_uT": -15316.477148,
+      "dBy_median_middle_uT": 347.496702,
+      "jumps_gt10000uT": 10,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.809,
+        "end_s": 24.264,
+        "duration_s": 19.455
+      },
+      "diagnostic_z_threshold_uT": 34.23970574274608,
+      "diagnostic_z_candidate": {
+        "start_s": 4.038,
+        "end_s": 24.402,
+        "duration_s": 20.364
+      },
+      "xy_threshold_uT": 126.11390589505113,
+      "xy_candidate": {
+        "start_s": 4.212,
+        "end_s": 24.324,
+        "duration_s": 20.112000000000002
+      }
+    },
+    {
+      "run": "织棉提花缎_002",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7669.343,
+      "raw_Bz_median_middle_uT": 7527.41,
+      "raw_Bz_median_air_end_uT": 7634.858,
+      "dBz_median_middle_uT": -118.151148,
+      "dBy_median_middle_uT": -337.403298,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.48188048089469,
+      "diagnostic_z_candidate": {
+        "start_s": 3.423,
+        "end_s": 23.973,
+        "duration_s": 20.549999999999997
+      },
+      "xy_threshold_uT": 107.5161296216984,
+      "xy_candidate": {
+        "start_s": 3.657,
+        "end_s": 23.928,
+        "duration_s": 20.271
+      }
+    },
+    {
+      "run": "织棉提花缎_003",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_003/织棉提花缎_003.csv",
+      "rows": 8699,
+      "invalid_samples": 8,
+      "raw_Bz_median_air_start_uT": 7632.559,
+      "raw_Bz_median_middle_uT": -7677.934,
+      "raw_Bz_median_air_end_uT": 7664.14,
+      "dBz_median_middle_uT": -15310.33463,
+      "dBy_median_middle_uT": 349.335607,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.827,
+        "end_s": 24.282,
+        "duration_s": 19.455
+      },
+      "diagnostic_z_threshold_uT": 34.636900440240424,
+      "diagnostic_z_candidate": {
+        "start_s": 4.038,
+        "end_s": 24.414,
+        "duration_s": 20.376
+      },
+      "xy_threshold_uT": 122.68808932220287,
+      "xy_candidate": {
+        "start_s": 4.2,
+        "end_s": 24.348,
+        "duration_s": 20.148
+      }
+    },
+    {
+      "run": "织棉提花缎_003",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_003/织棉提花缎_003.csv",
+      "rows": 8699,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7661.962,
+      "raw_Bz_median_middle_uT": 7524.748,
+      "raw_Bz_median_air_end_uT": 7627.719,
+      "dBz_median_middle_uT": -107.65263,
+      "dBy_median_middle_uT": -342.314393,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 33.914942586597135,
+      "diagnostic_z_candidate": {
+        "start_s": 3.3930000000000002,
+        "end_s": 23.958000000000002,
+        "duration_s": 20.565
+      },
+      "xy_threshold_uT": 110.93121597372453,
+      "xy_candidate": {
+        "start_s": 3.666,
+        "end_s": 23.919,
+        "duration_s": 20.253
+      }
+    },
+    {
+      "run": "织棉提花缎_004",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_004/织棉提花缎_004.csv",
+      "rows": 8697,
+      "invalid_samples": 8,
+      "raw_Bz_median_air_start_uT": 7630.623,
+      "raw_Bz_median_middle_uT": -7684.226,
+      "raw_Bz_median_air_end_uT": 7653.008,
+      "dBz_median_middle_uT": -15315.003429,
+      "dBy_median_middle_uT": 348.218018,
+      "jumps_gt10000uT": 16,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.833,
+        "end_s": 24.276,
+        "duration_s": 19.442999999999998
+      },
+      "diagnostic_z_threshold_uT": 34.598120999987714,
+      "diagnostic_z_candidate": {
+        "start_s": 4.05,
+        "end_s": 24.42,
+        "duration_s": 20.37
+      },
+      "xy_threshold_uT": 118.95116443086503,
+      "xy_candidate": {
+        "start_s": 4.188,
+        "end_s": 24.351,
+        "duration_s": 20.163
+      }
+    },
+    {
+      "run": "织棉提花缎_004",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_004/织棉提花缎_004.csv",
+      "rows": 8699,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7650.83,
+      "raw_Bz_median_middle_uT": 7517.488,
+      "raw_Bz_median_air_end_uT": 7615.74,
+      "dBz_median_middle_uT": -113.289429,
+      "dBy_median_middle_uT": -347.181982,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.44883876106087,
+      "diagnostic_z_candidate": {
+        "start_s": 3.4050000000000002,
+        "end_s": 23.958000000000002,
+        "duration_s": 20.553
+      },
+      "xy_threshold_uT": 92.4049136732547,
+      "xy_candidate": {
+        "start_s": 3.594,
+        "end_s": 23.94,
+        "duration_s": 20.346
+      }
+    },
+    {
+      "run": "织棉提花缎_005",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_005/织棉提花缎_005.csv",
+      "rows": 8697,
+      "invalid_samples": 3,
+      "raw_Bz_median_air_start_uT": 7615.619,
+      "raw_Bz_median_middle_uT": -7695.842,
+      "raw_Bz_median_air_end_uT": 7645.022,
+      "dBz_median_middle_uT": -15311.310568,
+      "dBy_median_middle_uT": 351.336712,
+      "jumps_gt10000uT": 8,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.899,
+        "end_s": 24.288,
+        "duration_s": 19.389
+      },
+      "diagnostic_z_threshold_uT": 34.51886548927814,
+      "diagnostic_z_candidate": {
+        "start_s": 4.041,
+        "end_s": 24.435000000000002,
+        "duration_s": 20.394000000000002
+      },
+      "xy_threshold_uT": 100.1669720865442,
+      "xy_candidate": {
+        "start_s": 4.1370000000000005,
+        "end_s": 24.372,
+        "duration_s": 20.235
+      }
+    },
+    {
+      "run": "织棉提花缎_005",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_005/织棉提花缎_005.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7641.876,
+      "raw_Bz_median_middle_uT": 7511.438,
+      "raw_Bz_median_air_end_uT": 7610.295,
+      "dBz_median_middle_uT": -104.030568,
+      "dBy_median_middle_uT": -349.163288,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.36294141349936,
+      "diagnostic_z_candidate": {
+        "start_s": 3.42,
+        "end_s": 23.952,
+        "duration_s": 20.532000000000004
+      },
+      "xy_threshold_uT": 100.2816278637141,
+      "xy_candidate": {
+        "start_s": 3.618,
+        "end_s": 23.928,
+        "duration_s": 20.310000000000002
+      }
+    },
+    {
+      "run": "织棉提花缎_006",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+      "rows": 8697,
+      "invalid_samples": 4,
+      "raw_Bz_median_air_start_uT": 7611.263,
+      "raw_Bz_median_middle_uT": -7699.956,
+      "raw_Bz_median_air_end_uT": 7639.456,
+      "dBz_median_middle_uT": -15311.0131,
+      "dBy_median_middle_uT": 349.479085,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.893,
+        "end_s": 24.288,
+        "duration_s": 19.395
+      },
+      "diagnostic_z_threshold_uT": 34.43567032631836,
+      "diagnostic_z_candidate": {
+        "start_s": 4.0440000000000005,
+        "end_s": 24.432000000000002,
+        "duration_s": 20.388
+      },
+      "xy_threshold_uT": 113.34259512942093,
+      "xy_candidate": {
+        "start_s": 4.176,
+        "end_s": 24.357,
+        "duration_s": 20.180999999999997
+      }
+    },
+    {
+      "run": "织棉提花缎_006",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7637.762,
+      "raw_Bz_median_middle_uT": 7504.42,
+      "raw_Bz_median_air_end_uT": 7603.882,
+      "dBz_median_middle_uT": -106.6371,
+      "dBy_median_middle_uT": -353.570915,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.11399999999776,
+      "diagnostic_z_candidate": {
+        "start_s": 3.4050000000000002,
+        "end_s": 23.976,
+        "duration_s": 20.570999999999998
+      },
+      "xy_threshold_uT": 87.98543359169375,
+      "xy_candidate": {
+        "start_s": 3.585,
+        "end_s": 23.952,
+        "duration_s": 20.367
+      }
+    },
+    {
+      "run": "织棉提花缎_007",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_007/织棉提花缎_007.csv",
+      "rows": 8697,
+      "invalid_samples": 2,
+      "raw_Bz_median_air_start_uT": 7604.245,
+      "raw_Bz_median_middle_uT": -7706.732,
+      "raw_Bz_median_air_end_uT": 7630.139,
+      "dBz_median_middle_uT": -15310.509922,
+      "dBy_median_middle_uT": 351.537068,
+      "jumps_gt10000uT": 10,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.908,
+        "end_s": 24.282,
+        "duration_s": 19.374
+      },
+      "diagnostic_z_threshold_uT": 34.51802162642798,
+      "diagnostic_z_candidate": {
+        "start_s": 4.0440000000000005,
+        "end_s": 24.429000000000002,
+        "duration_s": 20.385
+      },
+      "xy_threshold_uT": 110.08217281563729,
+      "xy_candidate": {
+        "start_s": 4.167,
+        "end_s": 24.36,
+        "duration_s": 20.192999999999998
+      }
+    },
+    {
+      "run": "织棉提花缎_007",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_007/织棉提花缎_007.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7631.107,
+      "raw_Bz_median_middle_uT": 7499.822,
+      "raw_Bz_median_air_end_uT": 7598.8,
+      "dBz_median_middle_uT": -103.955922,
+      "dBy_median_middle_uT": -355.112932,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.51733333336233,
+      "diagnostic_z_candidate": {
+        "start_s": 3.4050000000000002,
+        "end_s": 23.958000000000002,
+        "duration_s": 20.553
+      },
+      "xy_threshold_uT": 92.0625432105625,
+      "xy_candidate": {
+        "start_s": 3.591,
+        "end_s": 23.937,
+        "duration_s": 20.346
+      }
+    },
+    {
+      "run": "织棉提花缎_008",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_008/织棉提花缎_008.csv",
+      "rows": 8697,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7599.768,
+      "raw_Bz_median_middle_uT": -7711.572,
+      "raw_Bz_median_air_end_uT": 7628.082,
+      "dBz_median_middle_uT": -15311.062081,
+      "dBy_median_middle_uT": 351.866042,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.929,
+        "end_s": 24.288,
+        "duration_s": 19.359
+      },
+      "diagnostic_z_threshold_uT": 34.23091997825759,
+      "diagnostic_z_candidate": {
+        "start_s": 4.062,
+        "end_s": 24.444,
+        "duration_s": 20.381999999999998
+      },
+      "xy_threshold_uT": 113.4220033485112,
+      "xy_candidate": {
+        "start_s": 4.182,
+        "end_s": 24.369,
+        "duration_s": 20.186999999999998
+      }
+    },
+    {
+      "run": "织棉提花缎_008",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_008/织棉提花缎_008.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7625.662,
+      "raw_Bz_median_middle_uT": 7498.37,
+      "raw_Bz_median_air_end_uT": 7595.654,
+      "dBz_median_middle_uT": -101.120081,
+      "dBy_median_middle_uT": -355.983958,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.628540294786035,
+      "diagnostic_z_candidate": {
+        "start_s": 3.408,
+        "end_s": 23.964000000000002,
+        "duration_s": 20.556
+      },
+      "xy_threshold_uT": 94.82499976503375,
+      "xy_candidate": {
+        "start_s": 3.591,
+        "end_s": 23.946,
+        "duration_s": 20.355
+      }
+    },
+    {
+      "run": "织棉提花缎_009",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_009/织棉提花缎_009.csv",
+      "rows": 8698,
+      "invalid_samples": 5,
+      "raw_Bz_median_air_start_uT": 7594.807,
+      "raw_Bz_median_middle_uT": -7715.202,
+      "raw_Bz_median_air_end_uT": 7621.306,
+      "dBz_median_middle_uT": -15309.523004,
+      "dBy_median_middle_uT": 353.576762,
+      "jumps_gt10000uT": 14,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.956,
+        "end_s": 24.291,
+        "duration_s": 19.335
+      },
+      "diagnostic_z_threshold_uT": 34.96100000000024,
+      "diagnostic_z_candidate": {
+        "start_s": 4.038,
+        "end_s": 24.438,
+        "duration_s": 20.4
+      },
+      "xy_threshold_uT": 129.9004874113093,
+      "xy_candidate": {
+        "start_s": 4.221,
+        "end_s": 24.351,
+        "duration_s": 20.13
+      }
+    },
+    {
+      "run": "织棉提花缎_009",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_009/织棉提花缎_009.csv",
+      "rows": 8700,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7619.612,
+      "raw_Bz_median_middle_uT": 7493.046,
+      "raw_Bz_median_air_end_uT": 7591.298,
+      "dBz_median_middle_uT": -101.275004,
+      "dBy_median_middle_uT": -355.173238,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 33.984998607902526,
+      "diagnostic_z_candidate": {
+        "start_s": 3.408,
+        "end_s": 23.961000000000002,
+        "duration_s": 20.553
+      },
+      "xy_threshold_uT": 105.06119111130083,
+      "xy_candidate": {
+        "start_s": 3.6270000000000002,
+        "end_s": 23.928,
+        "duration_s": 20.301000000000002
+      }
+    },
+    {
+      "run": "织棉提花缎_010",
+      "label": "织棉提花缎",
+      "direction": "去程",
+      "stage": "step_003",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_010/织棉提花缎_010.csv",
+      "rows": 8698,
+      "invalid_samples": 3,
+      "raw_Bz_median_air_start_uT": 7595.654,
+      "raw_Bz_median_middle_uT": -7713.75,
+      "raw_Bz_median_air_end_uT": 7623.968,
+      "dBz_median_middle_uT": -15309.096231,
+      "dBy_median_middle_uT": 349.909459,
+      "jumps_gt10000uT": 12,
+      "raw_abs_dBz_gt1000_candidate": {
+        "start_s": 4.9590000000000005,
+        "end_s": 24.297,
+        "duration_s": 19.338
+      },
+      "diagnostic_z_threshold_uT": 34.34135987592981,
+      "diagnostic_z_candidate": {
+        "start_s": 4.062,
+        "end_s": 24.45,
+        "duration_s": 20.387999999999998
+      },
+      "xy_threshold_uT": 86.4446161562347,
+      "xy_candidate": {
+        "start_s": 4.101,
+        "end_s": 24.411,
+        "duration_s": 20.310000000000002
+      }
+    },
+    {
+      "run": "织棉提花缎_010",
+      "label": "织棉提花缎",
+      "direction": "回程",
+      "stage": "step_004",
+      "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_010/织棉提花缎_010.csv",
+      "rows": 8698,
+      "invalid_samples": 0,
+      "raw_Bz_median_air_start_uT": 7622.032,
+      "raw_Bz_median_middle_uT": 7496.918,
+      "raw_Bz_median_air_end_uT": 7593.476,
+      "dBz_median_middle_uT": -98.428231,
+      "dBy_median_middle_uT": -360.340541,
+      "jumps_gt10000uT": 0,
+      "raw_abs_dBz_gt1000_candidate": null,
+      "diagnostic_z_threshold_uT": 34.51971078938641,
+      "diagnostic_z_candidate": {
+        "start_s": 3.39,
+        "end_s": 23.949,
+        "duration_s": 20.559
+      },
+      "xy_threshold_uT": 84.1916024525504,
+      "xy_candidate": {
+        "start_s": 3.552,
+        "end_s": 23.946,
+        "duration_s": 20.394000000000002
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+      "sha256": "9b9313f73feb7fc4e1ca7a9703e5e7329712294ae71451a7f010143f39b8d895"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+      "sha256": "0aa48dee53eb92f0768b714f4394f74853a094e2e000a8e914e653f18cae739c"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+      "sha256": "1010d5b420fc5a1e5abe4b799b0752de3eccd7a0fbd0d57eb1819ad6317c49ad"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+      "sha256": "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+      "sha256": "f38a847fca1efb80071883b1069f04b3faf34ff5f794f8fd8d1be90a30606594"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+      "sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+      "sha256": "8d549e356ad8e97ed90714a6423c5d79506b800ab8117e997f0a3340f2991846"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+      "sha256": "0555b496e6a380e615d4b0617380e9e5d956f5bd3a6acd892ead23cabbe36269"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+      "sha256": "87429d1987c396be487a4f1c204743d3d1fb8be2566bc1cc1fd9e13d7c0802e9"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+      "sha256": "37dcd16d17228d7d0c0d32226ef527fcf87d977f582377313165f48727713ec8"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+      "sha256": "5cbf8bbc19a6797176d803456718eb58e1b9beec3f72b33c083a6e10afe9191d"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+      "sha256": "a56acdd05455db6b5724ce10488569eed7400aef87f5fcd8873719e8c187ad39"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+      "sha256": "1e9061ed4a73cb1655f0764420b54cf407d6dd4d760b407d0b8b44a2c866f8fb"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+      "sha256": "3c4925c1bd1eb96e894382dc21e6e27a394cba387751d255531e6fe9b4c4e590"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+      "sha256": "5e56e52fc993db03576bd484a5c83e01b677b9e55182d54e0d9f077d5355e025"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_001/织棉提花缎_001.csv",
+      "sha256": "44469d045ad566f5da2c40607067aefd6ef999a266b59aebf769798b926ba4c6"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+      "sha256": "1bd6584f1e58927eb26f8307296d2ec07bd35d119e2deccfaeee919f3e8f4633"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_003/织棉提花缎_003.csv",
+      "sha256": "1b661f94da267b41942530dcc96d16f5aec9f66dce67318f4342208b9c7c3088"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_004/织棉提花缎_004.csv",
+      "sha256": "732ff7d3ff7c3e7a944b60f9717f3098d522f2ea69a8cd0f06badfd91b65857d"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_005/织棉提花缎_005.csv",
+      "sha256": "f2ae7859ace490a126b5acb2b724587c50820d63690c2848217fc3290b0fde4b"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+      "sha256": "da3dcea37d96e1e94c4fdf2d5433e020e4b39ef3bc4196caab66ac7e3d7018fe"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_007/织棉提花缎_007.csv",
+      "sha256": "cf6690d998eb4bdd3e055bb2a17ecbfd6062fd2d872a560dd886e7c50d4c5bed"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_008/织棉提花缎_008.csv",
+      "sha256": "49b1735d67f86e6f5eaea4e648c9451ed51cdc90bc852046ca22338597b678bf"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_009/织棉提花缎_009.csv",
+      "sha256": "6c4b51e03affe3c504490a44a5a196d3ae0aaa31affdd6fa3c4729dfd47bc6a7"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_010/织棉提花缎_010.csv",
+      "sha256": "2135171e642ff055631b4c025ed7ce358bf018ce06872ecf3a550e681c317b42"
+    }
+  ]
+}

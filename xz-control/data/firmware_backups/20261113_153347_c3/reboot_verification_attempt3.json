@@ -1,0 +1,68 @@
+{
+  "passed": false,
+  "error": "Hardware verification timeout; notice=采集板重启超时：已收到 REBOOT 确认，但未收到 READY；请检查重启后的启动和传感器初始化；最后设备消息：# [probe] SDA=2 SCL=3:（/dev/ttyACM1 @ 115200，接收 586 字节）",
+  "events": [
+    {
+      "type": "connected"
+    },
+    {
+      "type": "log",
+      "message": "模拟电机：不连接硬件，运动仅为理想模型"
+    },
+    {
+      "type": "origin_changed",
+      "config": {
+        "x_ppmm": 250.0,
+        "z_ppmm": 250.0,
+        "x_speed": 1.0,
+        "z_speed": 1.0,
+        "x_accel": 2.0,
+        "z_accel": 2.0,
+        "x_right": 1,
+        "x_min": null,
+        "x_max": null,
+        "z_min": null,
+        "z_max": null
+      }
+    },
+    {
+      "type": "started",
+      "name": "实机验证采集板重启",
+      "count": 1
+    },
+    {
+      "type": "step",
+      "index": 1,
+      "number": 1,
+      "count": 1,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "type": "external",
+      "index": 1,
+      "kind": "restart_sensor",
+      "duration": 10
+    },
+    {
+      "type": "log",
+      "message": "采集板重启：/dev/ttyACM1 @ 115200，已发送 REBOOT\\n，等待确认/启动信息 → READY → 新数据"
+    },
+    {
+      "type": "log",
+      "message": "已收到采集板 REBOOT 确认，等待重新启动和 READY"
+    },
+    {
+      "type": "log",
+      "message": "收到采集板启动信息：# MLX90393 monitor-compat @ XIAO ESP32-C3 (S3-style GPIO1/GPIO2)"
+    },
+    {
+      "type": "error",
+      "message": "采集板重启超时：已收到 REBOOT 确认，但未收到 READY；请检查重启后的启动和传感器初始化；最后设备消息：# [probe] SDA=2 SCL=3:（/dev/ttyACM1 @ 115200，接收 586 字节）"
+    },
+    {
+      "type": "stopped",
+      "reason": "采集板重启超时：已收到 REBOOT 确认，但未收到 READY；请检查重启后的启动和传感器初始化；最后设备消息：# [probe] SDA=2 SCL=3:（/dev/ttyACM1 @ 115200，接收 586 字节）"
+    }
+  ]
+}

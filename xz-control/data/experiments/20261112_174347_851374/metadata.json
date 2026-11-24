@@ -1,0 +1,54 @@
+{
+  "schema_version": 4,
+  "status": "aborted",
+  "created_utc": "2026-11-12T09:43:47.851580+00:00",
+  "endpoint_pulses": {
+    "x": 100,
+    "z": 10
+  },
+  "speed_pps": {
+    "x": 10,
+    "z": 10
+  },
+  "acceleration_pps2": {
+    "x": 1000,
+    "z": 1000
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM1",
+    "sensor_port": "/dev/ttyACM0",
+    "sensor_baud": 115200,
+    "sensor_address": "0x0C (user supplied)",
+    "sensor_calibration": {
+      "id": 0,
+      "baseline_uT": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "timestamps": "host monotonic receive time; motor position is latest reported software pulse count",
+  "units": "uT per sensor firmware convention",
+  "samples": 3309,
+  "scan_complete": true,
+  "returned_to_zero": false,
+  "files": {
+    "samples": "magnetic_xyz.csv",
+    "controller": "controller.csv",
+    "events": "events.jsonl"
+  },
+  "motor_phase_codes": {
+    "0": "idle",
+    "1": "X first",
+    "2": "Z first",
+    "3": "final/simultaneous"
+  },
+  "motor_speed_meaning": "controller scheduled pulse rate, not measured motor speed",
+  "magnetic_columns": "magnetic_xyz = original serial values; corrected_magnetic_xyz = original minus baseline_xyz; calibration_id 0 means uncalibrated. signal_kind describes original input.",
+  "sensor_timing": "CSV first column preserved as device_time_us per t_us contract; confirm firmware units. Relative lag is excess over minimum observed host-device offset, NOT absolute latency; clock drift and buffering affect it. Labelled output has no device time.",
+  "controller_samples": 87,
+  "events": 16,
+  "record_start_utc": "2026-11-12T09:43:48.787463+00:00",
+  "reason": "窗口关闭"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.6786717176437378,
+    "train_accuracy": 0.5,
+    "val_loss": 0.4605756402015686,
+    "val_f1": 1.0,
+    "val_accuracy": 1.0,
+    "lr": 0.0003,
+    "seconds": 0.14048604900006012,
+    "gradient_norm_max": 3.8302264835539463,
+    "gradient_abs_max": 0.5282080769538879,
+    "gradient_clip_fraction": 1.0,
+    "gradient_clipped_norm_max": 0.999999740477863,
+    "gradient_clip_coefficient_min": 0.2610810987842768
+  }
+]

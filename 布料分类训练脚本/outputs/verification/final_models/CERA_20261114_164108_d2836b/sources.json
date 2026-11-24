@@ -1,0 +1,602 @@
+[
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_001/岩石肌理面料_001.csv",
+    "sha256": "9b9313f73feb7fc4e1ca7a9703e5e7329712294ae71451a7f010143f39b8d895",
+    "metadata_sha256": "25c970b16a13d7212ca1ea19af11345acc3bdd3d719b0caad050f012bc2261fd",
+    "group": "capture:02702a8fe35f4e0da6faa78fa536893e",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "9b9313f73feb7fc4e1ca7a9703e5e7329712294ae71451a7f010143f39b8d895:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "9b9313f73feb7fc4e1ca7a9703e5e7329712294ae71451a7f010143f39b8d895:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_002/岩石肌理面料_002.csv",
+    "sha256": "0aa48dee53eb92f0768b714f4394f74853a094e2e000a8e914e653f18cae739c",
+    "metadata_sha256": "e61d5379fca2417c28829166c5c2847c7ba380e7d26bade0ace0e4978c5c71cc",
+    "group": "capture:2ab3fb8c20b844d9bb3f3a9d28d78532",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "0aa48dee53eb92f0768b714f4394f74853a094e2e000a8e914e653f18cae739c:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "0aa48dee53eb92f0768b714f4394f74853a094e2e000a8e914e653f18cae739c:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_003/岩石肌理面料_003.csv",
+    "sha256": "1010d5b420fc5a1e5abe4b799b0752de3eccd7a0fbd0d57eb1819ad6317c49ad",
+    "metadata_sha256": "e9ee621a2dc78e444e518dfe0b9b485f338bec1434bfaba9604ec72b0388a1ca",
+    "group": "capture:aa20e6efb76449e0860b720cec1ad5f8",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "1010d5b420fc5a1e5abe4b799b0752de3eccd7a0fbd0d57eb1819ad6317c49ad:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "1010d5b420fc5a1e5abe4b799b0752de3eccd7a0fbd0d57eb1819ad6317c49ad:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+    "sha256": "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c",
+    "metadata_sha256": "49b00a1ac7231ce75cff67877207481289bad07967802e86200c13c9b61524c1",
+    "group": "capture:da409b8831a04cde9109c9e249190c0a",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_005/岩石肌理面料_005.csv",
+    "sha256": "f38a847fca1efb80071883b1069f04b3faf34ff5f794f8fd8d1be90a30606594",
+    "metadata_sha256": "3e51ef8189a7876bae3cbf6dc75ee360d65ba7be4912c18d9e38d7beba76083a",
+    "group": "capture:bb128aa41782466399d4b4eef7cec203",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "f38a847fca1efb80071883b1069f04b3faf34ff5f794f8fd8d1be90a30606594:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "f38a847fca1efb80071883b1069f04b3faf34ff5f794f8fd8d1be90a30606594:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_006/岩石肌理面料_006.csv",
+    "sha256": "d354125f3d002eb9312a9223853a90395db3b34a3ec646101ef30537c70ef8f2",
+    "metadata_sha256": "ed69ed2c92c83a34d7614de965fd38abcb606be28701b2f9473114426ab32e3f",
+    "group": "capture:76508b670f794704bb00aab398141633",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "d354125f3d002eb9312a9223853a90395db3b34a3ec646101ef30537c70ef8f2:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "d354125f3d002eb9312a9223853a90395db3b34a3ec646101ef30537c70ef8f2:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_007/岩石肌理面料_007.csv",
+    "sha256": "344312f64d45206f6d55c6d675161fffc94c4605807411f5a5902935df85e440",
+    "metadata_sha256": "c6b0dddff6fc6caf3e3abd348ef4d81d4e957c6418d4c52fb50add9e93a910fa",
+    "group": "capture:28659a8c7ae14d9793469e96a0c5a4e1",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "344312f64d45206f6d55c6d675161fffc94c4605807411f5a5902935df85e440:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "344312f64d45206f6d55c6d675161fffc94c4605807411f5a5902935df85e440:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_008/岩石肌理面料_008.csv",
+    "sha256": "dd754d9a907e73cd5b028c0ce4767860352383b97d70d6a4443a0811a4afc4d2",
+    "metadata_sha256": "f3a1be763dd358d0a47fd537a06dfcce7de10e690a3d5e9ac20d295e81e94170",
+    "group": "capture:eadc412620ce4210bea822ffc72640e7",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "dd754d9a907e73cd5b028c0ce4767860352383b97d70d6a4443a0811a4afc4d2:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "dd754d9a907e73cd5b028c0ce4767860352383b97d70d6a4443a0811a4afc4d2:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_009/岩石肌理面料_009.csv",
+    "sha256": "5dc632b9002f6d633e523f5c83886d19bde8527f1895c42714fd0cc7b86a27ab",
+    "metadata_sha256": "5a7dd558fdca2bb06fbb2c5777345d9ed1ff9507f24625aa3c858ec021518eef",
+    "group": "capture:d6368b5c989e4c3c98faa8b32453b723",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "5dc632b9002f6d633e523f5c83886d19bde8527f1895c42714fd0cc7b86a27ab:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "5dc632b9002f6d633e523f5c83886d19bde8527f1895c42714fd0cc7b86a27ab:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_010/岩石肌理面料_010.csv",
+    "sha256": "ec5f005c6bf710866f5fcf0284f64bef555259344c1d0a8851ce9389860d48fa",
+    "metadata_sha256": "6b950fe4e4e46db51525ba55702f4f7c7e9151813ce163dc6e45b0aa21edddbe",
+    "group": "capture:0b8bb446e9be493f88d9a4b0451bfa5c",
+    "label": "岩石肌理面料",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "ec5f005c6bf710866f5fcf0284f64bef555259344c1d0a8851ce9389860d48fa:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "ec5f005c6bf710866f5fcf0284f64bef555259344c1d0a8851ce9389860d48fa:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+    "sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7",
+    "metadata_sha256": "eb5167fcc125f307912ce66cd4a09170928d65a56911f9738194c556759c6b5b",
+    "group": "capture:393bc429752249828e0e97e32ac062b2",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_002/空气层_002.csv",
+    "sha256": "8d549e356ad8e97ed90714a6423c5d79506b800ab8117e997f0a3340f2991846",
+    "metadata_sha256": "80c44868dd0e4b4777a2ddc2fa276076fa5e091938d380d065df46ce4a3e354e",
+    "group": "capture:45b58f9742974e44b11c8b3f15e11bac",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "8d549e356ad8e97ed90714a6423c5d79506b800ab8117e997f0a3340f2991846:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "8d549e356ad8e97ed90714a6423c5d79506b800ab8117e997f0a3340f2991846:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+    "sha256": "0555b496e6a380e615d4b0617380e9e5d956f5bd3a6acd892ead23cabbe36269",
+    "metadata_sha256": "ef7f2a25078993681f50cae99393d9bc465f5a4be3403059a7e36a767902ce0e",
+    "group": "capture:cbf218f7974144f0bceb50e1a6a76516",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "0555b496e6a380e615d4b0617380e9e5d956f5bd3a6acd892ead23cabbe36269:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "0555b496e6a380e615d4b0617380e9e5d956f5bd3a6acd892ead23cabbe36269:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_004/空气层_004.csv",
+    "sha256": "87429d1987c396be487a4f1c204743d3d1fb8be2566bc1cc1fd9e13d7c0802e9",
+    "metadata_sha256": "806d53cc7608316284b35efada4eea24504511d5e88395592b9dc82e0ba41c26",
+    "group": "capture:88625dd8143540a79f905d9730bff371",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "87429d1987c396be487a4f1c204743d3d1fb8be2566bc1cc1fd9e13d7c0802e9:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "87429d1987c396be487a4f1c204743d3d1fb8be2566bc1cc1fd9e13d7c0802e9:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_005/空气层_005.csv",
+    "sha256": "37dcd16d17228d7d0c0d32226ef527fcf87d977f582377313165f48727713ec8",
+    "metadata_sha256": "99634f05b797ba662ad5f961655af739eed29fe52f798a43f6f66206fb4e4129",
+    "group": "capture:3f87836e134740faa44792e5ef483f39",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "37dcd16d17228d7d0c0d32226ef527fcf87d977f582377313165f48727713ec8:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "37dcd16d17228d7d0c0d32226ef527fcf87d977f582377313165f48727713ec8:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_006/空气层_006.csv",
+    "sha256": "5cbf8bbc19a6797176d803456718eb58e1b9beec3f72b33c083a6e10afe9191d",
+    "metadata_sha256": "e632c4b3f349eb918c9f8c7077abece3e4c4d663717a1281870c3d8ade6a5394",
+    "group": "capture:9f73b978d7324d9e9278fe1f6aa49c0a",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "5cbf8bbc19a6797176d803456718eb58e1b9beec3f72b33c083a6e10afe9191d:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "5cbf8bbc19a6797176d803456718eb58e1b9beec3f72b33c083a6e10afe9191d:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_007/空气层_007.csv",
+    "sha256": "a56acdd05455db6b5724ce10488569eed7400aef87f5fcd8873719e8c187ad39",
+    "metadata_sha256": "109c11bb8fc6f59d328fec983b576d5bf4502eda93d05e1836f1b952436f3fb3",
+    "group": "capture:2a184ef300174289be2d057e948b727b",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "a56acdd05455db6b5724ce10488569eed7400aef87f5fcd8873719e8c187ad39:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "a56acdd05455db6b5724ce10488569eed7400aef87f5fcd8873719e8c187ad39:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_008/空气层_008.csv",
+    "sha256": "1e9061ed4a73cb1655f0764420b54cf407d6dd4d760b407d0b8b44a2c866f8fb",
+    "metadata_sha256": "72f608a86f42a76de6856f16462972b39b5f9fc09e70c48799eb2ce5eb0fc206",
+    "group": "capture:58c42c379c0d40a6accd598c886a1e33",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "1e9061ed4a73cb1655f0764420b54cf407d6dd4d760b407d0b8b44a2c866f8fb:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "1e9061ed4a73cb1655f0764420b54cf407d6dd4d760b407d0b8b44a2c866f8fb:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_009/空气层_009.csv",
+    "sha256": "3c4925c1bd1eb96e894382dc21e6e27a394cba387751d255531e6fe9b4c4e590",
+    "metadata_sha256": "c8230e56e0b137ad07b4612564c40e21ef3626c422cc81d0fba0d5537c47fc42",
+    "group": "capture:0442d89b8e9846dfa9a741033485dacf",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "3c4925c1bd1eb96e894382dc21e6e27a394cba387751d255531e6fe9b4c4e590:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "3c4925c1bd1eb96e894382dc21e6e27a394cba387751d255531e6fe9b4c4e590:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_010/空气层_010.csv",
+    "sha256": "5e56e52fc993db03576bd484a5c83e01b677b9e55182d54e0d9f077d5355e025",
+    "metadata_sha256": "680f15991a3d9b9d03faedf354631f504e18fc75a01cacc450878440edbd1209",
+    "group": "capture:083c75ed6b304e659dd610df4344297a",
+    "label": "空气层",
+    "warnings": [],
+    "ppmm": 250.0,
+    "speed": 6.0,
+    "trials": [
+      {
+        "id": "5e56e52fc993db03576bd484a5c83e01b677b9e55182d54e0d9f077d5355e025:out",
+        "direction": "out",
+        "points": 5316,
+        "bounds": [
+          45.0,
+          142.0
+        ]
+      },
+      {
+        "id": "5e56e52fc993db03576bd484a5c83e01b677b9e55182d54e0d9f077d5355e025:back",
+        "direction": "back",
+        "points": 5372,
+        "bounds": [
+          16.0,
+          114.0
+        ]
+      }
+    ]
+  }
+]

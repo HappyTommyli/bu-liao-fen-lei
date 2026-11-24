@@ -1,0 +1,33 @@
+{
+  "note": "Original source before explicitly authorized realtime feature installation. No settings/data included.",
+  "files": {
+    "xz_workbench/backend.py": {
+      "existed": true,
+      "sha256": "d9c75396bda50b1286d6547257cd34a87b5eab8899d4c7ab77a9e99f638fdfcf",
+      "size": 40215,
+      "installed_sha256": "de90e2e03683d13eef5e2054be565464405fc3c609f8a78767d729fb169be810"
+    },
+    "xz_workbench/ui.py": {
+      "existed": true,
+      "sha256": "7de6b8bc4145c679d4fec32af382df3dff25146667a900dbc52099cb3696f60b",
+      "size": 63884,
+      "installed_sha256": "f3f5af9234194f697110bb3ed0c4a0358c6c5871be19119ddcb992b44c1406cb"
+    },
+    "xz_workbench/realtime.py": {
+      "existed": false,
+      "installed_sha256": "fb816c8e8378fc2963c52dc04e8dc7c7175304c5f338d8cac05087ea07834a11"
+    },
+    "tests/test_realtime.py": {
+      "existed": false,
+      "installed_sha256": "e3e48a3ea452298e1124b8afe61bdf01590ca2560fa79611ccd5a42682a7fc2b"
+    },
+    "tests/test_realtime_ui.py": {
+      "existed": false,
+      "installed_sha256": "0903c7e8f6f1b43b4c912d889d0ad86dac7d49e54345c980f07e52d5de6ecd14"
+    }
+  },
+  "preserved_files": {
+    "xz_workbench/catalog.py": "077b58ea84c47f92e23cf1d18c699a75b791ddd81fc90cc84715e7feefb5a585",
+    "xz_workbench/preferences.py": "9edc2f0505b049d583b4336a2e33c5395253d04ae70edb7819985fcbf0991e58"
+  }
+}

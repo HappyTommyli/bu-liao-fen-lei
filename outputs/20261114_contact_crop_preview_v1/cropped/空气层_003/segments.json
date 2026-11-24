@@ -1,0 +1,41 @@
+{
+  "run": "空气层_003",
+  "label": "空气层",
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_003/空气层_003.csv",
+  "source_sha256": "0555b496e6a380e615d4b0617380e9e5d956f5bd3a6acd892ead23cabbe36269",
+  "status": "provisional_needs_boundary_review",
+  "segments": [
+    {
+      "direction": "去程",
+      "stage": "step_003",
+      "csv": "cropped/空气层_003/空气层_003_outward.csv",
+      "candidate_start_s": 4.098,
+      "candidate_end_s": 24.363,
+      "requested_start_s": 7.598,
+      "requested_end_s": 23.863,
+      "retained_start_s": 7.6,
+      "retained_end_s": 23.862,
+      "retained_duration_s": 16.262,
+      "first_seq": 2535,
+      "last_seq": 7945,
+      "rows": 5411,
+      "invalid_rows": 0
+    },
+    {
+      "direction": "回程",
+      "stage": "step_004",
+      "csv": "cropped/空气层_003/空气层_003_return.csv",
+      "candidate_start_s": 3.648,
+      "candidate_end_s": 23.913,
+      "requested_start_s": 7.148,
+      "requested_end_s": 23.413,
+      "retained_start_s": 7.149999999999999,
+      "retained_end_s": 23.412,
+      "retained_duration_s": 16.262,
+      "first_seq": 11081,
+      "last_seq": 16491,
+      "rows": 5411,
+      "invalid_rows": 0
+    }
+  ]
+}

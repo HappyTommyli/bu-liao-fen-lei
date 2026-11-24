@@ -1,0 +1,30 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________ test_gui_background_training_history_and_prediction ______________
+
+app = <PyQt5.QtWidgets.QApplication object at 0x7fa5586fa320>
+tmp_path = PosixPath('/tmp/pytest-of-serein/pytest-15/test_gui_background_training_h0')
+
+    def test_gui_background_training_history_and_prediction(app,tmp_path):
+        records=[load_record(fixture_csv(tmp_path,c,i,speed=100)) for c in ['布A','布B'] for i in range(10)]
+        w=TrainerWindow(tmp_path/'store');w.config=replace(w.config,epochs=1,batch_size=4);w.add_records(records,[])
+        w.start_training();wait(app,lambda:not w.busy())
+        assert w.result_task and w.result_task['status']=='completed'
+        assert w.model_selector.count()==1
+        w.add_recognition([records[0].path]);w.start_prediction();wait(app,lambda:not w.busy())
+        assert len(w.prediction_rows)==2
+        assert all(r['training_overlap'] for result,r in w.prediction_rows)
+>       assert '未接受' in w.prediction_table.item(0,5).text()
+E       AssertionError: assert '未接受' in '训练来源回放'
+E        +  where '训练来源回放' = <built-in method text of QTableWidgetItem object at 0x7fa59a644a60>()
+E        +    where <built-in method text of QTableWidgetItem object at 0x7fa59a644a60> = <PyQt5.QtWidgets.QTableWidgetItem object at 0x7fa59a644a60>.text
+E        +      where <PyQt5.QtWidgets.QTableWidgetItem object at 0x7fa59a644a60> = <built-in method item of QTableWidget object at 0x7fa55599b880>(0, 5)
+E        +        where <built-in method item of QTableWidget object at 0x7fa55599b880> = <PyQt5.QtWidgets.QTableWidget object at 0x7fa55599b880>.item
+E        +          where <PyQt5.QtWidgets.QTableWidget object at 0x7fa55599b880> = <cloth_trainer.ui.TrainerWindow object at 0x7fa5cb5b8820>.prediction_table
+
+tests/test_ui.py:50: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+=========================== short test summary info ============================
+FAILED tests/test_ui.py::test_gui_background_training_history_and_prediction
+1 failed in 4.72s

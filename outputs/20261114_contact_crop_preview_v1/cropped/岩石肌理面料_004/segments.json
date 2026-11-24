@@ -1,0 +1,41 @@
+{
+  "run": "岩石肌理面料_004",
+  "label": "岩石肌理面料",
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_004/岩石肌理面料_004.csv",
+  "source_sha256": "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c",
+  "status": "provisional_needs_boundary_review",
+  "segments": [
+    {
+      "direction": "去程",
+      "stage": "step_003",
+      "csv": "cropped/岩石肌理面料_004/岩石肌理面料_004_outward.csv",
+      "candidate_start_s": 4.197,
+      "candidate_end_s": 24.384,
+      "requested_start_s": 7.697,
+      "requested_end_s": 23.884,
+      "retained_start_s": 7.699001000000001,
+      "retained_end_s": 23.883001,
+      "retained_duration_s": 16.183999999999997,
+      "first_seq": 2568,
+      "last_seq": 7952,
+      "rows": 5385,
+      "invalid_rows": 0
+    },
+    {
+      "direction": "回程",
+      "stage": "step_004",
+      "csv": "cropped/岩石肌理面料_004/岩石肌理面料_004_return.csv",
+      "candidate_start_s": 3.618,
+      "candidate_end_s": 23.937,
+      "requested_start_s": 7.118,
+      "requested_end_s": 23.437,
+      "retained_start_s": 7.122999,
+      "retained_end_s": 23.436,
+      "retained_duration_s": 16.313001,
+      "first_seq": 11074,
+      "last_seq": 16501,
+      "rows": 5428,
+      "invalid_rows": 0
+    }
+  ]
+}

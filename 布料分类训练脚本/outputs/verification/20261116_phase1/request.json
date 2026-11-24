@@ -1,0 +1,715 @@
+{
+  "paths": [
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_003/平纹棉布_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_004/平纹棉布_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_005/平纹棉布_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_006/平纹棉布_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_007/平纹棉布_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_008/平纹棉布_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_009/平纹棉布_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_001/灯芯绒_001.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_002/灯芯绒_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_003/灯芯绒_003.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_004/灯芯绒_004.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_005/灯芯绒_005.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_006/灯芯绒_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_008/灯芯绒_008.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_009/灯芯绒_009.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_010/灯芯绒_010.csv"
+  ],
+  "sources": [
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv",
+      "sha256": "cac492a3d9bb44ba0d1ccddc981796243df700dd1ccd98d3b005a8167324a700",
+      "metadata_sha256": "352d2481409e8fadc92124a3b6d01a909b5e72e0eaead3ab1dac63f124a58241",
+      "group": "capture:0db6cb3559bd45c59832b59ba243939d",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "cac492a3d9bb44ba0d1ccddc981796243df700dd1ccd98d3b005a8167324a700:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "cac492a3d9bb44ba0d1ccddc981796243df700dd1ccd98d3b005a8167324a700:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv",
+      "sha256": "ae4309d3bc44f57cc07a4e732c80ac4d66664d0c8aa1d45e639f9583bfe1dc8f",
+      "metadata_sha256": "1e9adcc737ab3d861b227942df7e71d660244533548f7ecd15e7d5daea4d6560",
+      "group": "capture:b9ad6f5d740f469ab451f8b2cd411fc9",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "ae4309d3bc44f57cc07a4e732c80ac4d66664d0c8aa1d45e639f9583bfe1dc8f:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "ae4309d3bc44f57cc07a4e732c80ac4d66664d0c8aa1d45e639f9583bfe1dc8f:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_003/平纹棉布_003.csv",
+      "sha256": "17ff2a44c9dcc744877e1b30878fc033188511a240bb63f66fe9aa0adc402809",
+      "metadata_sha256": "83b74177df0d86bacab6790b1c5699b68dedcd1029d355f5963767551b41812a",
+      "group": "capture:8c7a6ce91ed744dbaae2a8037f9b9da2",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "17ff2a44c9dcc744877e1b30878fc033188511a240bb63f66fe9aa0adc402809:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "17ff2a44c9dcc744877e1b30878fc033188511a240bb63f66fe9aa0adc402809:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_004/平纹棉布_004.csv",
+      "sha256": "e4bea45323406876fdc679bb53d34ba69f89888ded7ff5762dfed446df00afe7",
+      "metadata_sha256": "6a018b07968f7764e076dc25aff7ee21fce7010201a3a5ebcf9cde03c407a3b4",
+      "group": "capture:1b396a204fd14b47a158a40dd88c1ba4",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "e4bea45323406876fdc679bb53d34ba69f89888ded7ff5762dfed446df00afe7:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "e4bea45323406876fdc679bb53d34ba69f89888ded7ff5762dfed446df00afe7:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_005/平纹棉布_005.csv",
+      "sha256": "0429824b5d7519de7bbaa334f8e05b9739409dc37884634f568cdf6c2efb27f8",
+      "metadata_sha256": "f5c2b8e29af4e9703349e0c4d7dec99e0bcd64454a0ebd887f6bfbd1db269dd2",
+      "group": "capture:6914fa37053b44a09d618e84db8649ca",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "0429824b5d7519de7bbaa334f8e05b9739409dc37884634f568cdf6c2efb27f8:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "0429824b5d7519de7bbaa334f8e05b9739409dc37884634f568cdf6c2efb27f8:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_006/平纹棉布_006.csv",
+      "sha256": "a85f99d6a646aa2ceac4f9f534bd139a312128dfc3818b04ae13b322c501756d",
+      "metadata_sha256": "889331079df3ba5ba64a51cc3711d703fb132a1a9e150e1148e5ebcabe9157a5",
+      "group": "capture:2b88414913684e7ab3bd35c715b3d7d3",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "a85f99d6a646aa2ceac4f9f534bd139a312128dfc3818b04ae13b322c501756d:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "a85f99d6a646aa2ceac4f9f534bd139a312128dfc3818b04ae13b322c501756d:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_007/平纹棉布_007.csv",
+      "sha256": "ca4ec1c3f308810f632446883d3e36091f4d07f1440ad10caa39485271391f1d",
+      "metadata_sha256": "24c13be7a18c45390c321be112bda566559cd7d5a629a5ae4640020cf1ce35d2",
+      "group": "capture:b8ac4ecb29654a558e717a0cb11423e0",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "ca4ec1c3f308810f632446883d3e36091f4d07f1440ad10caa39485271391f1d:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "ca4ec1c3f308810f632446883d3e36091f4d07f1440ad10caa39485271391f1d:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_008/平纹棉布_008.csv",
+      "sha256": "e4abdc6b047b6bb89f1a240598f7fb0f5200029ffe2a71633a50c427f9a773f8",
+      "metadata_sha256": "212cfc344a72d83ace13d4ca390bb6d65295833fe55d6a22ae18efdb2446f46f",
+      "group": "capture:44e43beb44f44e2eb5d4fad035aa0758",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "e4abdc6b047b6bb89f1a240598f7fb0f5200029ffe2a71633a50c427f9a773f8:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "e4abdc6b047b6bb89f1a240598f7fb0f5200029ffe2a71633a50c427f9a773f8:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_009/平纹棉布_009.csv",
+      "sha256": "aea5513f993a21580699e7ad9706bd1cd3cc05941e80c708b16f8e262403b847",
+      "metadata_sha256": "fc20031e576b6501f0d3bd238496834b6f014e3da18c1597a2dea2602284b5f9",
+      "group": "capture:b14bb9ea0a6345c9979d53c07e80b7c0",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "aea5513f993a21580699e7ad9706bd1cd3cc05941e80c708b16f8e262403b847:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "aea5513f993a21580699e7ad9706bd1cd3cc05941e80c708b16f8e262403b847:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+      "sha256": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604",
+      "metadata_sha256": "757be22ec3812499ceb00c01ce95e43e713d046c56b63e49b9f20144f799e187",
+      "group": "capture:e66ff891b8764314bc5ec3280c1cf325",
+      "label": "平纹棉布",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_001/灯芯绒_001.csv",
+      "sha256": "ba3129ea136f3155cbb446d580eb1fa6365780126c8af4752622077f15a34ba4",
+      "metadata_sha256": "45cb529f552f5cf2ebdfe229de5cdecc0f823130fc038737ec2fc33867ea651a",
+      "group": "capture:0fa3b2aeb6864b2eafbf0c0f1ac90b81",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "ba3129ea136f3155cbb446d580eb1fa6365780126c8af4752622077f15a34ba4:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "ba3129ea136f3155cbb446d580eb1fa6365780126c8af4752622077f15a34ba4:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_002/灯芯绒_002.csv",
+      "sha256": "0a75ed1479d712893de5d04ef11c06a42a05b825339c8fac7211b50942df503f",
+      "metadata_sha256": "a9f9b9e5df0fd8ed6c90497b1ee7cb244636e26af996d293d0c578c2c9f97dab",
+      "group": "capture:01aaf39b79084778a5020ee330007530",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "0a75ed1479d712893de5d04ef11c06a42a05b825339c8fac7211b50942df503f:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "0a75ed1479d712893de5d04ef11c06a42a05b825339c8fac7211b50942df503f:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_003/灯芯绒_003.csv",
+      "sha256": "a8c104361b0453b951290fc9e5bcbd6e19bf2dcbe78b9b05afa812c00f598a45",
+      "metadata_sha256": "e8b6130130ce7ccf44c71a51f05665641451121e7689314172e4d5d791ca6e88",
+      "group": "capture:f1028f963c464147b2cada029f015418",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "a8c104361b0453b951290fc9e5bcbd6e19bf2dcbe78b9b05afa812c00f598a45:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "a8c104361b0453b951290fc9e5bcbd6e19bf2dcbe78b9b05afa812c00f598a45:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_004/灯芯绒_004.csv",
+      "sha256": "8c5ce1e4b7fa4d51857560ecca352743f47cc47f5f71131b47f98a8038d349a7",
+      "metadata_sha256": "891b92f6a0d94c58d083c2e74d105056359040f01380b4460ee5fccfd7a3ebce",
+      "group": "capture:03789fb490274d8a8d7e3752e3a851e1",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "8c5ce1e4b7fa4d51857560ecca352743f47cc47f5f71131b47f98a8038d349a7:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "8c5ce1e4b7fa4d51857560ecca352743f47cc47f5f71131b47f98a8038d349a7:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_005/灯芯绒_005.csv",
+      "sha256": "07d09a0c9c3f42bc456bfd994f7a44656c48d4e1b7e22fd46bd45ad5fee23c37",
+      "metadata_sha256": "7b8777d6493c02ac5e030ac10067bfd413cc82d22b49840981dfbe9ea90bb996",
+      "group": "capture:b2ad62db31aa4a23b4748d44257264c7",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "07d09a0c9c3f42bc456bfd994f7a44656c48d4e1b7e22fd46bd45ad5fee23c37:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "07d09a0c9c3f42bc456bfd994f7a44656c48d4e1b7e22fd46bd45ad5fee23c37:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_006/灯芯绒_006.csv",
+      "sha256": "fb1ae606913c7d6cb849a5146c09f4e93063a3057950623095486be1d35daaa7",
+      "metadata_sha256": "ad98727733571ecdc79d88005a0e1214d56b360704e43ac489ed7531538b5e6a",
+      "group": "capture:e0e860d203ba4543b475ed5e77b788cd",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "fb1ae606913c7d6cb849a5146c09f4e93063a3057950623095486be1d35daaa7:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "fb1ae606913c7d6cb849a5146c09f4e93063a3057950623095486be1d35daaa7:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv",
+      "sha256": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031",
+      "metadata_sha256": "d4059a4530e83e69bbe52d407123167f27ef5ffd7afa83f6958f7ea88e0bbc21",
+      "group": "capture:3b81de7fc3af48348ad66d26a82c369a",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_008/灯芯绒_008.csv",
+      "sha256": "5a5f451a0345961f81d0a6858a4d63154fcf6341dc5678b711693d5b73ddaaf5",
+      "metadata_sha256": "e4360c4178bc45c34080aebdf7f0530d6c15d5cf8129047b6a39e5e6c8b0f616",
+      "group": "capture:6ab2d4f939164dce8b43a6c04edfe7fa",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "5a5f451a0345961f81d0a6858a4d63154fcf6341dc5678b711693d5b73ddaaf5:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "5a5f451a0345961f81d0a6858a4d63154fcf6341dc5678b711693d5b73ddaaf5:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_009/灯芯绒_009.csv",
+      "sha256": "6ae9644dc59abc11b2471123ce9b87be9118d9b63e8be3955cf827a42cb47ee5",
+      "metadata_sha256": "f19e971f6196a9a98237ac564a8905c37d16f3afbcf8f7a5bdf285eb528fe2cb",
+      "group": "capture:99f24d96b1ff440abdbab688061bfce9",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "6ae9644dc59abc11b2471123ce9b87be9118d9b63e8be3955cf827a42cb47ee5:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "6ae9644dc59abc11b2471123ce9b87be9118d9b63e8be3955cf827a42cb47ee5:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_010/灯芯绒_010.csv",
+      "sha256": "6ffe614976f53242601be327ce9be67d38a3d0541ffd97ee53dec2fc177d320c",
+      "metadata_sha256": "61d3e7756ba9f33a95d6c1c4e13c33935ac80de5c839e77afe9735640ce4bacc",
+      "group": "capture:f20f0d10285644b58a1384c33e091520",
+      "label": "灯芯绒",
+      "warnings": [],
+      "ppmm": 250.0,
+      "speed": 6.0,
+      "trials": [
+        {
+          "id": "6ffe614976f53242601be327ce9be67d38a3d0541ffd97ee53dec2fc177d320c:out",
+          "direction": "out",
+          "points": 5316,
+          "bounds": [
+            45.0,
+            142.0
+          ]
+        },
+        {
+          "id": "6ffe614976f53242601be327ce9be67d38a3d0541ffd97ee53dec2fc177d320c:back",
+          "direction": "back",
+          "points": 5372,
+          "bounds": [
+            16.0,
+            114.0
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": {
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_003/平纹棉布_003.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_004/平纹棉布_004.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_005/平纹棉布_005.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_006/平纹棉布_006.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_007/平纹棉布_007.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_008/平纹棉布_008.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_009/平纹棉布_009.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv": "平纹棉布",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_001/灯芯绒_001.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_002/灯芯绒_002.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_003/灯芯绒_003.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_004/灯芯绒_004.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_005/灯芯绒_005.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_006/灯芯绒_006.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_008/灯芯绒_008.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_009/灯芯绒_009.csv": "灯芯绒",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_010/灯芯绒_010.csv": "灯芯绒"
+  },
+  "protocol": {
+    "speed": 6.0,
+    "trial_points": {
+      "out": 5316,
+      "back": 5372
+    },
+    "data": {
+      "out_low": 45.0,
+      "out_high": 142.0,
+      "back_low": 16.0,
+      "back_high": 114.0,
+      "fallback_ppmm": 250.0,
+      "fallback_speed": 6.0,
+      "fs": 333.0,
+      "source_fs": 333.0,
+      "max_gap": 0.02,
+      "tail_margin": 0.2,
+      "speed_tolerance": 0.1
+    },
+    "class_weights": {
+      "平纹棉布": 0.5,
+      "灯芯绒": 0.5
+    }
+  },
+  "config": {
+    "data": {
+      "out_low": 45.0,
+      "out_high": 142.0,
+      "back_low": 16.0,
+      "back_high": 114.0,
+      "fallback_ppmm": 250.0,
+      "fallback_speed": 6.0,
+      "fs": 333.0,
+      "source_fs": 333.0,
+      "max_gap": 0.02,
+      "tail_margin": 0.2,
+      "speed_tolerance": 0.1
+    },
+    "signals": [
+      "by"
+    ],
+    "architectures": [
+      "gru",
+      "tcn",
+      "cera"
+    ],
+    "readouts": [
+      "mean"
+    ],
+    "preset": "quick",
+    "repetitions": 1,
+    "epochs": 1,
+    "patience": 1,
+    "batch_size": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "split_seed": 42,
+    "threads": 2,
+    "hidden_size": 64,
+    "dropout": 0.1,
+    "scheduler": true,
+    "scheduler_patience": 8,
+    "min_lr": 1e-05,
+    "name": "真实数据1轮流程检查_非正式成绩"
+  },
+  "output": "outputs/verification/20261116_phase1/models"
+}

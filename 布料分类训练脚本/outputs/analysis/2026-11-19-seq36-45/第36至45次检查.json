@@ -1,0 +1,7218 @@
+{
+  "total": 140,
+  "usable": 26,
+  "summary": [
+    {
+      "label": "亮丝粗花呢",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "仿皮毛一体",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}",
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "复合灯芯绒",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}",
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "大衣呢",
+      "total": 10,
+      "usable": 10,
+      "reasons": {
+        "通过": 10
+      },
+      "usable_records": [
+        "大衣呢_036",
+        "大衣呢_037",
+        "大衣呢_038",
+        "大衣呢_039",
+        "大衣呢_040",
+        "大衣呢_041",
+        "大衣呢_042",
+        "大衣呢_043",
+        "大衣呢_044",
+        "大衣呢_045"
+      ],
+      "range_pairs": [
+        "{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"
+      ]
+    },
+    {
+      "label": "岩石肌理面料",
+      "total": 10,
+      "usable": 1,
+      "reasons": {
+        "step_003缺口超过20ms": 9,
+        "通过": 1
+      },
+      "usable_records": [
+        "岩石肌理面料_042"
+      ],
+      "range_pairs": [
+        "{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}",
+        "{'step_003': [0.004, 155.0], 'step_004': [0.0, 155.0]}"
+      ]
+    },
+    {
+      "label": "平纹棉布",
+      "total": 10,
+      "usable": 9,
+      "reasons": {
+        "通过": 9,
+        "step_003缺口超过20ms": 1
+      },
+      "usable_records": [
+        "平纹棉布_036",
+        "平纹棉布_037",
+        "平纹棉布_038",
+        "平纹棉布_039",
+        "平纹棉布_040",
+        "平纹棉布_041",
+        "平纹棉布_043",
+        "平纹棉布_044",
+        "平纹棉布_045"
+      ],
+      "range_pairs": [
+        "{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"
+      ]
+    },
+    {
+      "label": "毛织物面料",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003缺口超过20ms": 1,
+        "step_004未覆盖完整裁剪范围": 9
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [26.0, 181.0], 'step_004': [26.0, 181.0]}",
+        "{'step_003': [26.004, 181.0], 'step_004': [26.0, 181.0]}"
+      ]
+    },
+    {
+      "label": "珠地覆膜",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}",
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "空气层",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "织棉提花缎",
+      "total": 10,
+      "usable": 6,
+      "reasons": {
+        "通过": 6,
+        "step_003缺口超过20ms": 4
+      },
+      "usable_records": [
+        "织棉提花缎_036",
+        "织棉提花缎_037",
+        "织棉提花缎_038",
+        "织棉提花缎_039",
+        "织棉提花缎_040",
+        "织棉提花缎_041"
+      ],
+      "range_pairs": [
+        "{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"
+      ]
+    },
+    {
+      "label": "覆膜帆布",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    },
+    {
+      "label": "针织复合面料",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_004未覆盖完整裁剪范围": 2,
+        "step_003缺口超过20ms": 1,
+        "step_003未覆盖完整裁剪范围": 7
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}",
+        "{'step_003': [26.0, 181.0], 'step_004': [26.0, 181.0]}"
+      ]
+    },
+    {
+      "label": "长毛格呢",
+      "total": 10,
+      "usable": 0,
+      "reasons": {
+        "step_003未覆盖完整裁剪范围": 10
+      },
+      "usable_records": [],
+      "range_pairs": [
+        "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_036/亮丝粗花呢_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T09:25:34.976829+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "51b0c2318655bac7949bddd70c26efd310b7ed1fac8dea0ef4997d55aea95c64",
+      "metadata_sha256": "0ccd97388732e1e1c20cbadf6902f2240ee5de777c2542b0576534221a8450c9",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_037/亮丝粗花呢_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T09:26:31.266170+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "3175d9a35dae7be393c6ea9fffe7a3d27afd883e63fd178c6dfa9b66f1c52ff1",
+      "metadata_sha256": "2fe9fd24920cdb9d32243bcfaebcba2b5067bdc3482536703634d4b7b2b43866",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_038/亮丝粗花呢_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T09:27:27.565844+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b43f973be81fd944772d78980a4caa8dbe86e04a0ab11bb27fd255a4527de6b3",
+      "metadata_sha256": "7a402646ae68542dc4e0394f03a603a633860a80ec0e7d37763a7bacf785ddd4",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_039/亮丝粗花呢_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T09:28:23.864450+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8309dcdc980fc4e100f0a8552a60d7dc38361b7ba1c0c7bdce7d59b3c1526a37",
+      "metadata_sha256": "33407a71eec5c8a6322945194036fdfdc80df45ce6c97cb54a986ff7fc4af485",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_040/亮丝粗花呢_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T09:29:20.148848+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "08dcef0f884141c85d8833a73b234e12fecf2b95046c1d4ec59edf395b58dd02",
+      "metadata_sha256": "58d4f4329de551f8bbc1913ee93da3bf85c8535629c3e8543ac35fdfd4576d84",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_041/亮丝粗花呢_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T09:30:16.436637+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a6ac0c819f696dc2f65626f5a0ee107727117bfb81725e9fc88177004090d830",
+      "metadata_sha256": "4ccf013c59ca014c4b7f00a9fcb56080697ec0db9e7e37e79b6f97be34ad78ba",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_042/亮丝粗花呢_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T09:31:12.737411+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "20309c96581251cf21dd81d15d361351707174f1b0c6f4213d285635d5a5285f",
+      "metadata_sha256": "ffb0c36c4e8a5fd885ad54a7c485dd2fe981cdb5d925a8e820c4c11d91931993",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_043/亮丝粗花呢_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T09:32:09.028474+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "079e36bf83ee2a803ac604f2d04e43acae17569038b81a16945b46f557ac0b80",
+      "metadata_sha256": "f4005c5695cabfd23d1fc861b28d5e294b45f4ea4ec69447f72d45b96f4b9144",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_044/亮丝粗花呢_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T09:33:05.313343+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a818f95f4c0b4e5604dcd0a8f99d680bb77cfd586d34c3d4f0eebeb37f8d9dcc",
+      "metadata_sha256": "7a0c4f085f8a79f030e7c8632262247270534d7a97e484ba48a749458be4d59c",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "亮丝粗花呢",
+      "record": "亮丝粗花呢_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_045/亮丝粗花呢_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T09:34:01.602533+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "9d2774571ac45daedf42c257e30e93127bd2348fcb7c17510ddb5597cd4c160d",
+      "metadata_sha256": "df18eafc8f45688b417be6076cc002682c0e540d3c92ea88e72b7f6d1a4a1003",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_036/仿皮毛一体_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T11:33:29.416408+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4b904b199988b1da1b5f4219acf6e616e02344835090612f79b8a4b0fc582bc9",
+      "metadata_sha256": "41d2596fe3c1c8c7b41d3027f7b37f35fe44eda1f9dc62df5b6cfb58c4653d2e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_037/仿皮毛一体_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T11:34:25.735933+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5eb0ab1785e9de0094a472772ee316a5a5efd05661723fb01044c64e24958db3",
+      "metadata_sha256": "4270ea00ff6190641b94dae424b646942a5274c3f8fc3e8bfde9b1b0316d734a",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_038/仿皮毛一体_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T11:35:22.014809+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8e07e5bc12dfc5091aa9f17a3ea3d72033e1e609dfe52bfc2cb905caf19fc3da",
+      "metadata_sha256": "b898c42a70c4a9e9a7013ee0612a13b34ba7b0bfadbcceca38c16304b380a6f8",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_039/仿皮毛一体_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T11:36:18.300640+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "d1f7160815dc8543faf53139e4cff90668fe98d0711a964903b0ea70cb0e9c71",
+      "metadata_sha256": "6446a24e9c7a5334605362f9ca5b1560e69b6dedbedc14f720dcf6f75fca6b9b",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_040/仿皮毛一体_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T11:37:14.588911+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4471a29d5b4d0c7b049a054cc846413b84bbd5d16537594f014f1d5790d9514b",
+      "metadata_sha256": "068a835c253d529b8a8459bfcf1e01db4492123a47ca64b66ac16cf4937cdf59",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_041/仿皮毛一体_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T11:38:10.875502+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "7666c081c8dee2667adea0ab273abaf7487d03aea5d635eb8367208c8b28eb18",
+      "metadata_sha256": "7bf349cf4286da2d3fc79567cf24251239b8b78daf8072f9f1f7e28ad7a62c18",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_042/仿皮毛一体_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T11:39:07.168558+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "e1228c8e5a38d02afdc7a0742cf40ba0ae2cbccbfbdda90c213f1d0ce87ec605",
+      "metadata_sha256": "4cab111380842f9f6ad10aeaf1b8531b4e4c2313aa4a3905a301fd2427e04fec",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_043/仿皮毛一体_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T11:40:03.458335+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "433536550a8b90e2b079188fd271748871a750ede173219e80cfd59423a8a294",
+      "metadata_sha256": "dd07bbff8d509c7ba0adf6b483ae5d3c69d74590451ecb2302c7f5a111b1df71",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_044/仿皮毛一体_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T11:40:59.745954+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "bdf722bd885a14fafc0a98f0558bf42bbe25f32f1f5fcb6f4ad73c53b9e662cf",
+      "metadata_sha256": "9a3526156fc8c8f3b87b1467a9d54400c46286b4477f5e5df73f274c6c641a4e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "仿皮毛一体",
+      "record": "仿皮毛一体_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_045/仿皮毛一体_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T11:41:56.029322+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "69ea3685bde956b6a69048d41caf17d96986287fe2f8408f6472a70f13ebe142",
+      "metadata_sha256": "7f768a2bbc7323c3d2cd4a7bddbc3c7037c04cd32d9b9b60e8a62d8062705e01",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_036/加厚1x1罗纹布_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T10:52:58.267964+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8eb296de3c9099f76e04a9d22484bc25d662657dbd2fd70046ee0472aeae577c",
+      "metadata_sha256": "2fc7e894b5d53c316ad14c90ad697c59944666a9fcd5410d4c03c2e376e6c1a1",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_037/加厚1x1罗纹布_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T10:53:54.563234+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a60c036ac657328f6850116f6d31cd10b69e6a3d91281488e0ef167721ab6e0b",
+      "metadata_sha256": "cb926a3c7a7273da915cd34a9aec682ea205d03b57a89ae1c70c5b6278dff21e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_038/加厚1x1罗纹布_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T10:54:50.853747+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "69c7a88913e180f0a14dacec53c0be5a6fdd5f1e023951878e8a07621ad1a67d",
+      "metadata_sha256": "9444a2410ee426325071d94905297da0f80546681f3e74264250cad1acbc8d4e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_039/加厚1x1罗纹布_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T10:55:47.142852+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "976e1b8a3568c88df9919115c32cb52e3b0bf1299413c1820f0d55ad0cf7ec93",
+      "metadata_sha256": "c70f7cecd8a2ce07f29c9767fd4a0c9844bfc611f6bb19751a6a48adf85a5d24",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_040/加厚1x1罗纹布_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T10:56:43.423630+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "cbab4c1ac0790176fc4684dd9d23f10dfc96d47738b4148307ec27103b079c72",
+      "metadata_sha256": "f271a47f303a408c7502a6661af380cb94fdf9415b8d41b852b33410de1f7c9a",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_041/加厚1x1罗纹布_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T10:57:39.718746+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4161683e7dbaf7bd439a4bdd7a6ad816b212e40afb324ef96a9043d5b87bfcc0",
+      "metadata_sha256": "680d64377c5ccfd5584da259ea253cf39669a1b5514595533f01a756ac4a8823",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_042/加厚1x1罗纹布_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T10:58:36.008265+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "9703b0c2612bae0936340c24614141035eed12b44253b0546c2cd40588b160df",
+      "metadata_sha256": "a28079f48a76e26788e9a586003df22024bf14a5093fcf97811816c725c8822d",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_043/加厚1x1罗纹布_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T10:59:32.287086+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "20a4a8e46d6e4f8b2429bce784329874dd45134e1c01a94a5d23a0c45a12afc4",
+      "metadata_sha256": "0ad032de16a65fa08e37286b35b2c2f0543ede8d8ba75ca85d06b942d373f452",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_044/加厚1x1罗纹布_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T11:00:28.573077+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b50bad6a1b30febec5e34717bd1135f727c34121f87ab8a78907a78a2c43a4f1",
+      "metadata_sha256": "597466304b3d933f5f50fcb59b83bec253f3d734aa53f5d1acf41ca7203ef8be",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "加厚1x1罗纹布",
+      "record": "加厚1x1罗纹布_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_045/加厚1x1罗纹布_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T11:01:24.864040+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "998514feeecb0a371e038e981d4abe0c461942eea12f9873d7dfcdc66a5bcc41",
+      "metadata_sha256": "995647fdfd74b224fba9d70ada60e94915fd2b142b58293bfa8d92466fea0770",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_036/复合灯芯绒_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T10:09:26.070251+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "133aad4c401a639be0a1b57241cab43c5f526cc42b883d0cdecd47ac2019ccef",
+      "metadata_sha256": "51376520596eb54f7fc65bb7e7002782135cb1c22fc0810412728241e47b4019",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_037/复合灯芯绒_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T10:10:22.361892+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "eb6ad6e9a4b033db12624006c0aeb74c8216ce00dc1b29847e4eaa395ab25139",
+      "metadata_sha256": "2aef49dcb93e0c61fb60ef52ecec1e35244ed97de1ffd17c9d5ceb84c0be1fbb",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_038/复合灯芯绒_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T10:11:18.654352+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "89524f873a4bee2e6f1eaf22a9186ff80a49c495c30582847be003da50873c26",
+      "metadata_sha256": "5f8465deb5623bae990d69e989f0f6e24c5ac8f8511eaa3a7b9071e5dd4bbeff",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_039/复合灯芯绒_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T10:12:14.946506+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4216c03f4be5502b083141768a0ae0eb762af666c413b3bbed9d4a038a6dd184",
+      "metadata_sha256": "87954429be072b7e5c053f939240b83571c9c1876d91a0c484d8ad767d0b1552",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_040/复合灯芯绒_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T10:13:11.257145+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8d18577337cc77f6fba149f94558bb2a03b03e61cc121dbfb04a91c3a0da299c",
+      "metadata_sha256": "3a04549e8aeaff7f108730acef5780e92157af9088a48aa2085fd574ebe14bc4",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_041/复合灯芯绒_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T10:14:07.553942+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "60d2b1de5da65b6fc98cd12317b39dfcb95ff8e4e0f5782f918ad5379908d962",
+      "metadata_sha256": "ed96d4c67bd0f0ff2f0a81bbc0865581b4a5f0a263cb82a80f30f328545ea901",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_042/复合灯芯绒_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T10:15:03.851817+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "d9caf4356f17f9df3c855f71054242fd139e3f355ae6b08dd1cabd8842eb4685",
+      "metadata_sha256": "a72e0291e72ae132f1426bee26903ae695b705947707f9bd5e34e92581688895",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_043/复合灯芯绒_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T10:16:00.135899+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "472978d549bc386188a283da777abdcdabd44370b4769f016e742cd559eaa210",
+      "metadata_sha256": "c5b73c6af6eb1d626f87b08b33a824e3570e1347bd52f69db5a93051a01f2f56",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_044/复合灯芯绒_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T10:16:56.452326+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "492e46f7b5eee5ea5dbe38ca047ff07a3e5eab037476b1a41a2e33cf7cb7caea",
+      "metadata_sha256": "1cb8fe3cdd649061eb619b900be62c7ea64b79fe901f25bc4195cdaec5184922",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "复合灯芯绒",
+      "record": "复合灯芯绒_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/复合灯芯绒_045/复合灯芯绒_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T10:17:52.744138+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a15717ce665ded9caa7d517c716509431f2478b36e19a2dc2c925225b6a7a8c3",
+      "metadata_sha256": "c2b292328d5c95cc38c345de7ccd59b07f76082d7a768f465aa09e2247760ecc",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_036/大衣呢_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T08:19:56.917347+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "c541d6496f355b7bb0f7ac20280062a105aedfe81eb364ba63e93629c555691e",
+      "metadata_sha256": "2b061f388c6b17f743e96aafc3ee90ef091f24447607aedaec641db1346a029f",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_037/大衣呢_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T08:20:53.212345+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a1b299eafc6f2bcdf6f7a2cb1475226b927c36f55db68ca1d2fb5de1884799e8",
+      "metadata_sha256": "cc229e31bb335c2cad606871f178dbe3f5c926b38d890a6c1c8c0dfc738b5afb",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_038/大衣呢_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T08:21:49.508898+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5e3a76b3c512600ec651f2d399a10d72328f82defa58081edb3b342624c4da3d",
+      "metadata_sha256": "265331b9aa93d0c39af6b23702fcae3753628e518e4fa5e13d801774e717542e",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_039/大衣呢_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T08:22:45.824114+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "09682713b934ec8acfcf833c7fec3a073846072187efcc21e4d1fd1568586995",
+      "metadata_sha256": "45fd23e4abd10fc6e6e79d715b8bbe0ab42f8a44992c0ae87e35f3bbd7d3ec6e",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_040/大衣呢_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T08:23:42.126909+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "c53760f402784d4be8b717769ec2ceda2c67f039cca63a1bb6ecd8fd30cf5edc",
+      "metadata_sha256": "2e46abbeba92726dc5da7803f49d46a50a7900d09fb17974550e990c9089b5e9",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_041/大衣呢_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T08:24:38.414065+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b2ec1e237f84efbc5aad9f0eda4fe8e1ee5370ac5ca729268dd46357c5eb0faf",
+      "metadata_sha256": "61130ab343ed8197dff93d71e5aa8c7096505908e00b05ac13496dfd7edfa45f",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_042/大衣呢_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T08:25:34.693195+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "6f0ec8a2ac9b5762a95b42853f51e0a9c18acc4dc801db7eda4b77a54adee658",
+      "metadata_sha256": "6698da468c3c91818787e7f0c7c42f876a964d8ad549de28d4f7f7f03df209a3",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_043/大衣呢_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T08:26:30.973775+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4917abafdcc20fed1e4eb298a9b3cbfb9bee8025bdaf82057d2cf84f3db6510f",
+      "metadata_sha256": "5b7f58af27d23a4149eb5708b05befaea7c8225cd154ed3e01fab14ec468c782",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_044/大衣呢_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T08:27:27.274367+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "eea52f92995f54ef4b04dcf89e7c558755c980fbe79659d2da085ee2c2b255d7",
+      "metadata_sha256": "5952e6d4f828c06b55ee35a66d5966c609ee362d514fe4c6301234a5ebacf71c",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "大衣呢",
+      "record": "大衣呢_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/大衣呢_045/大衣呢_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T08:28:23.573355+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "37f432f099e566e05efd69f0659cd5cc4fc2ea5ca16e8c468025d0dc298e9734",
+      "metadata_sha256": "c802142eb8bd77b1e26e92b5866cd4237ae4cc6ea20ae6178ddcbb77a0e81907",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_036/岩石肌理面料_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T07:32:50.432456+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "23fb68e3286cdca2d8241f40dda0cb92d1e167ff7dc6de7813ba17664d8dc66f",
+      "metadata_sha256": "f42e7561fa1efc195ffa15299f49d38913fac556598b241cc86a6223d7f25b66",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_037/岩石肌理面料_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T07:33:46.725970+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "1990e2e9a5c9a58892cc3ec7d3d6af6ce233a89dec07c743118bd755446d4b0e",
+      "metadata_sha256": "016eb0095d6b5a659a5a3a0e7b3869af2c0c00ce86050cf39cc97c15c874d2e5",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_038/岩石肌理面料_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T07:34:43.007919+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "f4ee0afc91b08a3015a0cb27cb01e41651bc4bec65cef789f0441975468bd74f",
+      "metadata_sha256": "b36398bf45ee06bbb6d2eb55e21be6f1982184e5dc3c83510c18d5b4224f42f1",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_039/岩石肌理面料_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T07:35:39.302651+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "e7d9ca7ff51018aa12de5df5c6ee5bf26f8339872a17ec4adf74abde762f9477",
+      "metadata_sha256": "d45f0f616df275e7ec438c4a414938e95afcc760d9f1235f7548794908ba6f9c",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_040/岩石肌理面料_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T07:36:35.607735+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "2fd581a5ccbb953041e7b55b3ff968f9a7439f7a0029989109c1f8af162c3e63",
+      "metadata_sha256": "3835bba61c1d1ec53c7a8cc9e4d02e53a5205109d63b59cb3dbd3637b5b53de3",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.004,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_041/岩石肌理面料_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T07:37:31.856266+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "da6e54381148fa727dadd8d30baa7523b32d0c85af900eb6907a0cc10d5cf2ed",
+      "metadata_sha256": "6ee5ed9e7fced8aec386470183580fbefde637a6171c8ab7257cd0fd54a702d9",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_042/岩石肌理面料_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T07:38:28.137103+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "ce2425b8b776d24a697f85e0ee0f6ed9b46db52a6545dc6db3a7581f239d3865",
+      "metadata_sha256": "ff7a972492c34087a4585a6fac6023238dfbbacab4f85a84a513229a5baaadd3",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_043/岩石肌理面料_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T07:39:24.421146+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "1eb858d73fd15a49fd37abdc8c9c9fa75aed95a37b525c11bb640cab3c50d884",
+      "metadata_sha256": "b93c53318c9ba9223c184167d0f6890d971b18e92a6a70a41a5164904da4bc35",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_044/岩石肌理面料_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T07:40:20.744830+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "82eaed40a4b4e823eb593f05a44126df6c23dbe06fca2c1bc435ab16128e2e5a",
+      "metadata_sha256": "b317e6a57640a67682c1e9e0a3770c0c4cc50a70e8d36ac1b44e0756443493d9",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "岩石肌理面料",
+      "record": "岩石肌理面料_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_045/岩石肌理面料_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T07:41:17.039680+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "2a659222069498f903574be209bbdecdbb9173edd72c4d996eaf8c16240d42e1",
+      "metadata_sha256": "05bd011bf7a0ab7e1d5563d5bc229b0106bbb46d3ce1474b904d5cfb136970f5",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_036/平纹棉布_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T07:45:52.237685+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a1a9921f54b5a2a7c5a34ffb04d9e1abe848dd08a7224bef8200c15c2f85d754",
+      "metadata_sha256": "bef85775f0522f2039a7a64378fb9478aa26d1e05f6962fab1879491fc12db47",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_037/平纹棉布_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T07:46:48.535322+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "59ba67d33a6ab25e245ea451914d0f7bcfdf1831e94f305da12ed0c84b158805",
+      "metadata_sha256": "48851145c010cb0667e1d73d11178bb66527c128ae178132f14a4bc2f0d77d6c",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_038/平纹棉布_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T07:47:44.814468+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "29ad8071981c23c87c10936ead9d2f2b5763ff99a5c71e82b595206b269b777f",
+      "metadata_sha256": "653fc410166a3d3e2b617b3f23ec667c5bf392818d9b63d0fcd46ae9829cea7e",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_039/平纹棉布_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T07:48:41.111319+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4cda5125b4255a2ee1e973c8e2120b01a09c0d3f7d1411d68b00081fa7712023",
+      "metadata_sha256": "9b98bf4e3371eeb3c22b1e7f9360b70ff8f717530194b186277ce4057e685e2b",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_040/平纹棉布_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T07:49:37.416314+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "541efad99faaaecab91168f2306d9e26e1055dcee928ad9d57de051b78e3f93e",
+      "metadata_sha256": "e93ebb9e07c294497d5d8c7e0e2b0b9d186faf79e6b8c55e55364982ad2a8ad3",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_041/平纹棉布_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T07:50:33.708424+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "0590778296ad5c1ba6374d760b23665bcb3224b1846f50dab5381f56c2c72dcf",
+      "metadata_sha256": "ef40365463b7b8112c0f047a7fd6814bc72d1ce77577d6322d019c280c65a972",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_042/平纹棉布_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T07:51:29.983942+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "ca2cc026e8ec88b488ee36550bd95e2a4fd7585c292b66bb7ad023357c07a433",
+      "metadata_sha256": "ec9dd110fb17af2da868f6b03187c78f343d04504b43892115d5a3c4b55c3de1",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_043/平纹棉布_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T07:52:26.288778+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "f2dd166ad2b6bfbd8ae5d7a2849e064f6d1fe98f3c41c67ef788ba6100d9334b",
+      "metadata_sha256": "c51ef2446444fb356ca22a2345644bb2851e4853c37d3ae36782b008021cd5c9",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_044/平纹棉布_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T07:53:22.572302+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "2939a409f2582e6f75285537f88f86bf21f4e286349c7618b327bacd493e5968",
+      "metadata_sha256": "fca94c8644537fe3db44ecbacf3c40fa3c4faf7032b5fe4bda0da3d066697550",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "平纹棉布",
+      "record": "平纹棉布_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_045/平纹棉布_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T07:54:18.876210+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "3e68056e7031ee9e6424a0261b9cb38ff99c2791af75d408febdd0193e2b768d",
+      "metadata_sha256": "7836497ccd7c78730f75861192bbbcfa0735567763830f34cedbc36034596511",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_036/毛织物面料_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T08:40:26.040448+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "3e4f9ac83153f242b7c8db5c34fa68f980a2b3cfbca9e7555ee9919bc80e61b9",
+      "metadata_sha256": "3db6c22b20f46f0e3ff9dbccc9c22a0d4897d6001315082a5b08130d51ee0f0e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_037/毛织物面料_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T08:41:22.370367+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b36ea06addcafbe59c62a9327220e7cb6c95010290afe9bfc50840dedb9aba79",
+      "metadata_sha256": "cc27e263374c5a665e53d4bce0f9134f7884cd16092ab742e5d37bcc82f2d381",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.004,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_038/毛织物面料_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T08:42:18.651816+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b12a80d1568970aa077595967ab33cbb36e6b38a29ded55377792859a422d391",
+      "metadata_sha256": "dc568fdad3c50d861dbf78d8c4332567f0bc2ae6e020787d428ce05660aeb8bd",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_039/毛织物面料_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T08:43:14.946088+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8040b3d9c539fe42facffc6bcf4747cfc82be46ee246d562708890cffdb31efd",
+      "metadata_sha256": "c0abf304c3397db7c0962ea66ac09e9db5c2849c5aeab31d98d2ce24e1804b6f",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_040/毛织物面料_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T08:44:11.237024+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4e4f65e3826f2dfafb985ef07e16a1b3f2b88a0ed1a4c67604ccdcf5b66fb6ac",
+      "metadata_sha256": "2b84769d8a3bb543ad6f63d812ec66b24be7fc2985ef5a7d43fef3a300978014",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_041/毛织物面料_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T08:45:07.528547+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "07d061be66896bf5285926537516a9d135d5cdd2d4fea5b871b5c2e064954bf1",
+      "metadata_sha256": "94e92ee23239abd1e87f57761e1e3a9ef8ecc36971e55a957c0ec491e076a551",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_042/毛织物面料_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T08:46:03.820663+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "235c6d294a2f1ab1283feb5825a83c9f8d12d4ace15f746859a6e50f15094348",
+      "metadata_sha256": "d15120f00f5ab515835723dbae7accbfb922609a2120e572303fe2937523f944",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_043/毛织物面料_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T08:47:00.118832+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5602225eb06abbdb97626e6806de88a0bc08b22e98195df80de150d5401731e6",
+      "metadata_sha256": "3d231b1f4a1f48e28e06f94fc7188d6035496c642a65684eaf9fda750eb3dbbf",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_044/毛织物面料_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T08:47:56.410013+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "fcb889807084b5e2dec55e5331f8969da439d39f1a001a782e0e5b3c5b393651",
+      "metadata_sha256": "2724ffad162c61f128dd0e7e2b4b84d7f8ada8bff81e9053d546c79cf35540a6",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "毛织物面料",
+      "record": "毛织物面料_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/毛织物面料_045/毛织物面料_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T08:48:52.717195+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a29329c9cdc3b010abec515a78545b89d23c874a0cd960a583f3a8b54162d3a6",
+      "metadata_sha256": "4a4b861b33771bb7cd4cdfff0a858b37e9efe4273d9dafc22a3ac9d9fb3f921e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_036/珠地覆膜_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T09:12:55.539711+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "33963df74474f91d42de0e0c04911ada39ba077519d61b5356ea02b9cd617b73",
+      "metadata_sha256": "dd0a984bd03b75647776e14b0e853da4dc0547daee37620b665bb3c01848772c",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_037/珠地覆膜_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T09:13:51.825640+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4b9422b4681aba0503ac01c914ffe7fd439f8041ba50775ad975c16063517a47",
+      "metadata_sha256": "c010d9b60ff7aadbad635554097e05d38e1cd2a7a7cc78afdef92baeb4cb29af",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_038/珠地覆膜_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T09:14:48.119277+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "fb1cbba272c97c310bfc48a1fc7cc8cd88e23058b9d04bec774dcaec81e3433a",
+      "metadata_sha256": "0c7c1112bc1bd4ca1f70167eacea5bdc45d81510fa16c3d02d53bfb8acf46341",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_039/珠地覆膜_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T09:15:44.411345+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "64c4b4dfc6a14bb26e79735e98ca972dcb32716f95fb5a1a9f6d6c3de8f4b289",
+      "metadata_sha256": "b7a9764644408b7c92f9786435db55acbc44cf579326bfe6cb1c6a52fc0990a5",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_040/珠地覆膜_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T09:16:40.713920+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "f8723ed419ca07ae1d169e7d3d49875f0a1a293ec43fb17faf9144eb1da268e1",
+      "metadata_sha256": "4f3ef3667b39ed05e7d6557304b181fad9b70cbd6bcb5e672c32bb532b202472",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_041/珠地覆膜_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T09:17:37.014932+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a7cf75ca6b19c5439023ed541d2bf7481c99cdff021a6b2052ce4642263fdd9f",
+      "metadata_sha256": "0b0d83f49ffe88d0bbb09405ff2db8208b167535e26bf5c6a37d80907003d178",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_042/珠地覆膜_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T09:18:33.337118+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "6a8e06844b45fb93e06efea6c6cf9d32fb4fc1e44e64dff36922f260340fd168",
+      "metadata_sha256": "12f0c4e94310865ecdb92ba0ac3b8a0aee50a3c13e81545c5f5aeb918ffce3de",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_043/珠地覆膜_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T09:19:29.620592+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "31824be694bf820ce9ccdb85ccfa5b31a08115960400478bb733e9fbab3b6664",
+      "metadata_sha256": "53d73c2d0e0036582cf22b3654844eeb05cbcfbaac928f46db5e48ebbdeaf00c",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.344,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_044/珠地覆膜_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T09:20:25.942688+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "9cac8560185e86984fe3df462c147a29cf4a8451a6740fbad66ea54aeb6aebad",
+      "metadata_sha256": "d772d8f24ee569f002f6356f9b4fd2faeb3b72e8c33f2162f001a279eab19354",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "珠地覆膜",
+      "record": "珠地覆膜_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_045/珠地覆膜_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T09:21:22.233285+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "6d43443b464d3041988b0c27b95b18d3665575318100b0054619d43ac5b6c554",
+      "metadata_sha256": "740457839f6084b91cab1935fc3408f0c6e96b793fbbb915e79c15f863d0cb0b",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_036/空气层_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T11:09:32.699531+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5291597900763c99d01527dad156629456052e221c2b0638177cd2fe51c15592",
+      "metadata_sha256": "ecfb0e7beeec7608eb900ea76f54c782992bdecac80f73c7e00d9f42ee690a7f",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_037/空气层_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T11:10:28.984034+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "479239ab5d962afb542a4176bb0669f0b78d23d33e405e2642f5bc04ad195f07",
+      "metadata_sha256": "343811428e3ca94709cfb317213b4ffbd07e62a66265d02322918ad6f94b2dfb",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_038/空气层_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T11:11:25.273013+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "1dbec514c6e47cd1b69f0078c95d02aacfbd7db29a4caee499f4f9ae00bbeeee",
+      "metadata_sha256": "b9ddee1cd7841660ba8769105be81b925e865acfd23a1478c6f29e21c9ecfcfa",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_039/空气层_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T11:12:21.560043+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b834ec708bfa71ebd09da8204b686a6b8c9bf5fcdb98d140f6efc9c261c3f4d3",
+      "metadata_sha256": "7bed89d90a86ad6c686b1ba00170bb86ac444d565827823c18b75043a4c3d2c2",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_040/空气层_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T11:13:17.852702+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "7e00fc5b3135dccb26d667d43fc051dfcaf57e86b4d64c02f0746ad4b2b92f48",
+      "metadata_sha256": "c89e28f14ffed335b5dff7a9e91d283d701d1b9aeaef9511a0bfa20547fee647",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_041/空气层_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T11:14:14.137709+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b9f6dd923f79797d8b563020e3ab6ab51de3f3f175f941d9562397a734a8e531",
+      "metadata_sha256": "fb151b9a2e605da455331640b5fdc23d3c66e63ab4ad9bfde0b30c177d25a7ff",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_042/空气层_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T11:15:10.420754+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a2923499fb273fefd37ccf8e2a5135784ea66fcd0f384a640c1204dd38b2e89b",
+      "metadata_sha256": "2fa0c85ce77a95c638e92af33118e2a86e30b7f57010f8adb5110d6d4dca3849",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_043/空气层_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T11:16:06.711986+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "59b106264f646a116638ab91d727b6f56006d514d4d88c0f73dd0cfc1a9a5dec",
+      "metadata_sha256": "15849e6fc8d41d5a28fa610ca254d0cf3732145bb60e70a14911749e5374a993",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_044/空气层_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T11:17:03.025574+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8b43e19b62bc59e06cdbbef7b0508871f8a81db2376caf4ea2ca242f11f251ed",
+      "metadata_sha256": "36f3598523a274388eaec5fe778fcbfec42a5d3a4c61c0e8efaeb816c3d7add3",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "空气层",
+      "record": "空气层_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_045/空气层_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T11:17:59.321151+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "e3c981c906f212a1cb63a74a89f45bfedcb9d92451dc924641832ce6c1fbd75a",
+      "metadata_sha256": "3b2fcd9bcbe4591811482a828b47271c40fddd08942e5df494b3184dc20a35a4",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_036/织棉提花缎_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T07:19:25.771348+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "af924921b73b5b2fa99aa420ddb2ffb2c59c489748a2c8f88fddb4d4e4aa6d92",
+      "metadata_sha256": "68d3e641f4ccbad1e668736086537c1f3955d59e7bc702ccb1d7d6741e07432b",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_037/织棉提花缎_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T07:20:22.050722+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "1d93539c563e405feba108ff6e542ff1158c95ec43f58e45203e2694f62064be",
+      "metadata_sha256": "1d4042c2fe143864bb718fba0ef02e6ac9b7e1937d36bed60098e0b81a4ed6a1",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_038/织棉提花缎_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T07:21:18.323726+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "35abbd45b672dd779c85176fa0c5875f82025498e82a642d61ba3c45de3d83d1",
+      "metadata_sha256": "6c12de62e09391d68312c3bb13b76c555d7dff77bfec08fb22616bcd22d6b631",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_039/织棉提花缎_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T07:22:14.602302+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "583e683f3c0cf3915aba843276fb3c28f17462b01ee7c01cb807e55a93676d47",
+      "metadata_sha256": "7ca011e1445cb0f5febc1f3e96e30efe2f7b199d72b0ca79a55feb1af6ecd906",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_040/织棉提花缎_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T07:23:10.869544+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "0f2f388d432448e5c236982e3943b12c540468f7ddb9bd1a61a69855889e9793",
+      "metadata_sha256": "4c4c60a30f5a8366ac481117654964313973acc50dcf269bd2808c190d2bbc8f",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_041/织棉提花缎_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T07:24:07.151591+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "16b38ddf0f072043e804321bb24b8b3a55adbd9df63089f1359b8bc9e3372848",
+      "metadata_sha256": "f8811c0938367dc19226ef34ae2b1ee736df250cf35e3a4db66032e009fcdd96",
+      "status": "normal",
+      "eligible": true,
+      "reason": "",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_042/织棉提花缎_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T07:25:03.471241+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "4626bebaae3e38cb4a6e7a9b3ee162e68dcb51c568ac28ae1a7d45f4fad0bddb",
+      "metadata_sha256": "c30d38f02a98625820b4393a32014e95f43893a86dc072a76b511feeceef1180",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_043/织棉提花缎_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T07:25:59.764778+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "643ec6a4774165cb7ece0655b46ad44510fcd662a5a3317e20ab38957d879f32",
+      "metadata_sha256": "354d2388552d84e33ae384f187bd543996419edc84710e3e1ab07ac537021f33",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_044/织棉提花缎_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T07:26:56.042267+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "962fcf1a9b22c7e208e8fbc8ffde7e7199a0c7a4b130d519858dc419c1a09cd9",
+      "metadata_sha256": "9a7ac75829d45053ccc5527b18bb546a6b0d703e58872fcd8751b95a18eec621",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "织棉提花缎",
+      "record": "织棉提花缎_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_045/织棉提花缎_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T07:27:52.323215+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "59efcf27315f9bfc3eedfb000b7ea460d01752ada09fd5c6b65c54221dac72be",
+      "metadata_sha256": "85a92f75a808bd32504276a728c3b167d6ca2af82cbef03cc635da4763540618",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          0.0,
+          155.0
+        ],
+        "step_004": [
+          0.0,
+          155.0
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_036/覆膜帆布_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T10:41:34.917108+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "b7f17a7452724231422fe24a6cc090c8f5cc8c8b731fee85caaff41da569e1dc",
+      "metadata_sha256": "049352cb326558eb0d9e8ff80dcff7c3c48ec4d5f50c0a82ebe28c21bf57d47d",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_037/覆膜帆布_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T10:42:31.208477+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "13129119a484e0178f5c8ae3fe32f4d4ff06164955026b036df4f755bb6625bc",
+      "metadata_sha256": "556cb51327b302272366b8e187ba88a104634ceeb58d85c2b57ef303ec13a689",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_038/覆膜帆布_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T10:43:27.489108+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "04a7db4a04be43a3dde8c0202f82b6581740b8c86fca5f7ed1bfd3473d9066dc",
+      "metadata_sha256": "4efe4d43d5d3658f2c12927502a25d270a5a8f524c439e84eae06285170d5456",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_039/覆膜帆布_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T10:44:23.776257+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "ac70602198bd74471ef7e25d34669403e02479f1d9d4e486f90c78bb875bd482",
+      "metadata_sha256": "03cc4f53f13004d5bda93e0efe94a20901deffde40059c679607a70fee25479b",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_040/覆膜帆布_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T10:45:20.071525+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "e76df4a905fb4b486dd47cfa6973c58e3e57b41ebb27c654db06be5af191f2a1",
+      "metadata_sha256": "6835801a021f811c2b571eb4f9cab16daeedb10eb04dd3be80d13599a50cc3a8",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_041/覆膜帆布_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T10:46:16.363215+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "d7d86fbb4797bf4a8fa2848031027355f8b9032acbe64998d2de732f989f20e1",
+      "metadata_sha256": "503f1f11507bbe4973f44c64443b0606cf0fa8fba0dca9c197622e28499c3b79",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_042/覆膜帆布_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T10:47:12.660394+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "dd71cfab698702a27de95389f8a24f817eb2df17443f335dcafc9c0e8818e54f",
+      "metadata_sha256": "45854312d5b38bf38b2af78c33e441cc33d9ce4f35b279eeeef0b0eb5441b624",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_043/覆膜帆布_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T10:48:08.976405+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5bbea889feaee1d4ee8594eac62d9c9a2faf9e720a1d4195f39052954036f498",
+      "metadata_sha256": "d5a56691cd0978327f5c1ccd04eb37c8f075cf3a228a711b34516ebbe6eabbce",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_044/覆膜帆布_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T10:49:05.265432+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "d867cfe7ad8983215899fdec39792c58455252a192fe33515e455e297a6738d3",
+      "metadata_sha256": "fbdb2b5d71acb113c2a1a88fb94bd20f5f4640f68f761c51f1851702b6bb14a2",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "覆膜帆布",
+      "record": "覆膜帆布_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_045/覆膜帆布_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T10:50:01.552738+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "ee5b66eb9f95bab214a1d43e1f7bd9aadfcc5db338682563458ed5d079a39e75",
+      "metadata_sha256": "d05652cae25a5ef9639852e84440c82a0d8bfe7c1188274a5c4093834d7f69d8",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_036/针织复合面料_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T08:52:23.418948+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "7d6f4c9bc92267e791b7a137f20b7ab9d1c4bdf185f7018c93f8ae79d4c90c09",
+      "metadata_sha256": "580c98bf0d3464021147637f87e3ae5ee3997285ace168eec60984ee4355e055",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_037/针织复合面料_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T08:53:19.724717+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "c8db26b0e21ebf6d3751e93d9154fc75108e7da1edbbac2c0292d8c18f7d7e2a",
+      "metadata_sha256": "fcb82cc8ed51c1fc153a5198e4809984faacde80cb92ed5b25303a0d5f8b56b1",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003缺口超过20ms",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_038/针织复合面料_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T08:54:16.013795+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "fdb34152b0e9ec4e0a428ac5960936a9e3f113e4ba85cc51633384281a64eb12",
+      "metadata_sha256": "de713d7b7d0ece21840bce98e5ea97b2b87927b66e34fded47ffbdc704349759",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_004未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          26.0,
+          181.0
+        ],
+        "step_004": [
+          26.0,
+          181.0
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_039/针织复合面料_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T09:02:16.058537+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "d2ec89bea2f19f6252d03ab301fbbd0e27a619b415ab9a6609ea965d60c1ee64",
+      "metadata_sha256": "4562a4c802bd59e4dcb72b35df0ccdd4b2783bd20e69f10cd367fc050f462e5d",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_040/针织复合面料_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T09:05:45.992312+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "45455f27a705e1a2e1b1fde2778ad50568b6c1350092173c92374887692fff27",
+      "metadata_sha256": "c1c8f81b0714099ad6ea317f9afd40b7a8b5b2871183c845c54949d77be3fc8e",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_041/针织复合面料_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T09:06:42.272148+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "33ec893691f9204c9169977f0ec28d561e77dd31094e28132ebe80e53e345603",
+      "metadata_sha256": "b5486c1a49a38e377721bbf8b3976e873cb4e625a479ff91cfc20ef9e2b069f3",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_042/针织复合面料_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T09:07:38.575276+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "77d25da44a4a5f8a2983d0cad5ab408567461b444445d47b962d123c5543a10b",
+      "metadata_sha256": "680653c8dfd7edaa209ca8c38a8346838e7a7dad2be1290c2e6e61ae703b0562",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_043/针织复合面料_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T09:08:34.870933+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "0d907fa22d98c4171f7dbe5bbc373e17d765b4423414d63e79583800bc73df05",
+      "metadata_sha256": "00fea76d03f1d5420f98234f8472b8bab2605b4561cde8b94131e3233ad9b4d5",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_044/针织复合面料_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T09:09:31.167364+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "0b838f31d044df71141efc4475c4c0ddda9bd575f99f6a5add42b94da1d0163b",
+      "metadata_sha256": "db2803645195dc3adc3353627779db67799266f8549896a168b5c7639963ade6",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "针织复合面料",
+      "record": "针织复合面料_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_045/针织复合面料_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T09:10:27.462071+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "942111481b17c28f514ee8cffd9fb4eeadd9d46f6e33a2cd3f41fa990be29179",
+      "metadata_sha256": "83c77f6896d888d1770ad5c9098be160192f6e717540eb1a17a56b16e7d7a3bf",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_036",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_036/长毛格呢_036.csv",
+      "sequence": 36,
+      "created_at": "2026-11-18T11:23:24.307524+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "a7f0177dc84bcd5e05e3ae08bc917a7a00726d749c2f8e9b5ba71dcbe7db4c8d",
+      "metadata_sha256": "abc04709d77fa78fcbe67b6955159a6a95276d01fbbcee0362cd6de28d2d8988",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_037",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_037/长毛格呢_037.csv",
+      "sequence": 37,
+      "created_at": "2026-11-18T11:24:20.638155+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "91abc1448eda9d9293da5b3968d0b7fa3e9afa68d964e9eb4dd63150e0647649",
+      "metadata_sha256": "0f7bc36fb760e868fac5eedf6656edcf6f59bb05127552695f908e1b1f20e53d",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_038",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_038/长毛格呢_038.csv",
+      "sequence": 38,
+      "created_at": "2026-11-18T11:25:16.934140+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "f73158140efe70586e452aa22d03df90f70cfea09822bfe169f4b55f10bebcb2",
+      "metadata_sha256": "cc339a846c6dacb49eb6b979e691ba3e47f39d00a3d1e0ca6501f9a9bb2b2f65",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_039",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_039/长毛格呢_039.csv",
+      "sequence": 39,
+      "created_at": "2026-11-18T11:26:13.216143+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "6f32ef0eeaf6eedad9c96e6017e2c081c0b8f4ee327c627b3fa6d0dc53e27031",
+      "metadata_sha256": "8b7392ddbd33ce44559845199f5e3319532ed20923de63a1fbc1f4a3fed82d0a",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_040",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_040/长毛格呢_040.csv",
+      "sequence": 40,
+      "created_at": "2026-11-18T11:27:09.532282+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "44d233e236317c73b9d6499d498bf08089bae57d784065d50310be39375a532f",
+      "metadata_sha256": "c28c59af690e7b1df9a47a9b12e8f36629152e3c61967e73870e863ab78d87cc",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_041",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_041/长毛格呢_041.csv",
+      "sequence": 41,
+      "created_at": "2026-11-18T11:28:05.833999+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "575460df507b4342fb46539b3ce66fc54daa6e33390a2bbe6a5ef8f2f5ebb687",
+      "metadata_sha256": "c4c8e605d088cbbd61b1c9961ef8cd934c9d1a16e9a30745556ad7267c077918",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_042",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_042/长毛格呢_042.csv",
+      "sequence": 42,
+      "created_at": "2026-11-18T11:29:02.121625+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "8fb4de86d5353b87ee451afb03e13f4711c184da0f2e95d36ad84663c7c94e4b",
+      "metadata_sha256": "75371e77ee9b20ad0eb08ab51d6af590c52177fa948351a906d3617cb4163b64",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_043",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_043/长毛格呢_043.csv",
+      "sequence": 43,
+      "created_at": "2026-11-18T11:29:58.422982+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "5d8871cc1cfdf6a56cbfbd8b8b6bbf99636dd37b258d464c69d4019b496b7d56",
+      "metadata_sha256": "72ea19ad7672d5e25be579af931cd5702b4a58d9404299b54df9068bdf54408c",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_044",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_044/长毛格呢_044.csv",
+      "sequence": 44,
+      "created_at": "2026-11-18T11:30:54.718201+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "f39ddc5b1945f21906f40ef1576404a23d0fe1b953c12dad92a2c3125e981ba1",
+      "metadata_sha256": "45a7166de62508506776cc7486d76970d2177f58a6880996c7bd56abf4ad24c9",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    },
+    {
+      "label": "长毛格呢",
+      "record": "长毛格呢_045",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_045/长毛格呢_045.csv",
+      "sequence": 45,
+      "created_at": "2026-11-18T11:31:51.004261+00:00",
+      "outcome": "completed",
+      "saved_start": {
+        "x": 0.0,
+        "z": 0.0,
+        "clearance_z": 0.0
+      },
+      "recipe": [
+        [
+          "restart_sensor",
+          "X",
+          1.0
+        ],
+        [
+          "baseline",
+          "X",
+          1.0
+        ],
+        [
+          "relative",
+          "X",
+          155.0
+        ],
+        [
+          "relative",
+          "X",
+          -155.0
+        ]
+      ],
+      "sha256": "1f769976fcca54055af6022d4e7695f72d3e916c036b963293e1d4568b068ddd",
+      "metadata_sha256": "18a696ce2e832dec93c49fff389b747aa4b30345641e7ff7c7a5799aef983e4f",
+      "status": "error",
+      "eligible": false,
+      "reason": "step_003未覆盖完整裁剪范围",
+      "ranges": {
+        "step_003": [
+          -24.348,
+          130.652
+        ],
+        "step_004": [
+          -24.348,
+          130.652
+        ]
+      }
+    }
+  ]
+}

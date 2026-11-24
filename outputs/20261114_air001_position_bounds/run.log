@@ -1,0 +1,70 @@
+{
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+  "source_sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7",
+  "pulses_per_mm": 250.0,
+  "user_bounds_mm": [
+    44.0,
+    137.0
+  ],
+  "note": "Positions are latest motor software pulse counts, not synchronized encoder readings. Compare with provisional candidate-entry+3.5s/candidate-exit-0.5s crops; no boundaries or source data changed.",
+  "segments": [
+    {
+      "direction": "去程",
+      "stage": "step_003",
+      "old_auto_position_bounds_mm": [
+        45.036,
+        142.112
+      ],
+      "old_auto_time_bounds_s": [
+        7.696,
+        23.844
+      ],
+      "user_position_bounds_mm": [
+        44.0,
+        137.0
+      ],
+      "observed_positions_in_user_selection_mm": [
+        45.036,
+        136.12
+      ],
+      "user_time_bounds_s": [
+        7.645,
+        23.039
+      ],
+      "user_selected_rows": 5123,
+      "auto_selected_rows": 5373,
+      "interval_intersection_over_union": 0.9373369210697978,
+      "auto_low_minus_user_low_mm": 1.0360000000000014,
+      "auto_high_minus_user_high_mm": 5.111999999999995
+    },
+    {
+      "direction": "回程",
+      "stage": "step_004",
+      "old_auto_position_bounds_mm": [
+        16.196,
+        114.48
+      ],
+      "old_auto_time_bounds_s": [
+        7.026,
+        23.471999999999998
+      ],
+      "user_position_bounds_mm": [
+        44.0,
+        137.0
+      ],
+      "observed_positions_in_user_selection_mm": [
+        44.96,
+        136.052
+      ],
+      "user_time_bounds_s": [
+        3.299000000000003,
+        18.699
+      ],
+      "user_selected_rows": 5125,
+      "auto_selected_rows": 5471,
+      "interval_intersection_over_union": 0.5834243899208635,
+      "auto_low_minus_user_low_mm": -27.804,
+      "auto_high_minus_user_high_mm": -22.519999999999996
+    }
+  ]
+}

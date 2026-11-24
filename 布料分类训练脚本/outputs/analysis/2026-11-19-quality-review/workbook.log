@@ -1,0 +1,4 @@
+{"kind":"table","sheet":"质量汇总","address":"A26:F26","rows":1,"cols":6,"values":[["合计",726,541,12,38,135]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+Inspect result written to file: /home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/采集质量与去回一致性筛选.xlsx.inspect.ndjson
+WORKBOOK EXPORTED

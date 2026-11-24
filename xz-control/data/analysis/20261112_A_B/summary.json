@@ -1,0 +1,405 @@
+{
+  "A": {
+    "run": "20261112_185152_549605",
+    "csv": "/home/serein/classify-cloth/xz-control/data/experiments_linux/20261112_185152_549605/sensor.csv",
+    "sha256": "ca19686f48f4b61820bae052faaf1afc91f440230f33c5150dd687133bf0d430",
+    "n": 5688,
+    "duration_s": 17.092993,
+    "sampling_rate_hz": 332.7094324557437,
+    "invalid_rows": 7,
+    "clock_segments": [
+      0
+    ],
+    "dt_median_ms": 3.0069999999966512,
+    "dt_max_ms": 6.993000000001359,
+    "gaps_gt_4p5ms": 8,
+    "stage_rows": {
+      "record_ready": 1,
+      "step_001": 2844,
+      "step_002": 2843
+    },
+    "central_n": 2174,
+    "central_interval_from_forward_start_s": [
+      1.002,
+      7.543007
+    ],
+    "central_mean_uT": [
+      1410.7621435142594,
+      110.04542318307266,
+      -5717.489217111314
+    ],
+    "central_std_uT": [
+      27.060318194661605,
+      112.41914275494011,
+      5255.035646703573
+    ],
+    "central_p95_minus_p5_uT": [
+      86.40750000000003,
+      380.90999999999997,
+      15294.6178
+    ],
+    "residual_rms_uT": [
+      4.31978755115315,
+      5.347052503791278,
+      869.4227169676675
+    ],
+    "baseline_sigma_uT": [
+      4.937425333641253,
+      5.0607260104909635,
+      7.456688385454763
+    ],
+    "bz_large_jumps": 12,
+    "bz_large_jump_sizes_uT": [
+      -15851.484,
+      15850.032,
+      -15852.694,
+      15849.306,
+      -15855.356,
+      15851.968,
+      -15852.694,
+      15849.063999999998,
+      -15847.369999999999,
+      15845.434000000001,
+      -15854.630000000001,
+      15857.776
+    ],
+    "bz_large_jump_times_s": [
+      1.912,
+      1.918,
+      1.920993,
+      1.926993,
+      1.93,
+      8.746,
+      8.748993,
+      8.758,
+      8.760993,
+      8.764,
+      8.766993,
+      8.77
+    ],
+    "metadata": {
+      "schema_version": 1,
+      "created_at": "2026-11-12T10:51:52.549896+00:00",
+      "outcome": "completed",
+      "error": null,
+      "sample_count": 5688,
+      "invalid_sample_count": 7,
+      "baseline_B0_uT": {
+        "Bx_uT": 1003.8928785607199,
+        "By_uT": -149.87766116941532,
+        "Bz_uT": 7768.035643178406
+      },
+      "context": {
+        "motor_port": "/dev/ttyACM1",
+        "sensor_port": "/dev/ttyACM0",
+        "config": {
+          "x_ppmm": 250.0,
+          "z_ppmm": 250.0,
+          "x_speed": 10.0,
+          "z_speed": 10.0,
+          "x_accel": 20.0,
+          "z_accel": 20.0,
+          "x_right": 1,
+          "x_min": null,
+          "x_max": null,
+          "z_min": null,
+          "z_max": null
+        },
+        "demo": false,
+        "baseline": {
+          "baseline": [
+            1003.8928785607199,
+            -149.87766116941532,
+            7768.035643178406
+          ],
+          "sigma": [
+            4.937425333641253,
+            5.0607260104909635,
+            7.456688385454763
+          ],
+          "samples": 667,
+          "invalid_samples": 0
+        },
+        "recipe": {
+          "name": "我的扫描流程",
+          "steps": [
+            {
+              "kind": "relative",
+              "axis": "X",
+              "value": 80.0,
+              "speed": null,
+              "accel": null,
+              "duration": 0.0,
+              "enabled": true,
+              "label": ""
+            },
+            {
+              "kind": "relative",
+              "axis": "X",
+              "value": -80.0,
+              "speed": null,
+              "accel": null,
+              "duration": 0.0,
+              "enabled": true,
+              "label": ""
+            }
+          ]
+        }
+      },
+      "files": {
+        "sensor": "sensor.csv"
+      },
+      "sample_quality": {
+        "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+        "raw_values_preserved": true
+      },
+      "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized"
+    },
+    "within_record_1s_windows": [
+      {
+        "start_s": 1,
+        "residual_rms_uT": [
+          5.202630942356263,
+          5.812674117428149,
+          2188.545525564492
+        ]
+      },
+      {
+        "start_s": 2,
+        "residual_rms_uT": [
+          3.844797784271018,
+          4.805280682894868,
+          390.0913473082329
+        ]
+      },
+      {
+        "start_s": 3,
+        "residual_rms_uT": [
+          4.496724689278177,
+          5.43170185190312,
+          8.15259705112525
+        ]
+      },
+      {
+        "start_s": 4,
+        "residual_rms_uT": [
+          3.935883440945976,
+          4.9247587595787445,
+          6.4971971385948715
+        ]
+      },
+      {
+        "start_s": 5,
+        "residual_rms_uT": [
+          4.458203446314965,
+          5.701345611158102,
+          7.732534079848388
+        ]
+      },
+      {
+        "start_s": 6,
+        "residual_rms_uT": [
+          4.118751943403532,
+          5.182357032735653,
+          7.324667579811455
+        ]
+      }
+    ]
+  },
+  "B": {
+    "run": "20261112_185257_470986",
+    "csv": "/home/serein/classify-cloth/xz-control/data/experiments_linux/20261112_185257_470986/sensor.csv",
+    "sha256": "f0bdf58c679f61041adefc98b550219473d250e5031009e8c7943a55e24db910",
+    "n": 5687,
+    "duration_s": 17.094,
+    "sampling_rate_hz": 332.6313326313326,
+    "invalid_rows": 2,
+    "clock_segments": [
+      0
+    ],
+    "dt_median_ms": 3.0069999999984276,
+    "dt_max_ms": 6.993000000001359,
+    "gaps_gt_4p5ms": 9,
+    "stage_rows": {
+      "record_ready": 2,
+      "step_001": 2839,
+      "step_002": 2846
+    },
+    "central_n": 2174,
+    "central_interval_from_forward_start_s": [
+      1.0,
+      7.5309919999999995
+    ],
+    "central_mean_uT": [
+      1293.7004599816007,
+      371.764167433303,
+      -7411.819379024836
+    ],
+    "central_std_uT": [
+      61.24473469113337,
+      66.70426910172355,
+      51.00906982582328
+    ],
+    "central_p95_minus_p5_uT": [
+      204.2025000000001,
+      213.20999999999998,
+      171.66270000000077
+    ],
+    "residual_rms_uT": [
+      4.9290242424847,
+      8.444107064349906,
+      13.033682312380556
+    ],
+    "baseline_sigma_uT": [
+      4.937425333641253,
+      5.0607260104909635,
+      7.456688385454763
+    ],
+    "bz_large_jumps": 3,
+    "bz_large_jump_sizes_uT": [
+      15836.964,
+      -15839.868,
+      15843.982
+    ],
+    "bz_large_jump_times_s": [
+      9.172993,
+      9.176,
+      9.178993
+    ],
+    "metadata": {
+      "schema_version": 1,
+      "created_at": "2026-11-12T10:52:57.471396+00:00",
+      "outcome": "completed",
+      "error": null,
+      "sample_count": 5687,
+      "invalid_sample_count": 2,
+      "baseline_B0_uT": {
+        "Bx_uT": 1003.8928785607199,
+        "By_uT": -149.87766116941532,
+        "Bz_uT": 7768.035643178406
+      },
+      "context": {
+        "motor_port": "/dev/ttyACM1",
+        "sensor_port": "/dev/ttyACM0",
+        "config": {
+          "x_ppmm": 250.0,
+          "z_ppmm": 250.0,
+          "x_speed": 10.0,
+          "z_speed": 10.0,
+          "x_accel": 20.0,
+          "z_accel": 20.0,
+          "x_right": 1,
+          "x_min": null,
+          "x_max": null,
+          "z_min": null,
+          "z_max": null
+        },
+        "demo": false,
+        "baseline": {
+          "baseline": [
+            1003.8928785607199,
+            -149.87766116941532,
+            7768.035643178406
+          ],
+          "sigma": [
+            4.937425333641253,
+            5.0607260104909635,
+            7.456688385454763
+          ],
+          "samples": 667,
+          "invalid_samples": 0
+        },
+        "recipe": {
+          "name": "我的扫描流程",
+          "steps": [
+            {
+              "kind": "relative",
+              "axis": "X",
+              "value": 80.0,
+              "speed": null,
+              "accel": null,
+              "duration": 0.0,
+              "enabled": true,
+              "label": ""
+            },
+            {
+              "kind": "relative",
+              "axis": "X",
+              "value": -80.0,
+              "speed": null,
+              "accel": null,
+              "duration": 0.0,
+              "enabled": true,
+              "label": ""
+            }
+          ]
+        }
+      },
+      "files": {
+        "sensor": "sensor.csv"
+      },
+      "sample_quality": {
+        "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+        "raw_values_preserved": true
+      },
+      "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized"
+    },
+    "within_record_1s_windows": [
+      {
+        "start_s": 1,
+        "residual_rms_uT": [
+          4.423918084174424,
+          5.97323835677368,
+          8.393836518042264
+        ]
+      },
+      {
+        "start_s": 2,
+        "residual_rms_uT": [
+          4.559453991793104,
+          7.162321704946687,
+          10.38677591430125
+        ]
+      },
+      {
+        "start_s": 3,
+        "residual_rms_uT": [
+          4.328696972316716,
+          6.692164355733444,
+          11.017834560154549
+        ]
+      },
+      {
+        "start_s": 4,
+        "residual_rms_uT": [
+          7.027663123969829,
+          13.099801463977684,
+          22.508522574419477
+        ]
+      },
+      {
+        "start_s": 5,
+        "residual_rms_uT": [
+          4.465448449421566,
+          7.1803126829876405,
+          10.227013676024342
+        ]
+      },
+      {
+        "start_s": 6,
+        "residual_rms_uT": [
+          4.806041094810371,
+          9.160376641480521,
+          12.208565909777043
+        ]
+      }
+    ]
+  },
+  "method": {
+    "primary_phase": "step_001 only",
+    "trim_s": 1,
+    "residual": "uniform-time interpolation on analysis copy; Savitzky-Golay quadratic 0.5s trend subtraction",
+    "inference": "descriptive only; one independent scan per label; no classifier accuracy or independent significance test",
+    "bz": "raw retained; no unwrap or sensor-range correction applied"
+  }
+}

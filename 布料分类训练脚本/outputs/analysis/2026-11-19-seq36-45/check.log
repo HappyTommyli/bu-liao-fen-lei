@@ -1,0 +1,22 @@
+CHECK 20 140
+CHECK 40 140
+CHECK 60 140
+CHECK 80 140
+CHECK 100 140
+CHECK 120 140
+CHECK 140 140
+TOTAL 140 USABLE 26
+CLASS {'label': '亮丝粗花呢', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '仿皮毛一体', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '加厚1x1罗纹布', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}", "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '复合灯芯绒', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}", "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '大衣呢', 'total': 10, 'usable': 10, 'reasons': {'通过': 10}, 'usable_records': ['大衣呢_036', '大衣呢_037', '大衣呢_038', '大衣呢_039', '大衣呢_040', '大衣呢_041', '大衣呢_042', '大衣呢_043', '大衣呢_044', '大衣呢_045'], 'range_pairs': ["{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"]}
+CLASS {'label': '岩石肌理面料', 'total': 10, 'usable': 1, 'reasons': {'step_003缺口超过20ms': 9, '通过': 1}, 'usable_records': ['岩石肌理面料_042'], 'range_pairs': ["{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}", "{'step_003': [0.004, 155.0], 'step_004': [0.0, 155.0]}"]}
+CLASS {'label': '平纹棉布', 'total': 10, 'usable': 9, 'reasons': {'通过': 9, 'step_003缺口超过20ms': 1}, 'usable_records': ['平纹棉布_036', '平纹棉布_037', '平纹棉布_038', '平纹棉布_039', '平纹棉布_040', '平纹棉布_041', '平纹棉布_043', '平纹棉布_044', '平纹棉布_045'], 'range_pairs': ["{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"]}
+CLASS {'label': '毛织物面料', 'total': 10, 'usable': 0, 'reasons': {'step_003缺口超过20ms': 1, 'step_004未覆盖完整裁剪范围': 9}, 'usable_records': [], 'range_pairs': ["{'step_003': [26.0, 181.0], 'step_004': [26.0, 181.0]}", "{'step_003': [26.004, 181.0], 'step_004': [26.0, 181.0]}"]}
+CLASS {'label': '珠地覆膜', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.344, 130.652], 'step_004': [-24.348, 130.652]}", "{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '空气层', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '织棉提花缎', 'total': 10, 'usable': 6, 'reasons': {'通过': 6, 'step_003缺口超过20ms': 4}, 'usable_records': ['织棉提花缎_036', '织棉提花缎_037', '织棉提花缎_038', '织棉提花缎_039', '织棉提花缎_040', '织棉提花缎_041'], 'range_pairs': ["{'step_003': [0.0, 155.0], 'step_004': [0.0, 155.0]}"]}
+CLASS {'label': '覆膜帆布', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}
+CLASS {'label': '针织复合面料', 'total': 10, 'usable': 0, 'reasons': {'step_004未覆盖完整裁剪范围': 2, 'step_003缺口超过20ms': 1, 'step_003未覆盖完整裁剪范围': 7}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}", "{'step_003': [26.0, 181.0], 'step_004': [26.0, 181.0]}"]}
+CLASS {'label': '长毛格呢', 'total': 10, 'usable': 0, 'reasons': {'step_003未覆盖完整裁剪范围': 10}, 'usable_records': [], 'range_pairs': ["{'step_003': [-24.348, 130.652], 'step_004': [-24.348, 130.652]}"]}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "real_serial_opened": false,
+  "rounds": 2,
+  "completed_records": 2,
+  "final_position_pulses": {
+    "x": 15,
+    "z": 5
+  },
+  "restart_point_retained": true,
+  "restart_required_new_confirmation": true
+}

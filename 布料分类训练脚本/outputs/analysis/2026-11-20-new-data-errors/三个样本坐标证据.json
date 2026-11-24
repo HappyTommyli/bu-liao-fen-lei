@@ -1,0 +1,83 @@
+[
+  {
+    "record": "亮丝粗花呢_036",
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/亮丝粗花呢_036/亮丝粗花呢_036.csv",
+    "raw_outgoing_points": 8700,
+    "pulse_min": -6087.0,
+    "pulse_max": 32663.0,
+    "ppmm": 250.0,
+    "x_start": -24.348,
+    "x_end": 130.652,
+    "x_max": 130.652,
+    "travel": 155.0,
+    "required_absolute": [
+      51,
+      140
+    ],
+    "right_missing_mm": 9.348000000000013,
+    "points_above_130_652": 0,
+    "metadata_start": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "relative_51_140_absolute": [
+      26.652,
+      115.652
+    ]
+  },
+  {
+    "record": "复合灯芯绒_001",
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/复合灯芯绒_001/复合灯芯绒_001.csv",
+    "raw_outgoing_points": 8698,
+    "pulse_min": -6087.0,
+    "pulse_max": 32663.0,
+    "ppmm": 250.0,
+    "x_start": -24.348,
+    "x_end": 130.652,
+    "x_max": 130.652,
+    "travel": 155.0,
+    "required_absolute": [
+      51,
+      140
+    ],
+    "right_missing_mm": 9.348000000000013,
+    "points_above_130_652": 0,
+    "metadata_start": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "relative_51_140_absolute": [
+      26.652,
+      115.652
+    ]
+  },
+  {
+    "record": "覆膜帆布_036",
+    "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/覆膜帆布_036/覆膜帆布_036.csv",
+    "raw_outgoing_points": 8698,
+    "pulse_min": -6087.0,
+    "pulse_max": 32663.0,
+    "ppmm": 250.0,
+    "x_start": -24.348,
+    "x_end": 130.652,
+    "x_max": 130.652,
+    "travel": 155.0,
+    "required_absolute": [
+      51,
+      140
+    ],
+    "right_missing_mm": 9.348000000000013,
+    "points_above_130_652": 0,
+    "metadata_start": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "relative_51_140_absolute": [
+      26.652,
+      115.652
+    ]
+  }
+]

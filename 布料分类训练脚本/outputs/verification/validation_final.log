@@ -1,0 +1,17 @@
+ΔBy · 完整CERA-Net · 联合训练
+第1/1轮 · loss 1.2802 · 验证前缀F1 0.911
+网络已冻结 · 独立集合校准与停止策略审查
+校准已冻结 · 独立测试
+ΔBy已保存 · 校准状态：insufficient_evidence
+ΔBx＋ΔBy · 完整CERA-Net · 联合训练
+第1/1轮 · loss 1.3694 · 验证前缀F1 0.822
+网络已冻结 · 独立集合校准与停止策略审查
+校准已冻结 · 独立测试
+ΔBx＋ΔBy已保存 · 校准状态：insufficient_evidence
+XY模长 · 完整CERA-Net · 联合训练
+第1/1轮 · loss 1.2796 · 验证前缀F1 0.822
+网络已冻结 · 独立集合校准与停止策略审查
+校准已冻结 · 独立测试
+XY模长已保存 · 校准状态：insufficient_evidence
+CERA训练、校准和测试已完成并保存
+FINAL_TASK /home/serein/classify-cloth/布料分类训练脚本/outputs/verification/final_models/CERA_20261114_164108_d2836b

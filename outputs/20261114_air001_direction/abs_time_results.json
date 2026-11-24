@@ -1,0 +1,135 @@
+{
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+  "source_sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7",
+  "transforms": "Absolute dBx and dBy, and hypot(dBx,dBy). Normalize each selected leg to tau=(t-t0)/(t1-t0). No amplitude normalization, no new baseline subtraction, no fitted correction.",
+  "selection_note": "40–110 mm is a common interior region visibly within the response plateau in the preceding plot. It is a comparison window, not an annotated full contact interval. Positions are latest software motor counts, not hardware-synchronized.",
+  "display": "Thin lines: raw absolute values. Thick lines: 128 equal-time-bin means. Right column additionally reverses return time; left column is actual acquisition order.",
+  "regions": {
+    "common_interior": {
+      "outward": {
+        "stage": "step_003",
+        "n": 3925,
+        "first_seq": 2293,
+        "last_seq": 6217,
+        "first_sensor_t_s": 6.888,
+        "last_sensor_t_s": 18.684,
+        "duration_s": 11.796000000000001,
+        "mean": [
+          17.154461775286677,
+          388.189662152862,
+          388.6433801526177
+        ],
+        "std": [
+          7.980733682904131,
+          14.916937232136968,
+          15.100316261909624
+        ]
+      },
+      "return_leg": {
+        "stage": "step_004",
+        "n": 3925,
+        "first_seq": 11273,
+        "last_seq": 15197,
+        "first_sensor_t_s": 33.884,
+        "last_sensor_t_s": 45.68,
+        "duration_s": 11.796,
+        "mean": [
+          69.6312902165604,
+          390.698503452234,
+          396.9105157890194
+        ],
+        "std": [
+          6.7567404136645735,
+          9.029391627614457,
+          9.113895287524603
+        ]
+      },
+      "channels": {
+        "|ΔBx|": {
+          "outward_mean_uT": 17.154461775286624,
+          "return_mean_uT": 69.63129021656052,
+          "relative_mean_difference_percent": 305.9077523310817,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 52.47510684383573,
+          "mean_absolute_difference_128bins_return_reversed_uT": 52.47510684383574
+        },
+        "|ΔBy|": {
+          "outward_mean_uT": 388.1896621528662,
+          "return_mean_uT": 390.6985034522293,
+          "relative_mean_difference_percent": 0.6462926615431441,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 10.272635171023374,
+          "mean_absolute_difference_128bins_return_reversed_uT": 9.913020258203577
+        },
+        "ΔBxy = √(ΔBx² + ΔBy²)": {
+          "outward_mean_uT": 388.6433801526169,
+          "return_mean_uT": 396.91051578901886,
+          "relative_mean_difference_percent": 2.1271777826642877,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 13.667137936396692,
+          "mean_absolute_difference_128bins_return_reversed_uT": 13.399953054270888
+        }
+      }
+    },
+    "full_leg": {
+      "outward": {
+        "stage": "step_003",
+        "n": 8695,
+        "first_seq": 15,
+        "last_seq": 8711,
+        "first_sensor_t_s": 0.042,
+        "last_sensor_t_s": 26.182,
+        "duration_s": 26.14,
+        "mean": [
+          14.973631936055291,
+          296.0494297663078,
+          297.83492798108125
+        ],
+        "std": [
+          11.853961234568724,
+          158.89086461490376,
+          156.68648138188834
+        ]
+      },
+      "return_leg": {
+        "stage": "step_004",
+        "n": 8700,
+        "first_seq": 8712,
+        "last_seq": 17411,
+        "first_sensor_t_s": 26.185,
+        "last_sensor_t_s": 52.334,
+        "duration_s": 26.149000000000004,
+        "mean": [
+          54.7366856294251,
+          299.1759540537866,
+          305.8758724615334
+        ],
+        "std": [
+          22.50859988391859,
+          157.50987408706206,
+          155.7507765221233
+        ]
+      },
+      "channels": {
+        "|ΔBx|": {
+          "outward_mean_uT": 14.973631936055202,
+          "return_mean_uT": 54.73668562942529,
+          "relative_mean_difference_percent": 265.55383398749177,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 42.282065940754364,
+          "mean_absolute_difference_128bins_return_reversed_uT": 40.040804299204694
+        },
+        "|ΔBy|": {
+          "outward_mean_uT": 296.04942976630247,
+          "return_mean_uT": 299.1759540537931,
+          "relative_mean_difference_percent": 1.0560818475342608,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 20.477851209711673,
+          "mean_absolute_difference_128bins_return_reversed_uT": 74.6503931628312
+        },
+        "ΔBxy = √(ΔBx² + ΔBy²)": {
+          "outward_mean_uT": 297.8349279810798,
+          "return_mean_uT": 305.875872461533,
+          "relative_mean_difference_percent": 2.6997990245670676,
+          "mean_absolute_difference_128bins_acquisition_order_uT": 24.452648826605568,
+          "mean_absolute_difference_128bins_return_reversed_uT": 75.20350891979842
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "experiment": "CLOTH4_20261120_035813_8ca216",
+  "model": "6ca1f3225d6a43e685a6f88c064165b3",
+  "cv": {
+    "tcn_by_mean_wp_a_w900_mean": {
+      "val_f1_mean": 0.9824843457196397,
+      "val_f1_std": 0.010110662520949833,
+      "val_loss_mean": 0.34676084674587215,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本",
+      "best_epochs": [
+        289,
+        282,
+        392,
+        262,
+        400
+      ],
+      "train_f1": 0.9943929850024837,
+      "best_f1_by_200": 0.9600360995213937,
+      "parameters": 414864
+    },
+    "tcn_by_mean_wp_b_w900_meanstd": {
+      "val_f1_mean": 0.9899629781982725,
+      "val_f1_std": 0.009142461289478623,
+      "val_loss_mean": 0.2723249980959065,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本",
+      "best_epochs": [
+        400,
+        230,
+        400,
+        305,
+        260
+      ],
+      "train_f1": 1.0,
+      "best_f1_by_200": 0.9787617264271677,
+      "parameters": 416912
+    },
+    "tcn_by_mean_wp_c_w450_mean": {
+      "val_f1_mean": 0.9597027890410242,
+      "val_f1_std": 0.021858383500763728,
+      "val_loss_mean": 0.6347040261922677,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本",
+      "best_epochs": [
+        296,
+        270,
+        264,
+        400,
+        391
+      ],
+      "train_f1": 0.9787393146672543,
+      "best_f1_by_200": 0.918831750142702,
+      "parameters": 414864
+    },
+    "tcn_by_mean_wp_d_w1800_mean": {
+      "val_f1_mean": 0.9839772155948626,
+      "val_f1_std": 0.010447690280163444,
+      "val_loss_mean": 0.28085137635736523,
+      "folds": 5,
+      "note": "仅开发集；复验不是新增独立样本",
+      "best_epochs": [
+        369,
+        243,
+        307,
+        200,
+        393
+      ],
+      "train_f1": 0.9898797248900456,
+      "best_f1_by_200": 0.9688822533675475,
+      "parameters": 414864
+    }
+  },
+  "cv_batch_overlap": [
+    {
+      "validation_files": 51,
+      "validation_files_with_training_batch": 51
+    },
+    {
+      "validation_files": 50,
+      "validation_files_with_training_batch": 50
+    },
+    {
+      "validation_files": 49,
+      "validation_files_with_training_batch": 49
+    },
+    {
+      "validation_files": 50,
+      "validation_files_with_training_batch": 50
+    },
+    {
+      "validation_files": 47,
+      "validation_files_with_training_batch": 47
+    }
+  ],
+  "recognition": {
+    "accepted_files": 171,
+    "rejected_files": 194,
+    "replay_files": 39,
+    "known_new_files": 87,
+    "unknown_new_files": 45,
+    "unknown_labels": [
+      "顺毛双面呢"
+    ],
+    "known_new_metrics": {
+      "accuracy": 0.7988505747126436,
+      "macro_f1": 0.21058200560888732,
+      "total": 174,
+      "correct": 139,
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          50,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          3,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": [
+        {
+          "label": "亮丝欧根纱",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "亮丝粗花呢",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "仿皮毛一体",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "加厚1x1罗纹布",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "大衣呢",
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "support": 60
+        },
+        {
+          "label": "岩石肌理面料",
+          "precision": 0.18181818181818182,
+          "recall": 1.0,
+          "f1": 0.3076923076923077,
+          "support": 2
+        },
+        {
+          "label": "平纹棉布",
+          "precision": 0.8857142857142857,
+          "recall": 0.6739130434782609,
+          "f1": 0.7654320987654321,
+          "support": 46
+        },
+        {
+          "label": "格纹针织羊绒",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "桃皮绒",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 50
+        },
+        {
+          "label": "毛织物面料",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "珠地覆膜",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "空气层",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "织棉提花缎",
+          "precision": 0.4,
+          "recall": 0.375,
+          "f1": 0.38709677419354843,
+          "support": 16
+        },
+        {
+          "label": "覆膜帆布",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "针织复合面料",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        {
+          "label": "长毛格呢",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      ]
+    },
+    "supported_classes_macro_f1": 0.6738624179484394,
+    "known_new_pairs": {
+      "total": 87,
+      "prediction_agreement": 58,
+      "probability_mean_correct": 65
+    },
+    "error_reasons": {
+      "step_003未覆盖完整裁剪范围": 122,
+      "step_003缺口超过20ms": 61,
+      "step_004未覆盖完整裁剪范围": 11
+    }
+  }
+}

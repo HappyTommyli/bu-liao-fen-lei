@@ -1,0 +1,2600 @@
+[
+  {
+    "name": "覆膜帆布_001",
+    "created_at": "2026-11-21T05:33:07.953655+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17412,
+    "rows": 17412,
+    "stages": {
+      "step_002": {
+        "n": 14,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -6.006297,
+        "by_max": 11.693703,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999998925,
+        "by_min": -355.506297,
+        "by_max": 471.593703,
+        "invalid": 5,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4924,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000999999998925,
+        "by_abs_mean": 371.36899747603576
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -431.706297,
+        "by_max": 336.293703,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 368.2179025321708
+      }
+    },
+    "invalid": {
+      "isolated_spike": 5
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_002",
+    "created_at": "2026-11-21T05:34:04.260605+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17413,
+    "rows": 17413,
+    "stages": {
+      "step_002": {
+        "n": 15,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0000000000000027,
+        "by_min": -6.820946,
+        "by_max": 4.429054,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -354.370946,
+        "by_max": 476.779054,
+        "invalid": 7,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 373.527750872494
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -435.520946,
+        "by_max": 342.229054,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 367.08649710220436
+      }
+    },
+    "invalid": {
+      "isolated_spike": 7
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_003",
+    "created_at": "2026-11-21T05:35:00.546422+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -5.445202,
+        "by_max": 5.054798,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -330.645202,
+        "by_max": 473.504798,
+        "invalid": 7,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 374.8085160008127
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -430.995202,
+        "by_max": 357.554798,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4993,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 367.11806400680956
+      }
+    },
+    "invalid": {
+      "isolated_spike": 7
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_004",
+    "created_at": "2026-11-21T05:35:56.817026+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -2.978571,
+        "by_max": 4.821429,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -344.228571,
+        "by_max": 474.021429,
+        "invalid": 7,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 374.44967971109304
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -434.978571,
+        "by_max": 355.821429,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 5056,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 368.79288073101264
+      }
+    },
+    "invalid": {
+      "isolated_spike": 7
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_005",
+    "created_at": "2026-11-21T05:36:53.092951+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -0.824887,
+        "by_max": 8.175113,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999999813,
+        "by_min": -351.374887,
+        "by_max": 473.925113,
+        "invalid": 10,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 373.7083661569453
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -437.624887,
+        "by_max": 315.975113,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4992,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 368.14102281730766
+      }
+    },
+    "invalid": {
+      "isolated_spike": 10
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_006",
+    "created_at": "2026-11-21T05:37:49.363632+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 4,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0,
+        "by_min": -3.062932,
+        "by_max": 3.687068,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999999813,
+        "by_min": -361.862932,
+        "by_max": 466.737068,
+        "invalid": 25,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000999999998925,
+        "by_abs_mean": 373.5344979065421
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -439.562932,
+        "by_max": 342.087068,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 368.7515993346693
+      }
+    },
+    "invalid": {
+      "isolated_spike": 25
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": []
+    }
+  },
+  {
+    "name": "覆膜帆布_007",
+    "created_at": "2026-11-21T05:38:45.661922+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17405,
+    "rows": 17405,
+    "stages": {
+      "step_002": {
+        "n": 7,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -6.623838,
+        "by_max": 5.976162,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -325.673838,
+        "by_max": 501.426162,
+        "invalid": 77,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 3,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 373.35253000962115
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -444.023838,
+        "by_max": 343.026162,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 371.74275339695265
+      }
+    },
+    "invalid": {
+      "isolated_spike": 77
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除3个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除3个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_008",
+    "created_at": "2026-11-21T05:39:41.955255+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -6.091667,
+        "by_max": 14.758333,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -301.441667,
+        "by_max": 506.008333,
+        "invalid": 77,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 33,
+        "max_valid_gap_ms": 9.000000000000341,
+        "by_abs_mean": 372.82628302031696
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -446.191667,
+        "by_max": 308.908333,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.1657804041274
+      }
+    },
+    "invalid": {
+      "isolated_spike": 77
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除33个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除34个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_009",
+    "created_at": "2026-11-21T05:40:38.225232+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 4,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -4.688739,
+        "by_max": 10.911261,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8699,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -299.138739,
+        "by_max": 470.511261,
+        "invalid": 126,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 89,
+        "max_valid_gap_ms": 20.998999999999768,
+        "by_abs_mean": 373.0316185782202
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -439.688739,
+        "by_max": 361.461261,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.0778550553217
+      }
+    },
+    "invalid": {
+      "isolated_spike": 126
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_010",
+    "created_at": "2026-11-21T05:41:34.521319+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17405,
+    "rows": 17405,
+    "stages": {
+      "step_002": {
+        "n": 7,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -9.428378,
+        "by_max": 10.521622,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8696,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999999813,
+        "by_min": -304.778378,
+        "by_max": 487.371622,
+        "invalid": 403,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 384,
+        "max_valid_gap_ms": 27.000000000001023,
+        "by_abs_mean": 371.2629365062982
+      },
+      "step_004": {
+        "n": 8702,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -441.728378,
+        "by_max": 326.271622,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000999999995372,
+        "by_abs_mean": 372.3647106653307
+      }
+    },
+    "invalid": {
+      "isolated_spike": 403
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_011",
+    "created_at": "2026-11-21T05:42:30.814329+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -5.190315,
+        "by_max": 11.459685,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8699,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -302.790315,
+        "by_max": 470.159685,
+        "invalid": 756,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 720,
+        "max_valid_gap_ms": 28.000000000002245,
+        "by_abs_mean": 372.6517020627666
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -444.690315,
+        "by_max": 336.809685,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 5056,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 373.86753018987343
+      }
+    },
+    "invalid": {
+      "isolated_spike": 756
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_012",
+    "created_at": "2026-11-21T05:43:27.118720+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 4,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0,
+        "by_min": -10.166492,
+        "by_max": 6.183508,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8699,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -294.716492,
+        "by_max": 477.933508,
+        "invalid": 864,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 816,
+        "max_valid_gap_ms": 32.999999999999474,
+        "by_abs_mean": 372.6602599804997
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -436.916492,
+        "by_max": 363.183508,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 371.82920743086174
+      }
+    },
+    "invalid": {
+      "isolated_spike": 864
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_013",
+    "created_at": "2026-11-21T05:44:23.406479+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0009999999999994,
+        "by_min": -0.267117,
+        "by_max": 9.032883,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999998925,
+        "by_min": -343.467117,
+        "by_max": 470.882883,
+        "invalid": 802,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4921,
+        "contact_invalid": 728,
+        "max_valid_gap_ms": 26.999999999999247,
+        "by_abs_mean": 372.55783727758586
+      },
+      "step_004": {
+        "n": 8698,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -436.917117,
+        "by_max": 341.432883,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 5055,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.807176347181
+      }
+    },
+    "invalid": {
+      "isolated_spike": 802
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_014",
+    "created_at": "2026-11-21T05:45:19.692396+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 7,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -9.49009,
+        "by_max": 15.85991,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.001000000000701,
+        "by_min": -345.49009,
+        "by_max": 481.15991,
+        "invalid": 784,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 693,
+        "max_valid_gap_ms": 24.00000000000091,
+        "by_abs_mean": 372.01563029653374
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -436.69009,
+        "by_max": 353.50991,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 373.25764511022044
+      }
+    },
+    "invalid": {
+      "isolated_spike": 784
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_015",
+    "created_at": "2026-11-21T05:46:16.002187+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17413,
+    "rows": 17413,
+    "stages": {
+      "step_002": {
+        "n": 15,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0000000000000027,
+        "by_min": -7.674063,
+        "by_max": 12.425937,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -369.474063,
+        "by_max": 473.675937,
+        "invalid": 902,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 798,
+        "max_valid_gap_ms": 27.000000000001023,
+        "by_abs_mean": 373.1132185928484
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -435.924063,
+        "by_max": 311.825937,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 370.50891269939876
+      }
+    },
+    "invalid": {
+      "isolated_spike": 902
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_016",
+    "created_at": "2026-11-21T05:47:12.275539+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -10.820721,
+        "by_max": 4.329279,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999999813,
+        "by_min": -287.270721,
+        "by_max": 471.729279,
+        "invalid": 850,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 803,
+        "max_valid_gap_ms": 24.000999999998385,
+        "by_abs_mean": 373.0165584707297
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -439.520721,
+        "by_max": 377.829279,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 371.83297305369666
+      }
+    },
+    "invalid": {
+      "isolated_spike": 850
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_017",
+    "created_at": "2026-11-21T05:48:08.611225+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17414,
+    "rows": 17414,
+    "stages": {
+      "step_002": {
+        "n": 15,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0000000000000027,
+        "by_min": -10.418346,
+        "by_max": 9.681654,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -341.468346,
+        "by_max": 473.181654,
+        "invalid": 913,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 859,
+        "max_valid_gap_ms": 30.000000000001137,
+        "by_abs_mean": 370.64935662035344
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -447.668346,
+        "by_max": 291.531654,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 5057,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 374.57020480957084
+      }
+    },
+    "invalid": {
+      "isolated_spike": 913
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_018",
+    "created_at": "2026-11-21T05:49:04.901860+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0,
+        "by_min": -6.614414,
+        "by_max": 2.985586,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8696,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999998925,
+        "by_min": -285.914414,
+        "by_max": 467.235586,
+        "invalid": 782,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 750,
+        "max_valid_gap_ms": 29.99999999999936,
+        "by_abs_mean": 370.9925012134696
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -441.314414,
+        "by_max": 296.385586,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 373.7812643305951
+      }
+    },
+    "invalid": {
+      "isolated_spike": 782
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_019",
+    "created_at": "2026-11-21T05:50:01.183720+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17406,
+    "rows": 17406,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0009999999999994,
+        "by_min": -2.794678,
+        "by_max": 3.505322,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8700,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -356.944678,
+        "by_max": 471.055322,
+        "invalid": 800,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 755,
+        "max_valid_gap_ms": 36.00100000000239,
+        "by_abs_mean": 370.548525982121
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -475.294678,
+        "by_max": 325.105322,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 373.84488846301866
+      }
+    },
+    "invalid": {
+      "isolated_spike": 800
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_020",
+    "created_at": "2026-11-21T05:50:57.470546+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -4.132782,
+        "by_max": 13.717218,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -370.882782,
+        "by_max": 468.967218,
+        "invalid": 807,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 766,
+        "max_valid_gap_ms": 32.99899999999667,
+        "by_abs_mean": 370.43724205291636
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -442.882782,
+        "by_max": 364.717218,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.8587290835839
+      }
+    },
+    "invalid": {
+      "isolated_spike": 807
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_021",
+    "created_at": "2026-11-21T05:51:53.767657+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -12.757421,
+        "by_max": 5.842579,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8699,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.001000000000701,
+        "by_min": -337.957421,
+        "by_max": 471.742579,
+        "invalid": 713,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 623,
+        "max_valid_gap_ms": 27.000000000001023,
+        "by_abs_mean": 372.0439196459476
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -443.257421,
+        "by_max": 350.692579,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4992,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.5139714807692
+      }
+    },
+    "invalid": {
+      "isolated_spike": 713
+    },
+    "fixed_51_140": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_022",
+    "created_at": "2026-11-21T05:52:50.062257+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -7.826842,
+        "by_max": 3.423158,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.001000000000035,
+        "by_min": -347.876842,
+        "by_max": 472.473158,
+        "invalid": 188,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4924,
+        "contact_invalid": 163,
+        "max_valid_gap_ms": 18.000000000000682,
+        "by_abs_mean": 371.9354752217709
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -450.326842,
+        "by_max": 316.323158,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 372.5701860256616
+      }
+    },
+    "invalid": {
+      "isolated_spike": 188
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除163个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除180个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_023",
+    "created_at": "2026-11-21T05:53:46.345504+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17406,
+    "rows": 17406,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": 0.393018,
+        "by_max": 11.493018,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -326.156982,
+        "by_max": 471.993018,
+        "invalid": 41,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4922,
+        "contact_invalid": 27,
+        "max_valid_gap_ms": 9.000000000000341,
+        "by_abs_mean": 369.9868314904511
+      },
+      "step_004": {
+        "n": 8702,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -443.156982,
+        "by_max": 338.343018,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 373.8289114730515
+      }
+    },
+    "invalid": {
+      "isolated_spike": 41
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除27个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除35个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_024",
+    "created_at": "2026-11-21T05:54:42.637072+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17405,
+    "rows": 17405,
+    "stages": {
+      "step_002": {
+        "n": 7,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -10.722748,
+        "by_max": 8.627252,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8699,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.001000000000701,
+        "by_min": -360.972748,
+        "by_max": 474.677252,
+        "invalid": 56,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 36,
+        "max_valid_gap_ms": 12.000000000000455,
+        "by_abs_mean": 372.50793451066426
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -435.222748,
+        "by_max": 348.827252,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 5056,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 373.96563763607594
+      }
+    },
+    "invalid": {
+      "isolated_spike": 56
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除36个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除48个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_025",
+    "created_at": "2026-11-21T05:55:38.929868+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -3.018666,
+        "by_max": 7.331334,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -364.218666,
+        "by_max": 471.431334,
+        "invalid": 27,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 16,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 372.50025942101047
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -448.668666,
+        "by_max": 323.231334,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 375.3913668615508
+      }
+    },
+    "invalid": {
+      "isolated_spike": 27
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除16个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除25个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_026",
+    "created_at": "2026-11-21T05:56:35.224699+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -4.054955,
+        "by_max": 4.645045,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.001000000000257,
+        "by_min": -355.654955,
+        "by_max": 473.245045,
+        "invalid": 30,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 8,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 371.8242345185862
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -446.554955,
+        "by_max": 326.845045,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 376.3426904709419
+      }
+    },
+    "invalid": {
+      "isolated_spike": 30
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除8个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除25个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_027",
+    "created_at": "2026-11-21T05:57:31.515761+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -8.922523,
+        "by_max": 2.327477,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -318.072523,
+        "by_max": 498.227477,
+        "invalid": 59,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 41,
+        "max_valid_gap_ms": 12.000000000000455,
+        "by_abs_mean": 372.94113431462927
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -454.422523,
+        "by_max": 358.727477,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 376.6598175891783
+      }
+    },
+    "invalid": {
+      "isolated_spike": 59
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除41个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除52个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_028",
+    "created_at": "2026-11-21T05:58:27.826871+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17405,
+    "rows": 17405,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -2.664586,
+        "by_max": 7.385414,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -288.864586,
+        "by_max": 468.185414,
+        "invalid": 16,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 7,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 369.7900757915905
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -454.764586,
+        "by_max": 317.435414,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 378.38046776352707
+      }
+    },
+    "invalid": {
+      "isolated_spike": 16
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除7个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除15个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_029",
+    "created_at": "2026-11-21T05:59:24.124792+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 7,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -7.281859,
+        "by_max": 6.068141,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -351.081859,
+        "by_max": 474.368141,
+        "invalid": 11,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4990,
+        "contact_invalid": 3,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 373.0246239659319
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -446.481859,
+        "by_max": 306.068141,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 377.86507879563214
+      }
+    },
+    "invalid": {
+      "isolated_spike": 11
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除3个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除8个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_030",
+    "created_at": "2026-11-21T06:00:20.429892+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -3.458996,
+        "by_max": 3.741004,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -362.858996,
+        "by_max": 473.091004,
+        "invalid": 22,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 7,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 372.37832880195003
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -445.958996,
+        "by_max": 342.141004,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4993,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 376.72178390306425
+      }
+    },
+    "invalid": {
+      "isolated_spike": 22
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除7个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除19个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_031",
+    "created_at": "2026-11-21T06:01:16.717821+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -8.704948,
+        "by_max": 4.495052,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8697,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -356.704948,
+        "by_max": 470.845052,
+        "invalid": 31,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 8,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 373.1087922285027
+      },
+      "step_004": {
+        "n": 8701,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0010000000024775,
+        "by_min": -445.504948,
+        "by_max": 357.895052,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.0010000000024775,
+        "by_abs_mean": 377.49141363814863
+      }
+    },
+    "invalid": {
+      "isolated_spike": 31
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除8个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "error",
+      "error": "step_003缺口超过20ms"
+    }
+  },
+  {
+    "name": "覆膜帆布_032",
+    "created_at": "2026-11-21T06:02:13.008302+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17403,
+    "rows": 17403,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -5.71464,
+        "by_max": 10.33536,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -359.71464,
+        "by_max": 472.18536,
+        "invalid": 74,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4923,
+        "contact_invalid": 44,
+        "max_valid_gap_ms": 11.999999999998678,
+        "by_abs_mean": 372.82597547836684
+      },
+      "step_004": {
+        "n": 8699,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -443.56464,
+        "by_max": 364.48536,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 377.9449445481867
+      }
+    },
+    "invalid": {
+      "isolated_spike": 74
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除44个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除70个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_033",
+    "created_at": "2026-11-21T06:03:09.298159+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17404,
+    "rows": 17404,
+    "stages": {
+      "step_002": {
+        "n": 6,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -13.17054,
+        "by_max": 15.32946,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -281.37054,
+        "by_max": 474.47946,
+        "invalid": 26,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 14,
+        "max_valid_gap_ms": 9.999999999999787,
+        "by_abs_mean": 373.5930927185244
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -447.27054,
+        "by_max": 347.57946,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4988,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 377.99766510024057
+      }
+    },
+    "invalid": {
+      "isolated_spike": 26
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除14个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除23个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_034",
+    "created_at": "2026-11-21T06:04:05.586619+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17405,
+    "rows": 17405,
+    "stages": {
+      "step_002": {
+        "n": 5,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.000000000000001,
+        "by_min": -6.581081,
+        "by_max": 5.868919,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8700,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000999999998925,
+        "by_min": -318.731081,
+        "by_max": 474.318919,
+        "invalid": 21,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4921,
+        "contact_invalid": 6,
+        "max_valid_gap_ms": 7.000999999998925,
+        "by_abs_mean": 372.9523268439342
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -446.231081,
+        "by_max": 337.968919,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4991,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 378.20961235644154
+      }
+    },
+    "invalid": {
+      "isolated_spike": 21
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除6个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除17个无效采样；只以过去有效值保持"
+      ]
+    }
+  },
+  {
+    "name": "覆膜帆布_035",
+    "created_at": "2026-11-21T06:05:01.875667+00:00",
+    "outcome": "completed",
+    "metadata_samples": 17402,
+    "rows": 17402,
+    "stages": {
+      "step_002": {
+        "n": 4,
+        "start": 0.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "max_raw_gap_ms": 3.0010000000000003,
+        "by_min": -5.402477,
+        "by_max": 12.147523,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ]
+      },
+      "step_003": {
+        "n": 8698,
+        "start": 0.0,
+        "end": 155.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.0000000000014495,
+        "by_min": -334.202477,
+        "by_max": 505.047523,
+        "invalid": 20,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4921,
+        "contact_invalid": 5,
+        "max_valid_gap_ms": 7.0000000000014495,
+        "by_abs_mean": 374.82057725726474
+      },
+      "step_004": {
+        "n": 8700,
+        "start": 155.0,
+        "end": 0.0,
+        "xmin": 0.0,
+        "xmax": 155.0,
+        "max_raw_gap_ms": 7.000000000005002,
+        "by_min": -464.852477,
+        "by_max": 317.097523,
+        "invalid": 0,
+        "faults": [
+          "NONE"
+        ],
+        "contact_samples": 4989,
+        "contact_invalid": 0,
+        "max_valid_gap_ms": 7.000000000005002,
+        "by_abs_mean": 376.65677645880936
+      }
+    },
+    "invalid": {
+      "isolated_spike": 20
+    },
+    "fixed_51_140": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除5个无效采样；只以过去有效值保持"
+      ]
+    },
+    "relative_035": {
+      "status": "loaded",
+      "quality": "normal",
+      "notes": [],
+      "warnings": [
+        "step_003剔除20个无效采样；只以过去有效值保持"
+      ]
+    }
+  }
+]

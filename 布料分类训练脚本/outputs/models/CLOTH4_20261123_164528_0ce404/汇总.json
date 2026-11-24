@@ -1,0 +1,14 @@
+{
+  "cv": {
+    "cera_by_mean_prefix": {
+      "val_f1_mean": 0.970089555247543,
+      "val_f1_std": 0.00444378577684551,
+      "val_loss_mean": 0.18025443446985673,
+      "folds": 2,
+      "note": "仅开发集；复验不是新增独立样本"
+    }
+  },
+  "contrasts": {},
+  "final": null,
+  "holdout": null
+}

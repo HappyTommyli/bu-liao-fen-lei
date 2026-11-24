@@ -1,0 +1,424 @@
+{
+  "count": 38,
+  "original_files_unchanged": true,
+  "items": [
+    {
+      "record": "亮丝欧根纱_001",
+      "label": "亮丝欧根纱",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_001/亮丝欧根纱_001.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/亮丝欧根纱/亮丝欧根纱_001/亮丝欧根纱_001.csv",
+      "sha256": "7bbac078c9799d117467f1417f2e917898b61fed6f8a4bc1abf4d9b38cd620b7",
+      "metadata_sha256": "229713fa5ebe47e66858b2cbfa3e1c61fdd713b5f5759b02d9736ce758478ae2",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "亮丝欧根纱_002",
+      "label": "亮丝欧根纱",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_002/亮丝欧根纱_002.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/亮丝欧根纱/亮丝欧根纱_002/亮丝欧根纱_002.csv",
+      "sha256": "a169fef404ca7d41b2b4e759b649a19cd6c8c2f44f170fa87564d1f9f4bfc8f0",
+      "metadata_sha256": "dfdbaa8aee3155dc7d8f3c660f3b8a987e1a0b57456bb1d432ae62db6760af51",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "亮丝欧根纱_003",
+      "label": "亮丝欧根纱",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝欧根纱_003/亮丝欧根纱_003.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/亮丝欧根纱/亮丝欧根纱_003/亮丝欧根纱_003.csv",
+      "sha256": "f0168794fe6dd5bbb403999133b0960ea87cd2666fb57baeeb47868625f6b98c",
+      "metadata_sha256": "8bd0eb6c49db7516c705d5f1fcb00dc11d6001b890c90eb2d0c75f8ad1099db3",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "亮丝粗花呢_002",
+      "label": "亮丝粗花呢",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/亮丝粗花呢_002/亮丝粗花呢_002.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/亮丝粗花呢/亮丝粗花呢_002/亮丝粗花呢_002.csv",
+      "sha256": "c4979fadfc880b6ba584e56a235ef303e070e8c1d7818095bf47741d60b9d5ad",
+      "metadata_sha256": "0e2da22638505729378640e04ca050a8fbf9372dc1f3e483d5de5407cb628f43",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_001",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_001/仿皮毛一体_001.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_001/仿皮毛一体_001.csv",
+      "sha256": "5c92ed1697089ed589af8e91c580b52a5b75b458ee20478223d21f1569801dbf",
+      "metadata_sha256": "c94fa79080c35ba06269003b04f112699e9c75cb47e6f4e1859f1a8716383931",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_021",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_021/仿皮毛一体_021.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_021/仿皮毛一体_021.csv",
+      "sha256": "57c609f488deae615234d09958662689c79412eb3b75356d8a83a957f5d8aa8f",
+      "metadata_sha256": "e4051c7dc695f515fef0e48854c9ef1fa51c205a79157ec7177dac7ef9b932c3",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_022",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_022/仿皮毛一体_022.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_022/仿皮毛一体_022.csv",
+      "sha256": "b1f15bca98251c31f06ef0b7243bd8c417ec30ec3ce1924f8aea28b7552161e6",
+      "metadata_sha256": "c582c3b9664bb3cf1bfc5b8fa047fe18c79faf1e2f77486a943e3718c0d516e7",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_023",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_023/仿皮毛一体_023.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_023/仿皮毛一体_023.csv",
+      "sha256": "f95f25259a2bbf60c34830837dced47ded1b44cd3e58aae7a87e403f25d61e79",
+      "metadata_sha256": "c5867e13a89bdf6e1ac568a16b77bd64f12a7fbfc957758a07f91cf88a0fe8af",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_024",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_024/仿皮毛一体_024.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_024/仿皮毛一体_024.csv",
+      "sha256": "9c9d24d43a951c12cf2a2efdbe015ceb8663efc6c4c4f00f18b4dd6029c8438b",
+      "metadata_sha256": "91ae00016cf1c04026147e1df1d76d56e2b8457078e6c0239c69d743b2b5d49f",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_025",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_025/仿皮毛一体_025.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_025/仿皮毛一体_025.csv",
+      "sha256": "7f048916ad07305afc09bcd9409c95bc85f1c819645ce35e65e38131e2dcc64e",
+      "metadata_sha256": "781a3ad50b94dd47603b921e435aa8c689809b004bf4c5cdcda8f1ef64a3369a",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_026",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_026/仿皮毛一体_026.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_026/仿皮毛一体_026.csv",
+      "sha256": "21585c34f2b991e7b4d80febca7320bfb9ebe4985624c071e45ee2352c527d84",
+      "metadata_sha256": "47945607a4b22278611ffe99299f65014195b70fb8d86cfca3d2121d5ea78fe7",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_027",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_027/仿皮毛一体_027.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_027/仿皮毛一体_027.csv",
+      "sha256": "c5f499ad171a726c4f1e6de02db879847871c8ad8caeb85830697ecf43ec13a1",
+      "metadata_sha256": "e4231be55064339755f1b81e7a1780bac2dfb62a90d99624a48f4bfd991e99ad",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_028",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_028/仿皮毛一体_028.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_028/仿皮毛一体_028.csv",
+      "sha256": "cb740a2d3379bc5b1ac0daf46c1ca0ef00614f978fec4b2bc4600db11704ea5a",
+      "metadata_sha256": "6f56567fd029af7746d917b90b681af1c0a615685452ae863b28efbd033c0c1b",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_030",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_030/仿皮毛一体_030.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_030/仿皮毛一体_030.csv",
+      "sha256": "fd5daf7bea9fd458d539f027f236040ef1f0eb6e89190b05480ece4a193f4bd8",
+      "metadata_sha256": "9016cbf0e352a11ca4a927c6afe9b3ed8a5d2fcd36d35a476a403f3b9a59d70e",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_032",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_032/仿皮毛一体_032.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_032/仿皮毛一体_032.csv",
+      "sha256": "6d3a831768d13f4befa8abeeb734a232a982c7749c4a73d4dc53a72453530c2a",
+      "metadata_sha256": "d0533ac0da5b0781df0e6bc4fef6d0e71b1d03076fc4b2067cad1476aa464383",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_033",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_033/仿皮毛一体_033.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_033/仿皮毛一体_033.csv",
+      "sha256": "4b803954289b155e2cf4c0aec82a65c0f954a7644ca9974a42f68def6fe77316",
+      "metadata_sha256": "de0a693bc2593633ce236a978d2a265d335f328b981523988117e5e2ea77eb28",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_034",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_034/仿皮毛一体_034.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_034/仿皮毛一体_034.csv",
+      "sha256": "de6be2314bcdcf86555dd0a962d5092b57b4a07363b58361304a853af01de032",
+      "metadata_sha256": "eeba186f4f2eac2de124dc11a77019bcc30ef49d315b5308f2eed04db06f9074",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "仿皮毛一体_035",
+      "label": "仿皮毛一体",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/仿皮毛一体_035/仿皮毛一体_035.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/仿皮毛一体/仿皮毛一体_035/仿皮毛一体_035.csv",
+      "sha256": "7245e5baabc88245dbef37076f112b4053a64f3e9abe10df3cd66b2445879b21",
+      "metadata_sha256": "2b8374c2ec9534581bb5eaea03727fcaa9f59b6ad6f517690706a764a27cb963",
+      "reason": [
+        "step_004缺口超过20ms"
+      ]
+    },
+    {
+      "record": "加厚1x1罗纹布_011",
+      "label": "加厚1x1罗纹布",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_011/加厚1x1罗纹布_011.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/加厚1x1罗纹布/加厚1x1罗纹布_011/加厚1x1罗纹布_011.csv",
+      "sha256": "98f64c74abdfe5a31a83cb8427102d8f94c005649784478ce5f343a32d49183c",
+      "metadata_sha256": "f814d38d8a27d757d8f593c0be960439eba2b88483918233acfcdaa86984ea2e",
+      "reason": [
+        "四项大幅去回不一致条件全部满足"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_036",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_036/岩石肌理面料_036.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_036/岩石肌理面料_036.csv",
+      "sha256": "23fb68e3286cdca2d8241f40dda0cb92d1e167ff7dc6de7813ba17664d8dc66f",
+      "metadata_sha256": "f42e7561fa1efc195ffa15299f49d38913fac556598b241cc86a6223d7f25b66",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_037",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_037/岩石肌理面料_037.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_037/岩石肌理面料_037.csv",
+      "sha256": "1990e2e9a5c9a58892cc3ec7d3d6af6ce233a89dec07c743118bd755446d4b0e",
+      "metadata_sha256": "016eb0095d6b5a659a5a3a0e7b3869af2c0c00ce86050cf39cc97c15c874d2e5",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_038",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_038/岩石肌理面料_038.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_038/岩石肌理面料_038.csv",
+      "sha256": "f4ee0afc91b08a3015a0cb27cb01e41651bc4bec65cef789f0441975468bd74f",
+      "metadata_sha256": "b36398bf45ee06bbb6d2eb55e21be6f1982184e5dc3c83510c18d5b4224f42f1",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_039",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_039/岩石肌理面料_039.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_039/岩石肌理面料_039.csv",
+      "sha256": "e7d9ca7ff51018aa12de5df5c6ee5bf26f8339872a17ec4adf74abde762f9477",
+      "metadata_sha256": "d45f0f616df275e7ec438c4a414938e95afcc760d9f1235f7548794908ba6f9c",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_040",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_040/岩石肌理面料_040.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_040/岩石肌理面料_040.csv",
+      "sha256": "2fd581a5ccbb953041e7b55b3ff968f9a7439f7a0029989109c1f8af162c3e63",
+      "metadata_sha256": "3835bba61c1d1ec53c7a8cc9e4d02e53a5205109d63b59cb3dbd3637b5b53de3",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_041",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_041/岩石肌理面料_041.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_041/岩石肌理面料_041.csv",
+      "sha256": "da6e54381148fa727dadd8d30baa7523b32d0c85af900eb6907a0cc10d5cf2ed",
+      "metadata_sha256": "6ee5ed9e7fced8aec386470183580fbefde637a6171c8ab7257cd0fd54a702d9",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_043",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_043/岩石肌理面料_043.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_043/岩石肌理面料_043.csv",
+      "sha256": "1eb858d73fd15a49fd37abdc8c9c9fa75aed95a37b525c11bb640cab3c50d884",
+      "metadata_sha256": "b93c53318c9ba9223c184167d0f6890d971b18e92a6a70a41a5164904da4bc35",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_044",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_044/岩石肌理面料_044.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_044/岩石肌理面料_044.csv",
+      "sha256": "82eaed40a4b4e823eb593f05a44126df6c23dbe06fca2c1bc435ab16128e2e5a",
+      "metadata_sha256": "b317e6a57640a67682c1e9e0a3770c0c4cc50a70e8d36ac1b44e0756443493d9",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "岩石肌理面料_045",
+      "label": "岩石肌理面料",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_045/岩石肌理面料_045.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/岩石肌理面料/岩石肌理面料_045/岩石肌理面料_045.csv",
+      "sha256": "2a659222069498f903574be209bbdecdbb9173edd72c4d996eaf8c16240d42e1",
+      "metadata_sha256": "05bd011bf7a0ab7e1d5563d5bc229b0106bbb46d3ce1474b904d5cfb136970f5",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "平纹棉布_001",
+      "label": "平纹棉布",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_001/平纹棉布_001.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/平纹棉布/平纹棉布_001/平纹棉布_001.csv",
+      "sha256": "cac492a3d9bb44ba0d1ccddc981796243df700dd1ccd98d3b005a8167324a700",
+      "metadata_sha256": "352d2481409e8fadc92124a3b6d01a909b5e72e0eaead3ab1dac63f124a58241",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "平纹棉布_042",
+      "label": "平纹棉布",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_042/平纹棉布_042.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/平纹棉布/平纹棉布_042/平纹棉布_042.csv",
+      "sha256": "ca2cc026e8ec88b488ee36550bd95e2a4fd7585c292b66bb7ad023357c07a433",
+      "metadata_sha256": "ec9dd110fb17af2da868f6b03187c78f343d04504b43892115d5a3c4b55c3de1",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "桃皮绒_001",
+      "label": "桃皮绒",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/桃皮绒_001/桃皮绒_001.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/桃皮绒/桃皮绒_001/桃皮绒_001.csv",
+      "sha256": "e95a42ccaf0f39960eaa9470f5187e7065b7b1bada3092d1afff8fbb7767ecbc",
+      "metadata_sha256": "0659a66434e5420b483914c00d61e4337678c69eb215f615a08e1ed4a114e4fa",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "织棉提花缎_042",
+      "label": "织棉提花缎",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_042/织棉提花缎_042.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/织棉提花缎/织棉提花缎_042/织棉提花缎_042.csv",
+      "sha256": "4626bebaae3e38cb4a6e7a9b3ee162e68dcb51c568ac28ae1a7d45f4fad0bddb",
+      "metadata_sha256": "c30d38f02a98625820b4393a32014e95f43893a86dc072a76b511feeceef1180",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "织棉提花缎_043",
+      "label": "织棉提花缎",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_043/织棉提花缎_043.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/织棉提花缎/织棉提花缎_043/织棉提花缎_043.csv",
+      "sha256": "643ec6a4774165cb7ece0655b46ad44510fcd662a5a3317e20ab38957d879f32",
+      "metadata_sha256": "354d2388552d84e33ae384f187bd543996419edc84710e3e1ab07ac537021f33",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "织棉提花缎_044",
+      "label": "织棉提花缎",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_044/织棉提花缎_044.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/织棉提花缎/织棉提花缎_044/织棉提花缎_044.csv",
+      "sha256": "962fcf1a9b22c7e208e8fbc8ffde7e7199a0c7a4b130d519858dc419c1a09cd9",
+      "metadata_sha256": "9a7ac75829d45053ccc5527b18bb546a6b0d703e58872fcd8751b95a18eec621",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "织棉提花缎_045",
+      "label": "织棉提花缎",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_045/织棉提花缎_045.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/织棉提花缎/织棉提花缎_045/织棉提花缎_045.csv",
+      "sha256": "59efcf27315f9bfc3eedfb000b7ea460d01752ada09fd5c6b65c54221dac72be",
+      "metadata_sha256": "85a92f75a808bd32504276a728c3b167d6ca2af82cbef03cc635da4763540618",
+      "reason": [
+        "step_003缺口超过20ms"
+      ]
+    },
+    {
+      "record": "覆膜帆布_001",
+      "label": "覆膜帆布",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_001/覆膜帆布_001.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/覆膜帆布/覆膜帆布_001/覆膜帆布_001.csv",
+      "sha256": "97ef9491bbe8a99e920058884e880182970e04cfbee6fd15a44a48a1786ad1d0",
+      "metadata_sha256": "07d3ffdeecdcde50e880a384ed8940423a861f2bcb273f4b1a835519d33e2367",
+      "reason": [
+        "用户确认本实验排除，建议复采"
+      ]
+    },
+    {
+      "record": "长毛格呢_011",
+      "label": "长毛格呢",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_011/长毛格呢_011.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/长毛格呢/长毛格呢_011/长毛格呢_011.csv",
+      "sha256": "f584e17df6fc343d6a970729ad19bc0dcd5fcc8246bdbd2466fb8222d904b96d",
+      "metadata_sha256": "9076e7add91fed4f0f67ac847a4bf62d42d1056731ace536a50fd8f2f2886433",
+      "reason": [
+        "四项大幅去回不一致条件全部满足"
+      ]
+    },
+    {
+      "record": "长毛格呢_021",
+      "label": "长毛格呢",
+      "original_csv": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_021/长毛格呢_021.csv",
+      "copy_csv": "/home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-19-quality-review/不合格数据副本/长毛格呢/长毛格呢_021/长毛格呢_021.csv",
+      "sha256": "ccc7bf5c8e93a3c0e6b98d8c0c802d7cab28baaa1b552923ea2239359358b23f",
+      "metadata_sha256": "864716a114aa976c548fb2d07c71c177e9bbc11f92b0af5b6f18871ebb1903f8",
+      "reason": [
+        "四项大幅去回不一致条件全部满足"
+      ]
+    }
+  ]
+}

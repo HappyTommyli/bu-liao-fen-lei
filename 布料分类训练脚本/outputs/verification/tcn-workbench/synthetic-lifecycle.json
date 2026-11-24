@@ -1,0 +1,26 @@
+{
+  "cv_models": 5,
+  "final_candidate": {
+    "id": "custom",
+    "spec": {
+      "revision": "configurable-tcn-v1",
+      "channels": [
+        32,
+        32
+      ],
+      "kernel_size": 5,
+      "dilations": [
+        1,
+        2
+      ],
+      "dropout": 0.1,
+      "pooling": "mean"
+    },
+    "window_size": 128,
+    "training_revision": "parent-window-v1",
+    "aggregation": "length-probability-v1"
+  },
+  "test_single_trips": 4,
+  "test_roundtrips": 2,
+  "note": "Synthetic two-class flow validation only; no real cloth training."
+}

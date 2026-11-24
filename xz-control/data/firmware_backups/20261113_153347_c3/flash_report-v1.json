@@ -1,0 +1,11 @@
+{
+  "usb_serial": "34:85:18:03:98:04",
+  "port": "/dev/ttyACM1",
+  "chip": "ESP32-C3",
+  "backup": "/home/serein/classify-cloth/xz-control/data/firmware_backups/20261113_153347_c3/original_flash.bin",
+  "backup_sha256": "7052d7274615469f144f88dc668defccb868ba65306dfc898b06a23e3cb81d1f",
+  "started_at": "2026-11-13T07:35:33.850214+00:00",
+  "flashed": true,
+  "upload_exit": 0,
+  "completed_at": "2026-11-13T07:35:39.639321+00:00"
+}

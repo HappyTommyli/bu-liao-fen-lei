@@ -1,0 +1,21 @@
+{
+  "csv": 310,
+  "classes": 15,
+  "eligible": 301,
+  "statuses": {
+    "excluded": 9,
+    "normal": 290,
+    "suggest_review": 11
+  },
+  "historical_excluded": 7,
+  "historical_review_eligible": 11,
+  "fold_counts": [
+    61,
+    59,
+    60,
+    60,
+    61
+  ],
+  "snapshot": "/home/serein/classify-cloth/布料分类训练脚本/outputs/verification/admission-v1/数据快照_最终",
+  "source_hashes_unchanged": true
+}

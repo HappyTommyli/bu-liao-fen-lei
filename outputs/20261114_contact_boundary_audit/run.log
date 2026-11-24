@@ -1,0 +1,75 @@
+[
+  {
+    "label": "岩石肌理面料",
+    "direction": "去程",
+    "count": 5,
+    "middle_dBz_range_uT": [
+      -15310.137,
+      -15306.899
+    ],
+    "raw_large_threshold_candidates": 5,
+    "diagnostic_z_candidates": 5,
+    "xy_candidates": 5
+  },
+  {
+    "label": "岩石肌理面料",
+    "direction": "回程",
+    "count": 5,
+    "middle_dBz_range_uT": [
+      -98.689,
+      -91.783
+    ],
+    "raw_large_threshold_candidates": 0,
+    "diagnostic_z_candidates": 5,
+    "xy_candidates": 5
+  },
+  {
+    "label": "空气层",
+    "direction": "去程",
+    "count": 10,
+    "middle_dBz_range_uT": [
+      -15229.251,
+      -15222.379
+    ],
+    "raw_large_threshold_candidates": 10,
+    "diagnostic_z_candidates": 10,
+    "xy_candidates": 10
+  },
+  {
+    "label": "空气层",
+    "direction": "回程",
+    "count": 10,
+    "middle_dBz_range_uT": [
+      -81.987,
+      -61.684
+    ],
+    "raw_large_threshold_candidates": 0,
+    "diagnostic_z_candidates": 10,
+    "xy_candidates": 10
+  },
+  {
+    "label": "织棉提花缎",
+    "direction": "去程",
+    "count": 10,
+    "middle_dBz_range_uT": [
+      -15320.275,
+      -15309.096
+    ],
+    "raw_large_threshold_candidates": 10,
+    "diagnostic_z_candidates": 10,
+    "xy_candidates": 10
+  },
+  {
+    "label": "织棉提花缎",
+    "direction": "回程",
+    "count": 10,
+    "middle_dBz_range_uT": [
+      -121.344,
+      -98.428
+    ],
+    "raw_large_threshold_candidates": 0,
+    "diagnostic_z_candidates": 10,
+    "xy_candidates": 10
+  }
+]
+TOTAL 50 raw_large 25 diagnostic_z 50 xy 50

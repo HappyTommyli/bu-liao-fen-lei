@@ -1,0 +1,41 @@
+{
+  "run": "织棉提花缎_006",
+  "label": "织棉提花缎",
+  "source": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_006/织棉提花缎_006.csv",
+  "source_sha256": "da3dcea37d96e1e94c4fdf2d5433e020e4b39ef3bc4196caab66ac7e3d7018fe",
+  "status": "provisional_needs_boundary_review",
+  "segments": [
+    {
+      "direction": "去程",
+      "stage": "step_003",
+      "csv": "cropped/织棉提花缎_006/织棉提花缎_006_outward.csv",
+      "candidate_start_s": 4.176,
+      "candidate_end_s": 24.357,
+      "requested_start_s": 7.676,
+      "requested_end_s": 23.857,
+      "retained_start_s": 7.677999999999999,
+      "retained_end_s": 23.855999999999998,
+      "retained_duration_s": 16.177999999999997,
+      "first_seq": 2560,
+      "last_seq": 7942,
+      "rows": 5383,
+      "invalid_rows": 0
+    },
+    {
+      "direction": "回程",
+      "stage": "step_004",
+      "csv": "cropped/织棉提花缎_006/织棉提花缎_006_return.csv",
+      "candidate_start_s": 3.585,
+      "candidate_end_s": 23.952,
+      "requested_start_s": 7.085,
+      "requested_end_s": 23.452,
+      "retained_start_s": 7.0859999999999985,
+      "retained_end_s": 23.451,
+      "retained_duration_s": 16.365000000000002,
+      "first_seq": 11061,
+      "last_seq": 16504,
+      "rows": 5444,
+      "invalid_rows": 0
+    }
+  ]
+}

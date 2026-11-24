@@ -1,0 +1,274 @@
+{
+  "csv": 310,
+  "readable": 310,
+  "eligible": 301,
+  "statuses": {
+    "excluded": 9,
+    "normal": 290,
+    "suggest_review": 11
+  },
+  "errors": [],
+  "classes": {
+    "亮丝欧根纱": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 3,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.15,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "亮丝粗花呢": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "仿皮毛一体": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "加厚1x1罗纹布": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 1,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.05,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "印花丝绒": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "大衣呢": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "岩石肌理面料": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "平纹棉布": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "毛织物面料": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "珠地覆膜": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "空气层": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "织棉提花缎": {
+      "independent_groups": 30,
+      "assessable_groups": 30,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "覆膜帆布": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "针织复合面料": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 0,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.0,
+      "disabled": false,
+      "review_small_batch": false
+    },
+    "长毛格呢": {
+      "independent_groups": 20,
+      "assessable_groups": 20,
+      "abnormal_groups": 1,
+      "undetermined_groups": 0,
+      "mixed_groups": 0,
+      "rate": 0.05,
+      "disabled": false,
+      "review_small_batch": false
+    }
+  },
+  "history": [
+    {
+      "name": "亮丝欧根纱_001",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "亮丝欧根纱_002",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "亮丝欧根纱_003",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "亮丝粗花呢_001",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "亮丝粗花呢_002",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "亮丝粗花呢_008",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "仿皮毛一体_001",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "仿皮毛一体_003",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "仿皮毛一体_006",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "加厚1x1罗纹布_001",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "岩石肌理面料_006",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "平纹棉布_001",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "织棉提花缎_001",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "覆膜帆布_001",
+      "history": "excluded",
+      "status": "excluded",
+      "eligible": false
+    },
+    {
+      "name": "长毛格呢_001",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "长毛格呢_005",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "长毛格呢_006",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    },
+    {
+      "name": "长毛格呢_007",
+      "history": "suggest_review",
+      "status": "suggest_review",
+      "eligible": true
+    }
+  ],
+  "source_hashes_unchanged": true
+}

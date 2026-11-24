@@ -1,0 +1,13 @@
+RAW 50 545 fresh 0 reused 50
+RAW 100 545 fresh 0 reused 100
+RAW 150 545 fresh 0 reused 150
+RAW 200 545 fresh 0 reused 200
+RAW 250 545 fresh 5 reused 245
+RAW 300 545 fresh 9 reused 290
+RAW 350 545 fresh 9 reused 340
+RAW 400 545 fresh 9 reused 390
+RAW 450 545 fresh 19 reused 430
+RAW 500 545 fresh 19 reused 480
+RAW 545 545 fresh 19 reused 525
+SCOPE {'source': '/home/serein/classify-cloth/xz-control/data/布料采集数据', 'csv_count': 545, 'other_count': 10, 'ignored_count': 53, 'eligible': 509, 'labels': ['亮丝欧根纱', '亮丝粗花呢', '仿皮毛一体', '加厚1x1罗纹布', '印花丝绒', '大衣呢', '岩石肌理面料', '平纹棉布', '毛织物面料', '珠地覆膜', '空气层', '织棉提花缎', '覆膜帆布', '针织复合面料', '长毛格呢'], 'rule_version': 'admission-v1', 'signal': '|ΔBy|', 'bounds': {'out': [45, 141], 'back': [17, 113]}, 'bin_mm': 2, 'feature_names': ['amplitude', 'residual_rms', 'mean_abs_diff', 'power_1_20', 'power_20_100'], 'model_results_used': False, 'source_fingerprints_verified': True, 'quality_cache_exact_matches': 525, 'quality_fresh_reviews': 19}
+QUALITY {'excluded': 10, 'normal': 497, 'suggest_review': 12, 'data_error': 25, 'pending': 1}

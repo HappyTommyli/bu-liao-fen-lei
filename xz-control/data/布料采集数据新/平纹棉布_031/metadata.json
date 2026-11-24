@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-20T06:57:28.610218+00:00",
+  "outcome": "completed",
+  "error": null,
+  "sample_count": 17412,
+  "invalid_sample_count": 18,
+  "baseline_B0_uT": {
+    "Bx_uT": 966.5391891891892,
+    "By_uT": -109.73536036036027,
+    "Bz_uT": 7404.422765765755
+  },
+  "context": {
+    "motor_port": "/dev/ttyACM1",
+    "sensor_port": "/dev/ttyACM0",
+    "config": {
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "x_speed": 6.0,
+      "z_speed": 6.0,
+      "x_accel": 20.0,
+      "z_accel": 20.0,
+      "x_right": 1,
+      "x_min": null,
+      "x_max": null,
+      "z_min": null,
+      "z_max": null,
+      "start_x": 0.0,
+      "start_z": 0.0,
+      "clearance_z": 0.0
+    },
+    "demo": false,
+    "baseline": {
+      "baseline": [
+        966.5391891891892,
+        -109.73536036036027,
+        7404.422765765755
+      ],
+      "sigma": [
+        5.312493372143852,
+        5.254686848818816,
+        7.481031287550842
+      ],
+      "samples": 666,
+      "invalid_samples": 0
+    },
+    "capture_session": "95eef3c55b164c9d86cf5a0f199a7b21",
+    "segment": 1,
+    "coordinate_reference": {
+      "name": "人工机械基准",
+      "id": "44516615228c49cebe9fb4f45b0d7ca1",
+      "method": "manual",
+      "confirmed_at": 1795157170.6620946,
+      "x_ppmm": 250.0,
+      "z_ppmm": 250.0,
+      "valid": true
+    },
+    "capture_start_mm": {
+      "x": 0.0,
+      "z": 0.0,
+      "clearance_z": 0.0
+    },
+    "recipe": {
+      "name": "我的扫描流程",
+      "steps": [
+        {
+          "kind": "restart_sensor",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "baseline",
+          "axis": "X",
+          "value": 1.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": 155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        },
+        {
+          "kind": "relative",
+          "axis": "X",
+          "value": -155.0,
+          "speed": null,
+          "accel": null,
+          "duration": 0.0,
+          "enabled": true,
+          "label": ""
+        }
+      ]
+    },
+    "batch": {
+      "id": "f48e48afcd2d4018b0176a61212cd704",
+      "round": 11,
+      "count": 15
+    }
+  },
+  "files": {
+    "sensor": "平纹棉布_031.csv"
+  },
+  "sample_quality": {
+    "rule": "finite and not isolated >=1000uT spike returning within 250uT",
+    "raw_values_preserved": true
+  },
+  "timestamps": "host monotonic receive time; motor position is latest software pulse count, not hardware synchronized",
+  "label": "平纹棉布",
+  "run_name": "平纹棉布_031",
+  "sequence": 31
+}

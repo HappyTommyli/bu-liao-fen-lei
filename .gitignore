@@ -1,0 +1,12 @@
+# Local environments and caches
+**/.git/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+*.py[cod]
+.DS_Store

@@ -1,0 +1,315 @@
+{
+  "status": "insufficient_evidence",
+  "variant": "full",
+  "epsilon": 0.05,
+  "delta": 0.05,
+  "alpha_set": 0.05,
+  "family_size": 63,
+  "theta": null,
+  "quantiles": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "audit": [
+    {
+      "theta": 0.0,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.05,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.1,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.15000000000000002,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.2,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.25,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.30000000000000004,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.35000000000000003,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.4,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.45,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.5,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.55,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.6000000000000001,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.65,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.7000000000000001,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.75,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.8,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.8500000000000001,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.9,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 0.9500000000000001,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    },
+    {
+      "theta": 1.0,
+      "passed": false,
+      "class_bounds": {
+        "岩石肌理面料": 1.9788903684268957,
+        "空气层": 1.9788903684268957
+      },
+      "class_groups": {
+        "岩石肌理面料": 1,
+        "空气层": 1
+      },
+      "acceptance": 0.0,
+      "mean_accepted_stop": null
+    }
+  ],
+  "set_groups": 2,
+  "weight_sha256": "9a19b809cf972b9654db155440c1877882c523f7ebe063d7ff34d4f028719568"
+}

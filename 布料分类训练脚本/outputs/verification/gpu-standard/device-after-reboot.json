@@ -1,0 +1,8 @@
+{
+  "torch": "2.14.1+cu130",
+  "cuda_build": "13.0",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "cudnn": 92400,
+  "python": "3.10.12"
+}

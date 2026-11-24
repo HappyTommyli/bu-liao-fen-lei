@@ -1,0 +1,5 @@
+{"kind":"table","sheet":"全部检查","address":"A4:D7","rows":4,"cols":4,"values":[["目录","扫描CSV数","已修改CSV数","未修改CSV数"],["布料采集数据",877,122,755],["布料采集数据新",596,122,474],["合计",1473,244,1229]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+MONO_WASM: WebAssembly resource does not have the expected content type "application/wasm", so falling back to slower ArrayBuffer instantiation.
+Inspect result written to file: /home/serein/classify-cloth/布料分类训练脚本/outputs/coordinate-correction-20261120/坐标平移修改记录.xlsx.inspect.ndjson
+EXPORTED /home/serein/classify-cloth/布料分类训练脚本/outputs/coordinate-correction-20261120/坐标平移修改记录.xlsx

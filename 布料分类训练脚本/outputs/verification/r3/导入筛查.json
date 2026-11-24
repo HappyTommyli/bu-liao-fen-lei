@@ -1,0 +1,19 @@
+{
+  "candidate_count": 350,
+  "usable_count": 350,
+  "ignored_count": 2,
+  "ignored": [
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/.workbench-trash/0e930bc7e3674b16818c6c73f516c842/珠地覆膜_011.csv",
+      "reason": "回收站/输出/环境目录"
+    },
+    {
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/.workbench-trash/98d96a9eeb7847eeb1bf1db5225c45af/铜氨丝_001.csv",
+      "reason": "回收站/输出/环境目录"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "suggest_recollect": 27,
+  "suggest_review": 23
+}

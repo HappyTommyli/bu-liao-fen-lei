@@ -1,0 +1,224 @@
+{
+  "status": "completed",
+  "stage": "classification",
+  "model_id": "5ce5650fce5647969c96a408cd4bc80b",
+  "configuration_id": "gru_by_mean",
+  "architecture": "gru",
+  "signal": "by",
+  "readout": "mean",
+  "seed": 42,
+  "repetition": 1,
+  "best_epoch": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.6633137719971793,
+      "train_accuracy": 0.6071428571428571,
+      "val_loss": 0.6551621556282043,
+      "val_f1": 0.7333333333333334,
+      "val_accuracy": 0.75,
+      "lr": 0.001,
+      "seconds": 1.369506019000255
+    }
+  ],
+  "train_metrics": {
+    "accuracy": 0.75,
+    "macro_f1": 0.7470967741935484,
+    "total": 28,
+    "correct": 21,
+    "confusion": [
+      [
+        12,
+        2
+      ],
+      [
+        5,
+        9
+      ]
+    ],
+    "per_class": [
+      {
+        "label": "平纹棉布",
+        "precision": 0.7058823529411765,
+        "recall": 0.8571428571428571,
+        "f1": 0.7741935483870968,
+        "support": 14
+      },
+      {
+        "label": "灯芯绒",
+        "precision": 0.8181818181818182,
+        "recall": 0.6428571428571429,
+        "f1": 0.7200000000000001,
+        "support": 14
+      }
+    ]
+  },
+  "val_metrics": {
+    "accuracy": 0.75,
+    "macro_f1": 0.7333333333333334,
+    "total": 4,
+    "correct": 3,
+    "confusion": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "per_class": [
+      {
+        "label": "平纹棉布",
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2
+      },
+      {
+        "label": "灯芯绒",
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 2
+      }
+    ]
+  },
+  "val_predictions": [
+    {
+      "id": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+      "sha256": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604",
+      "group": "capture:e66ff891b8764314bc5ec3280c1cf325",
+      "label": "平纹棉布",
+      "true": 0,
+      "direction": "out",
+      "predicted": 0,
+      "scores": [
+        0.5038166642189026,
+        0.4961833357810974
+      ],
+      "elapsed": 15.96096096096096
+    },
+    {
+      "id": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_010/平纹棉布_010.csv",
+      "sha256": "149830934c3f35b96454d7714664745a246fb36ea05aed4f99dacbf27e288604",
+      "group": "capture:e66ff891b8764314bc5ec3280c1cf325",
+      "label": "平纹棉布",
+      "true": 0,
+      "direction": "back",
+      "predicted": 0,
+      "scores": [
+        0.5011037588119507,
+        0.4988962709903717
+      ],
+      "elapsed": 16.12912912912913
+    },
+    {
+      "id": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv",
+      "sha256": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031",
+      "group": "capture:3b81de7fc3af48348ad66d26a82c369a",
+      "label": "灯芯绒",
+      "true": 1,
+      "direction": "out",
+      "predicted": 0,
+      "scores": [
+        0.5073654651641846,
+        0.49263450503349304
+      ],
+      "elapsed": 15.96096096096096
+    },
+    {
+      "id": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/灯芯绒_007/灯芯绒_007.csv",
+      "sha256": "c5250a94eef3dce9b265bae58226bb2519f507a8a358e0cdde1465bdbff45031",
+      "group": "capture:3b81de7fc3af48348ad66d26a82c369a",
+      "label": "灯芯绒",
+      "true": 1,
+      "direction": "back",
+      "predicted": 1,
+      "scores": [
+        0.41501906514167786,
+        0.5849809646606445
+      ],
+      "elapsed": 16.12912912912913
+    }
+  ],
+  "val_direction_metrics": {
+    "out": {
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "total": 2,
+      "correct": 1,
+      "confusion": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "per_class": [
+        {
+          "label": "平纹棉布",
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1
+        },
+        {
+          "label": "灯芯绒",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      ]
+    },
+    "back": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "total": 2,
+      "correct": 2,
+      "confusion": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "per_class": [
+        {
+          "label": "平纹棉布",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        {
+          "label": "灯芯绒",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        }
+      ]
+    }
+  },
+  "validation_inference_seconds": 0.07644972999969468,
+  "test_metrics": null,
+  "test_predictions": [],
+  "test_status": "not_tested",
+  "parameters": 12994,
+  "training_seconds": 1.810506479999276,
+  "weight_sha256": "3d8155ed234a75581163497c9c828c69a336eb2dfb8948b22a8d3e4c5e6dc322",
+  "stage2_status": "not_available"
+}

@@ -1,0 +1,55 @@
+{
+  "dataset": "/home/serein/classify-cloth/布料分类训练脚本/outputs/datasets/前20次_16类_不含印花丝绒_v1",
+  "dataset_id": "a4679abce3aa4943a1e048f1e332f244",
+  "records": 310,
+  "trials": 620,
+  "classes": {
+    "亮丝欧根纱": 17,
+    "亮丝粗花呢": 19,
+    "仿皮毛一体": 19,
+    "加厚1x1罗纹布": 19,
+    "大衣呢": 20,
+    "岩石肌理面料": 20,
+    "平纹棉布": 19,
+    "格纹针织羊绒": 20,
+    "桃皮绒": 19,
+    "毛织物面料": 20,
+    "珠地覆膜": 20,
+    "空气层": 20,
+    "织棉提花缎": 20,
+    "覆膜帆布": 19,
+    "针织复合面料": 20,
+    "长毛格呢": 19
+  },
+  "excluded_records": 20,
+  "development": 247,
+  "test": 63,
+  "folds": [
+    {
+      "train": 196,
+      "val": 51
+    },
+    {
+      "train": 197,
+      "val": 50
+    },
+    {
+      "train": 198,
+      "val": 49
+    },
+    {
+      "train": 197,
+      "val": 50
+    },
+    {
+      "train": 200,
+      "val": 47
+    }
+  ],
+  "old_models_and_snapshot_unchanged": true,
+  "removed_raw_sources_unchanged": true,
+  "current_project": "/home/serein/classify-cloth/布料分类训练脚本/outputs/当前训练项目.json",
+  "training_started": false,
+  "epochs": 200,
+  "mode": "window_pool"
+}

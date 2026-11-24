@@ -1,0 +1,158 @@
+[
+  {
+    "scale": "1",
+    "size": [
+      1024,
+      640
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      290,
+      289
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1",
+    "size": [
+      1280,
+      720
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      316,
+      347
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1",
+    "size": [
+      1366,
+      768
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      343,
+      395
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1",
+    "size": [
+      1920,
+      1080
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      517,
+      707
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.25",
+    "size": [
+      1024,
+      640
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      290,
+      289
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.25",
+    "size": [
+      1280,
+      720
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      316,
+      347
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.25",
+    "size": [
+      1366,
+      768
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      343,
+      395
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.25",
+    "size": [
+      1920,
+      1080
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      517,
+      707
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.5",
+    "size": [
+      1024,
+      640
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      290,
+      289
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.5",
+    "size": [
+      1280,
+      720
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      316,
+      347
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.5",
+    "size": [
+      1366,
+      768
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      343,
+      395
+    ],
+    "start_enabled": true
+  },
+  {
+    "scale": "1.5",
+    "size": [
+      1920,
+      1080
+    ],
+    "clipped_labels": [],
+    "parameter_viewport": [
+      517,
+      707
+    ],
+    "start_enabled": true
+  }
+]

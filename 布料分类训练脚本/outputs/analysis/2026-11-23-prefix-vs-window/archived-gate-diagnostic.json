@@ -1,0 +1,321 @@
+{
+  "note": "Archived prediction proxy only, not live/replay measurement. Same 154 outward validation records, different training cohorts, prefix out-of-fold models. No heldout touched. Probability .95, margin .2, stability2.7s, stride900, no smoothing. Final incomplete blocks excluded.",
+  "reports": [
+    {
+      "kind": "window",
+      "min_points": 900,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 133,
+        "abstain": 21
+      },
+      "median_effective_s": 5.405405405405405,
+      "wrong_lock_but_final_correct": 0,
+      "errors": []
+    },
+    {
+      "kind": "prefix",
+      "min_points": 900,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 135,
+        "abstain": 14,
+        "error": 5
+      },
+      "median_effective_s": 5.405405405405405,
+      "wrong_lock_but_final_correct": 1,
+      "errors": [
+        {
+          "id": "41a9fe7e32e0e4823d501fcbe3c82b8b69fd80c4fa5cabd5aef44dd8f304cc03:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/长毛格呢_045/长毛格呢_045.csv",
+          "true": "长毛格呢",
+          "pred": "格纹针织羊绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "fa07778bb29c3fe4ea8da5450b3bf93122a5084f45b1eab9113b4d810c68b0ff:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_017/顺毛双面呢_017.csv",
+          "true": "顺毛双面呢",
+          "pred": "加厚1x1罗纹布",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "84a593391bee811d41724371f4b1efd80d294bed996ca461e23355ca924a7434:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_043/顺毛双面呢_043.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 1800,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "3f6ae0090f6885dfa22c90040655f2e07c4f322faca7451b1d102dae04422163:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/珠地覆膜_045/珠地覆膜_045.csv",
+          "true": "珠地覆膜",
+          "pred": "针织复合面料",
+          "points": 1800,
+          "final_correct": true,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        },
+        {
+          "id": "da9e4e5f5aea0a3c65071ec0ed2342163108afd0766f04c748cc5b282e416f83:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_041/顺毛双面呢_041.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 1800,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "window",
+      "min_points": 900,
+      "consecutive": 3,
+      "n": 154,
+      "counts": {
+        "correct": 112,
+        "abstain": 41,
+        "error": 1
+      },
+      "median_effective_s": 8.108108108108109,
+      "wrong_lock_but_final_correct": 0,
+      "errors": [
+        {
+          "id": "1b0a26e198dc93f056fef21b86661a1372ad5333128f387362c0a93025e5d7aa:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/平纹棉布_001/平纹棉布_001.csv",
+          "true": "平纹棉布",
+          "pred": "桃皮绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "prefix",
+      "min_points": 900,
+      "consecutive": 3,
+      "n": 154,
+      "counts": {
+        "correct": 119,
+        "abstain": 32,
+        "error": 3
+      },
+      "median_effective_s": 8.108108108108109,
+      "wrong_lock_but_final_correct": 1,
+      "errors": [
+        {
+          "id": "84a593391bee811d41724371f4b1efd80d294bed996ca461e23355ca924a7434:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_043/顺毛双面呢_043.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 2700,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "3f6ae0090f6885dfa22c90040655f2e07c4f322faca7451b1d102dae04422163:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/珠地覆膜_045/珠地覆膜_045.csv",
+          "true": "珠地覆膜",
+          "pred": "针织复合面料",
+          "points": 2700,
+          "final_correct": true,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        },
+        {
+          "id": "da9e4e5f5aea0a3c65071ec0ed2342163108afd0766f04c748cc5b282e416f83:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_041/顺毛双面呢_041.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 2700,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "window",
+      "min_points": 1800,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 129,
+        "abstain": 24,
+        "error": 1
+      },
+      "median_effective_s": 8.108108108108109,
+      "wrong_lock_but_final_correct": 0,
+      "errors": [
+        {
+          "id": "1b0a26e198dc93f056fef21b86661a1372ad5333128f387362c0a93025e5d7aa:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/平纹棉布_001/平纹棉布_001.csv",
+          "true": "平纹棉布",
+          "pred": "桃皮绒",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "prefix",
+      "min_points": 1800,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 128,
+        "abstain": 20,
+        "error": 6
+      },
+      "median_effective_s": 8.108108108108109,
+      "wrong_lock_but_final_correct": 1,
+      "errors": [
+        {
+          "id": "41a9fe7e32e0e4823d501fcbe3c82b8b69fd80c4fa5cabd5aef44dd8f304cc03:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/长毛格呢_045/长毛格呢_045.csv",
+          "true": "长毛格呢",
+          "pred": "格纹针织羊绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "fa07778bb29c3fe4ea8da5450b3bf93122a5084f45b1eab9113b4d810c68b0ff:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_017/顺毛双面呢_017.csv",
+          "true": "顺毛双面呢",
+          "pred": "加厚1x1罗纹布",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "84a593391bee811d41724371f4b1efd80d294bed996ca461e23355ca924a7434:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_043/顺毛双面呢_043.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 2700,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "1b0a26e198dc93f056fef21b86661a1372ad5333128f387362c0a93025e5d7aa:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/平纹棉布_001/平纹棉布_001.csv",
+          "true": "平纹棉布",
+          "pred": "桃皮绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        },
+        {
+          "id": "3f6ae0090f6885dfa22c90040655f2e07c4f322faca7451b1d102dae04422163:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/珠地覆膜_045/珠地覆膜_045.csv",
+          "true": "珠地覆膜",
+          "pred": "针织复合面料",
+          "points": 2700,
+          "final_correct": true,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        },
+        {
+          "id": "da9e4e5f5aea0a3c65071ec0ed2342163108afd0766f04c748cc5b282e416f83:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_041/顺毛双面呢_041.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 2700,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "window",
+      "min_points": 2700,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 117,
+        "abstain": 36,
+        "error": 1
+      },
+      "median_effective_s": 10.81081081081081,
+      "wrong_lock_but_final_correct": 0,
+      "errors": [
+        {
+          "id": "1b0a26e198dc93f056fef21b86661a1372ad5333128f387362c0a93025e5d7aa:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/平纹棉布_001/平纹棉布_001.csv",
+          "true": "平纹棉布",
+          "pred": "桃皮绒",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    },
+    {
+      "kind": "prefix",
+      "min_points": 2700,
+      "consecutive": 2,
+      "n": 154,
+      "counts": {
+        "correct": 122,
+        "abstain": 27,
+        "error": 5
+      },
+      "median_effective_s": 10.81081081081081,
+      "wrong_lock_but_final_correct": 0,
+      "errors": [
+        {
+          "id": "41a9fe7e32e0e4823d501fcbe3c82b8b69fd80c4fa5cabd5aef44dd8f304cc03:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/长毛格呢_045/长毛格呢_045.csv",
+          "true": "长毛格呢",
+          "pred": "格纹针织羊绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "fa07778bb29c3fe4ea8da5450b3bf93122a5084f45b1eab9113b4d810c68b0ff:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_017/顺毛双面呢_017.csv",
+          "true": "顺毛双面呢",
+          "pred": "加厚1x1罗纹布",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "84a593391bee811d41724371f4b1efd80d294bed996ca461e23355ca924a7434:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_043/顺毛双面呢_043.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f1"
+        },
+        {
+          "id": "1b0a26e198dc93f056fef21b86661a1372ad5333128f387362c0a93025e5d7aa:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/平纹棉布_001/平纹棉布_001.csv",
+          "true": "平纹棉布",
+          "pred": "桃皮绒",
+          "points": 4500,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        },
+        {
+          "id": "da9e4e5f5aea0a3c65071ec0ed2342163108afd0766f04c748cc5b282e416f83:out",
+          "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据新/顺毛双面呢_041/顺毛双面呢_041.csv",
+          "true": "顺毛双面呢",
+          "pred": "复合灯芯绒",
+          "points": 3600,
+          "final_correct": false,
+          "fold": "cera_by_mean_prefix_s42_f2"
+        }
+      ]
+    }
+  ]
+}

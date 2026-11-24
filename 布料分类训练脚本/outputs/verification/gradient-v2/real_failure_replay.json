@@ -1,0 +1,65 @@
+{
+  "runtime": "numerical-safety-v2",
+  "task": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH5_20261117_142528_39d7d3",
+  "source_recovery_sha256": "5869b1f40e95a704ceebbc6de4496664f4cea841aaf605dd0824207f1ab14b6c",
+  "recovery_epoch": 21,
+  "original_tasks_unchanged": true,
+  "source_file_counts": [
+    321,
+    315
+  ],
+  "results": [
+    {
+      "mode": "exact_source_prefix_then_fixed_failure_batch",
+      "batches": [
+        {
+          "batch": 1,
+          "loss": 2.308933973312378,
+          "norm32_finite": true,
+          "norm": 1.2885941987551486e+17,
+          "clipped_norm": 1.0000000052466844,
+          "parameters_and_optimizer_finite": true
+        },
+        {
+          "batch": 2,
+          "loss": 2.2407948970794678,
+          "norm32_finite": false,
+          "norm": 3.938464449829065e+19,
+          "max_abs": 4.371820410002473e+18,
+          "coefficient": 2.5390606230897972e-20,
+          "clipped_norm": 0.9999999995514739,
+          "clipped": true,
+          "parameters_and_optimizer_finite": true
+        }
+      ]
+    },
+    {
+      "mode": "production_v2_both_batches",
+      "batches": [
+        {
+          "batch": 1,
+          "loss": 2.308933973312378,
+          "norm32_finite": true,
+          "norm": 1.2885941987551486e+17,
+          "max_abs": 3.1790965672902656e+16,
+          "coefficient": 7.7603950178113e-18,
+          "clipped_norm": 0.9999999982788885,
+          "clipped": true,
+          "parameters_and_optimizer_finite": true
+        },
+        {
+          "batch": 2,
+          "loss": 2.2574942111968994,
+          "norm32_finite": true,
+          "norm": 91774628175433.78,
+          "max_abs": 10186993434624.0,
+          "coefficient": 1.0896257711754803e-14,
+          "clipped_norm": 1.0000000011629824,
+          "clipped": true,
+          "parameters_and_optimizer_finite": true
+        }
+      ]
+    }
+  ],
+  "scope": "仅内存重放两个批次；未启动正式训练或200轮验证"
+}

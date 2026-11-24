@@ -1,0 +1,4 @@
+{"kind":"table","sheet":"布料去留","address":"A23:C23","rows":1,"cols":3,"values":[["合计",545,509]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+Inspect result written to file: /home/serein/classify-cloth/布料分类训练脚本/outputs/analysis/2026-11-18-raw-overlap/原始数据布料去留统计.xlsx.inspect.ndjson
+EXPORTED RAW-ONLY WORKBOOK

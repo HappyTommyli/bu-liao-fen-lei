@@ -1,0 +1,189 @@
+{
+  "experiment": "CLOTH4_20261120_035813_8ca216",
+  "dev_files": 247,
+  "test_files": 63,
+  "current_train_test_hash_overlap": 0,
+  "prior_completed_dev_overlap": 48,
+  "prior_completed_dev_overlap_by_hash": {
+    "8d549e356ad8e97ed90714a6423c5d79506b800ab8117e997f0a3340f2991846": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "f77c2147c2532e770bbf4e606eb5e7970e8c7817a18203873aa6cab9b2bb9362": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "e4344bd09f9679b9db235ed23aaf310ead6e5f57a4f5bbe91e70b4fccb27d06e": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "050c0d7292affab7289cf22ac3897e28bb867729173dd2ea0d041911be39451f": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "f2ae7859ace490a126b5acb2b724587c50820d63690c2848217fc3290b0fde4b": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "80286c297e66f5160da667c7c082bcc5cd8989b600d7f9fc7842abcafcead76a": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "d7e1db3bea0d2f032fceb8381ddecf85b8205ae7007c026f84704dd6b1aca895": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "04daa066deef750aa064cf1e8687bbbcb0338d364a9f40f49b631c83723a6a95": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "d7b459637fdd14f29badc0cdfba35af932e530822e8f9a035d99beea1eb13f00": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "b3f55fca04f6f14caf30a566b527e32b7cbc0df26ca047adc3fe7283cb063608": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "b886d009895bbe68da8ceccab97d6bf481035625268fcc29ea8c609f26066794": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "ffb7366471fe6cebbd871581cc87fc33afe671f6a9d6abfb1f75fcbffcc89392": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "1a47b4968f24c54ac6b32c5b50c3cb5aa5f1f709317e2b37a4902ef99191f81c": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "bc953dd4f127505f4d2291bac68c7b08d050cf618cb4ef3b8d412f407df1c192": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "170f875992d5dd6d66c22fb567df45fa07e5d3e19bb1972c1f1fbe5d179ffdbd": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "f6d9e99faa2fb904cf522d1ea35cc82b3d5df457b8b0716134fb0913a0e21133": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "3898b70cb1db6b796e50b7608da8aa20e276f452a14d31b95a24b12ce26b10e7": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "10f14043d097611b7c3830b88269a84a30487c65cdedbce09dc76551ea9a4a48": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "44469d045ad566f5da2c40607067aefd6ef999a266b59aebf769798b926ba4c6": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "db397c9db135c1b7fdfecfae4990b19aef0335c7b615d6fbe7d2d360a904b72c": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "c8221e423f3a335791b40fe651781a6f794317544ba2b4696c06f4e0477fd8a2": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "256119f032ee8840ebd2b51401bb9b0a0e091139585446cf28c2dedb870bf7d6": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "d21f098210466964b7c556781264ae988156bca4971ec03144e1286d51e3cd0a": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "edcdafce75b9187c254cf03565b30c0c72ea34c222626e3ef9aa41a4e34a04c4": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "5e56e52fc993db03576bd484a5c83e01b677b9e55182d54e0d9f077d5355e025": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "ab199abc77552d9e5210d81d4e6d7de306e7a8e9cf2b21a04608b10d8a139a62": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "f4994c8e95ac69effd4851ac3e0a931db6ed96d8ddd18dfd9abc602f4081ebe2": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "ef0321abaca80ae850fbfe7fa626c01b0b1f60a44863639d4a3ad9148868a9e2": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "3593116713cb1d8bf114ca89a91492f56c92f753979c9208c4b766c235130bf3": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "01c0b1ed5497dd8cc11ecdcf5f66e4993cc90838816d331917f26736b375572d": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "7d1e1094cd3a4152edd2ff9b81faa686aaa91ff8866a2b3bfbf8bcd09decfc39": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "3594cc4c178383f1b104110f5d535df4d3acdbace4098262a5d0dccfc5af093b": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "605c72c1cb90471b1714e9da4f15cb7364f120d52ec4a492b43a84b4e90bf462": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "c265247492724e4fd5cae70eebfdfc3f7a08c56d333f84e471eb965175d308bd": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "009084fd86a639a74e709ea94dbb65064c9024bda98e186df8cc5ef35f5f133f": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "405d1b48b4f03b81d583c2451992a1f91b6bdd0c6515265d6a0f2001a417a90f": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "d998a6b9914ddf519625918c87db24fe35e12c701623e290892be3f65e6ba58b": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "37dcd16d17228d7d0c0d32226ef527fcf87d977f582377313165f48727713ec8": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "ee7841ab0b505e1617457b4ce68feb6213bcef03499830b4c475138c257b23e0": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "888060a9656252180dd7c4ecfe1c85817da4553baf85ba75de25462c573eb9bc": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "cb4fbf30a83faa030031a282bdd4c19c0c1c4939ff910bf80f159d7f219cea54": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "7a2ceaa11307630cb2029d893d5f1885486ff3c4f774ac19f71b9b4964f0566a": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "f7ec753c9a0d73812a226c218c716af56facdd19b75b3c773b82f1244232e210": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "35f95e662406d404b218ee704be95bdd24a836e976445d8cb74c9e3063c35fca": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "1f32dad74f2c4685e7ee050cda3a99124c6c4bdd8c9ffa1340a01535f92fe9ba": [
+      "CLOTH4_20261117_170039_86f788",
+      "CLOTH4_20261118_043041_a4aed4"
+    ],
+    "2eab5bb43ff4bfa5e7707ddade3c98b2624fb6a02e7c4a826186b438267c475d": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "0429824b5d7519de7bbaa334f8e05b9739409dc37884634f568cdf6c2efb27f8": [
+      "CLOTH4_20261117_170039_86f788"
+    ],
+    "d39d24356827b8686500110d9154adb6beffc0174b1838fa5c24910616afb3d8": [
+      "CLOTH4_20261118_043041_a4aed4"
+    ]
+  },
+  "current_model_manual_prediction_test_files": 8,
+  "current_model_manual_prediction_test_predictions": 16,
+  "manual_prediction_test_paths": [
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/格纹针织羊绒_016/格纹针织羊绒_016.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/格纹针织羊绒_017/格纹针织羊绒_017.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/桃皮绒_019/桃皮绒_019.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/格纹针织羊绒_002/格纹针织羊绒_002.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/格纹针织羊绒_010/格纹针织羊绒_010.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/桃皮绒_006/桃皮绒_006.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/桃皮绒_020/桃皮绒_020.csv",
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据/桃皮绒_002/桃皮绒_002.csv"
+  ],
+  "formal_holdout_record": null,
+  "test_same_batch_as_dev": 62
+}

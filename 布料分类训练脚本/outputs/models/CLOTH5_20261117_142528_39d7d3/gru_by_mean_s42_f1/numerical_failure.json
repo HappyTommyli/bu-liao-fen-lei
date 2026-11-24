@@ -1,0 +1,438 @@
+{
+  "version": "numerical-safety-v1",
+  "job": {
+    "dataset_id": "3505ecda92ac4b08a286065791a0d9ac",
+    "execution_sha256": "77dbd2a2fdfd3cf4f1e62608c8822db6cd4a77fbce9e9a37f5067fd12e950ff3",
+    "key": "gru_by_mean_s42_f1",
+    "fold": 0
+  },
+  "architecture": "gru",
+  "readout": "mean",
+  "seed": 42,
+  "epoch": 22,
+  "batch": 2,
+  "trials": [
+    {
+      "id": "19e381b29fd82586a7d0840c86e5e2a1408e5453ccaca5709ee94142299e7ac8:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/珠地覆膜_009/珠地覆膜_009.csv",
+      "sha256": "19e381b29fd82586a7d0840c86e5e2a1408e5453ccaca5709ee94142299e7ac8",
+      "group": "capture:cd744797bb8b4b59b093b4350cb45468",
+      "label": "珠地覆膜",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 354.2451171875,
+        "max": 415.44512939453125
+      }
+    },
+    {
+      "id": "e61e01617819842001d84f6a643b48784f4afd2d7b2ccb79def0eccc96022f02:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_001/针织复合面料_001.csv",
+      "sha256": "e61e01617819842001d84f6a643b48784f4afd2d7b2ccb79def0eccc96022f02",
+      "group": "capture:57c4eb383f0d4fcc8e090511e3524e9e",
+      "label": "针织复合面料",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 359.28558349609375,
+        "max": 418.53558349609375
+      }
+    },
+    {
+      "id": "aa27083d8d4783e96dbc67f544f5060cfbbcbf3a8fee0606cabb9663512314f3:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/印花丝绒_017/印花丝绒_017.csv",
+      "sha256": "aa27083d8d4783e96dbc67f544f5060cfbbcbf3a8fee0606cabb9663512314f3",
+      "group": "capture:528484669ee2493a9e2becf3d3b76331",
+      "label": "印花丝绒",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 335.3372802734375,
+        "max": 472.8872985839844
+      }
+    },
+    {
+      "id": "ae4309d3bc44f57cc07a4e732c80ac4d66664d0c8aa1d45e639f9583bfe1dc8f:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/平纹棉布_002/平纹棉布_002.csv",
+      "sha256": "ae4309d3bc44f57cc07a4e732c80ac4d66664d0c8aa1d45e639f9583bfe1dc8f",
+      "group": "capture:b9ad6f5d740f469ab451f8b2cd411fc9",
+      "label": "平纹棉布",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 310.2443542480469,
+        "max": 397.3943786621094
+      }
+    },
+    {
+      "id": "48c8c723985fb801d8eb50949c09c624d9b0afadb5183633c09f04acfd977a71:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_019/针织复合面料_019.csv",
+      "sha256": "48c8c723985fb801d8eb50949c09c624d9b0afadb5183633c09f04acfd977a71",
+      "group": "capture:ced1f1aab51344ffbcee2f9193e45377",
+      "label": "针织复合面料",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 363.35186767578125,
+        "max": 493.4018859863281
+      }
+    },
+    {
+      "id": "009084fd86a639a74e709ea94dbb65064c9024bda98e186df8cc5ef35f5f133f:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_003/覆膜帆布_003.csv",
+      "sha256": "009084fd86a639a74e709ea94dbb65064c9024bda98e186df8cc5ef35f5f133f",
+      "group": "capture:edebc60199c74eac8007eba941580978",
+      "label": "覆膜帆布",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 321.37872314453125,
+        "max": 418.12872314453125
+      }
+    },
+    {
+      "id": "0e3a9fa216c917d3ab204d9a277e88ed59db8020562f39b716343fa70944da48:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_014/覆膜帆布_014.csv",
+      "sha256": "0e3a9fa216c917d3ab204d9a277e88ed59db8020562f39b716343fa70944da48",
+      "group": "capture:82b370b5cf9940ec8a94ce8770827080",
+      "label": "覆膜帆布",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 343.163330078125,
+        "max": 456.7133483886719
+      }
+    },
+    {
+      "id": "1bd6584f1e58927eb26f8307296d2ec07bd35d119e2deccfaeee919f3e8f4633:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/织棉提花缎_002/织棉提花缎_002.csv",
+      "sha256": "1bd6584f1e58927eb26f8307296d2ec07bd35d119e2deccfaeee919f3e8f4633",
+      "group": "capture:6ce1542ced984ace9aec0c5c9e7e9c9c",
+      "label": "织棉提花缎",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 305.4967041015625,
+        "max": 401.04669189453125
+      }
+    },
+    {
+      "id": "ec5f005c6bf710866f5fcf0284f64bef555259344c1d0a8851ce9389860d48fa:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_010/岩石肌理面料_010.csv",
+      "sha256": "ec5f005c6bf710866f5fcf0284f64bef555259344c1d0a8851ce9389860d48fa",
+      "group": "capture:0b8bb446e9be493f88d9a4b0451bfa5c",
+      "label": "岩石肌理面料",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 308.68853759765625,
+        "max": 413.5385437011719
+      }
+    },
+    {
+      "id": "29f6f57b8959d9c9902efc5a573e329a2866357409e694630a44004296472f2d:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/长毛格呢_012/长毛格呢_012.csv",
+      "sha256": "29f6f57b8959d9c9902efc5a573e329a2866357409e694630a44004296472f2d",
+      "group": "capture:dfce29f675fd47de8f72f982e3689bae",
+      "label": "长毛格呢",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 398.7731018066406,
+        "max": 572.7730712890625
+      }
+    },
+    {
+      "id": "01c0b1ed5497dd8cc11ecdcf5f66e4993cc90838816d331917f26736b375572d:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_003/针织复合面料_003.csv",
+      "sha256": "01c0b1ed5497dd8cc11ecdcf5f66e4993cc90838816d331917f26736b375572d",
+      "group": "capture:7ccc62351ea04821a18460cd6782e391",
+      "label": "针织复合面料",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 357.25091552734375,
+        "max": 425.50091552734375
+      }
+    },
+    {
+      "id": "b26cb0b951b9765bb1a8e572899371d65bf86d752772f030167beeaaf888dcc9:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/岩石肌理面料_019/岩石肌理面料_019.csv",
+      "sha256": "b26cb0b951b9765bb1a8e572899371d65bf86d752772f030167beeaaf888dcc9",
+      "group": "capture:c39990e621184ef980d8e372668f0140",
+      "label": "岩石肌理面料",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 318.9362487792969,
+        "max": 464.2862548828125
+      }
+    },
+    {
+      "id": "2647645150f17730b179cf3a919bc76622adde5c0ecb7bfe878a56908933ddd5:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/加厚1x1罗纹布_017/加厚1x1罗纹布_017.csv",
+      "sha256": "2647645150f17730b179cf3a919bc76622adde5c0ecb7bfe878a56908933ddd5",
+      "group": "capture:0cc91f3ebf724ee095d5d0e3e401060d",
+      "label": "加厚1x1罗纹布",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 306.8927917480469,
+        "max": 491.6927795410156
+      }
+    },
+    {
+      "id": "35a209bb15a77fecd5189beacb8130eb1b30bb409e4a1ddc537cac33745faba5:out",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/覆膜帆布_007/覆膜帆布_007.csv",
+      "sha256": "35a209bb15a77fecd5189beacb8130eb1b30bb409e4a1ddc537cac33745faba5",
+      "group": "capture:9dbf557bb8ff46df9bf04c8ffea44a21",
+      "label": "覆膜帆布",
+      "direction": "out",
+      "samples": 5316,
+      "input": {
+        "shape": [
+          5316,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 335.0511169433594,
+        "max": 407.8011169433594
+      }
+    },
+    {
+      "id": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/空气层_001/空气层_001.csv",
+      "sha256": "1295cbc10341202cacae9afb86e807aee2d22bd5bc0687f508ff3465694ea3e7",
+      "group": "capture:393bc429752249828e0e97e32ac062b2",
+      "label": "空气层",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 352.8813171386719,
+        "max": 426.081298828125
+      }
+    },
+    {
+      "id": "3ff105ca612fe37058e43d21a99b84d1a31bb579c6ac7709fefcd30e0e1b4601:back",
+      "path": "/home/serein/classify-cloth/xz-control/data/布料采集数据/针织复合面料_010/针织复合面料_010.csv",
+      "sha256": "3ff105ca612fe37058e43d21a99b84d1a31bb579c6ac7709fefcd30e0e1b4601",
+      "group": "capture:2a2326e3e4f84de0bcea93f6242a22c6",
+      "label": "针织复合面料",
+      "direction": "back",
+      "samples": 5372,
+      "input": {
+        "shape": [
+          5372,
+          1
+        ],
+        "nonfinite": 0,
+        "min": 291.8011169433594,
+        "max": 430.70111083984375
+      }
+    }
+  ],
+  "input": {
+    "shape": [
+      16,
+      5372,
+      1
+    ],
+    "nonfinite": 0,
+    "min": -1.865287184715271,
+    "max": 2.2693088054656982
+  },
+  "scaler": {
+    "mean": [
+      418.5591823593784
+    ],
+    "std": [
+      67.95632473636337
+    ]
+  },
+  "gradient_norm": null,
+  "recovery_epoch": 21,
+  "phase": "fit",
+  "stage": "gradient_norm",
+  "nonfinite_tensors": [],
+  "reason": "The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`",
+  "parameters": {
+    "gru.weight_ih_l0": {
+      "shape": [
+        192,
+        1
+      ],
+      "nonfinite": 0,
+      "min": -0.3739445209503174,
+      "max": 0.3094419240951538
+    },
+    "gru.weight_hh_l0": {
+      "shape": [
+        192,
+        64
+      ],
+      "nonfinite": 0,
+      "min": -0.47349482774734497,
+      "max": 0.4522300660610199
+    },
+    "gru.bias_ih_l0": {
+      "shape": [
+        192
+      ],
+      "nonfinite": 0,
+      "min": -0.1384897083044052,
+      "max": 0.2575651705265045
+    },
+    "gru.bias_hh_l0": {
+      "shape": [
+        192
+      ],
+      "nonfinite": 0,
+      "min": -0.1428496241569519,
+      "max": 0.2787870764732361
+    },
+    "class_head.weight": {
+      "shape": [
+        15,
+        64
+      ],
+      "nonfinite": 0,
+      "min": -0.38435661792755127,
+      "max": 0.333819717168808
+    },
+    "class_head.bias": {
+      "shape": [
+        15
+      ],
+      "nonfinite": 0,
+      "min": -0.20362184941768646,
+      "max": 0.0851806104183197
+    }
+  },
+  "gradients": {
+    "gru.weight_ih_l0": {
+      "shape": [
+        192,
+        1
+      ],
+      "nonfinite": 0,
+      "min": -1.9373140619349197e+17,
+      "max": 2.6151772397502464e+17
+    },
+    "gru.weight_hh_l0": {
+      "shape": [
+        192,
+        64
+      ],
+      "nonfinite": 0,
+      "min": -2.7409829822432543e+18,
+      "max": 2.377491859803996e+18
+    },
+    "gru.bias_ih_l0": {
+      "shape": [
+        192
+      ],
+      "nonfinite": 0,
+      "min": -3.6246794440624046e+18,
+      "max": 4.371820410002473e+18
+    },
+    "gru.bias_hh_l0": {
+      "shape": [
+        192
+      ],
+      "nonfinite": 0,
+      "min": -2.600115476637942e+18,
+      "max": 3.6696236311151903e+18
+    },
+    "class_head.weight": {
+      "shape": [
+        15,
+        64
+      ],
+      "nonfinite": 0,
+      "min": -0.11476947367191315,
+      "max": 0.08955702185630798
+    },
+    "class_head.bias": {
+      "shape": [
+        15
+      ],
+      "nonfinite": 0,
+      "min": -0.19034573435783386,
+      "max": 0.0660887211561203
+    }
+  },
+  "recovery_path": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH5_20261117_142528_39d7d3/gru_by_mean_s42_f1/recovery.ckpt",
+  "action": "保留已完成折；检查异常报告。继续任务将恢复最近完整轮，参数调整需新建实验。",
+  "report_id": "8b7fc8d6398d4962a3ea45b3c0e14d6e",
+  "created_at": "2026-11-17T14:32:48.763962+08:00"
+}

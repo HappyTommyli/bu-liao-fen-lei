@@ -1,0 +1,32 @@
+{
+  "cv": {
+    "cera_by_mean_overlap_a_nonoverlap": {
+      "val_f1_mean": 0.9937416408004642,
+      "val_f1_std": 0.0,
+      "val_loss_mean": 0.11304689924438278,
+      "folds": 1,
+      "note": "仅开发集；复验不是新增独立样本"
+    },
+    "cera_by_mean_overlap_b_overlap": {
+      "val_f1_mean": 0.993459005223711,
+      "val_f1_std": 0.0,
+      "val_loss_mean": 0.10518670972291526,
+      "folds": 1,
+      "note": "仅开发集；复验不是新增独立样本"
+    }
+  },
+  "contrasts": {
+    "B-A": {
+      "folds": [
+        {
+          "seed": 42,
+          "fold": 0,
+          "difference": -0.0002826355767532318
+        }
+      ],
+      "mean": -0.0002826355767532318
+    }
+  },
+  "final": null,
+  "holdout": null
+}

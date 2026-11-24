@@ -1,0 +1,9 @@
+{
+  "models": [
+    "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH_20261116_123618_b78f0c/cera_bxby_mean_s42/model.pt"
+  ],
+  "paths": [
+    "/home/serein/classify-cloth/xz-control/data/布料采集数据"
+  ],
+  "destination": "/home/serein/classify-cloth/布料分类训练脚本/outputs/models/CLOTH_20261116_123618_b78f0c/recognition/识别_20261116_173022_a0c8.json"
+}

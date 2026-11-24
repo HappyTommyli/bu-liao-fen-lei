@@ -1,0 +1,7 @@
+用户选择安装完成后自行重启再验证。不要自动重启。
+后台驱动日志 /tmp/cloth-nvidia-install.log
+后台CUDA日志 /tmp/cloth-cuda-fetch.log
+安装状态 /tmp/cloth-cuda-install-status.txt
+重启后命令：.venv/bin/python train_cloth.py diagnose-gpu
+再运行：.venv/bin/python -m pytest -q tests/test_modern_training.py
+目前181 passed,6 CUDA skips；未启动正式训练。

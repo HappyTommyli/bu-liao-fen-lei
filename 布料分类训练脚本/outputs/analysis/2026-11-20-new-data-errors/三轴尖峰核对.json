@@ -1,0 +1,10 @@
+{
+  "record": "岩石肌理面料_001",
+  "invalid_contact": 376,
+  "single_axis_trigger_count": {
+    "Bx": 0,
+    "By": 0,
+    "Bz": 376
+  },
+  "explanation": "采集器使用三轴向量孤立尖峰规则，sample_valid是整帧标记。单轴计数用于定位触发通道，不是另行修改规则。"
+}
